@@ -1,0 +1,146 @@
+# phmmer :: search a protein sequence against a protein database
+# HMMER 3.3.1 (Jul 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query sequence file:             PolyubiquitinA.fasta
+# target sequence database:        Homalodisca_vitripennis_A6A7A9_masurca_v1.proteins.fixed.fa
+# output directed to file:         PolyubiquitinAphmmer_out
+# per-seq hits tabular output:     PolyubiquitinAphmmer_out_table
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       PolyubiquitinA  [L=229]
+Description: Bta02851
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence         Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------         -----------
+      8e-12   47.6   0.0    1.5e-11   46.7   0.0    1.3  1  HOVITM_103732-T1  HOVITM_103732
+    1.8e-08   36.6   0.0    3.3e-08   35.7   0.0    1.3  1  HOVITM_024119-T1  HOVITM_024119
+    0.00036   22.6   0.0    0.00064   21.7   0.0    1.3  1  HOVITM_100390-T1  HOVITM_100390
+     0.0063   18.5   0.0     0.0095   17.9   0.0    1.3  1  HOVITM_087185-T1  HOVITM_087185
+     0.0068   18.4   0.0     0.0085   18.1   0.0    1.2  1  HOVITM_050701-T1  HOVITM_050701
+  ------ inclusion threshold ------
+      0.011   17.7   0.0      0.017   17.1   0.0    1.3  1  HOVITM_063841-T1  HOVITM_063841
+      0.026   16.5   0.0       0.04   15.9   0.0    1.3  1  HOVITM_069295-T1  HOVITM_069295
+      0.078   14.9   0.0       0.12   14.4   0.0    1.2  1  HOVITM_033169-T1  HOVITM_033169
+
+
+Domain annotation for each sequence (and alignments):
+>> HOVITM_103732-T1  HOVITM_103732
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   46.7   0.0   1.1e-15   1.5e-11      78     152 ..      16      92 ..      11     103 .. 0.51
+
+  Alignments for each domain:
+  == domain 1  score: 46.7 bits;  conditional E-value: 1.1e-15
+    PolyubiquitinA  78 qifvktltgktitleveasdtienvkakiqdkegippdqqrlifagkqledgrtlsdyni..qkestlhlvlrlrgg 152
+                        if++tltg t+ ++v   d ++ +k+kiq  egip   q+l++ +k+l+d+  +++ ++    ++t+ lvl lrgg
+  HOVITM_103732-T1  16 TIFIETLTGTTFEVKVSPQDRVKTIKSKIQKVEGIPVSHQHLLYNSKELQDSSCVTEPSValHDQATVKLVLSLRGG 92 
+                       45555555555555555555555555555555555555555555555555555444433311344555555555555 PP
+
+>> HOVITM_024119-T1  HOVITM_024119
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   35.7   0.0   2.4e-12   3.3e-08      84     154 ..      79     149 ..      73     158 .. 0.50
+
+  Alignments for each domain:
+  == domain 1  score: 35.7 bits;  conditional E-value: 2.4e-12
+    PolyubiquitinA  84 ltgktitleveasdtienvkakiqdkegippdqqrlifagkqledgrtlsdyniqkestlhlvlrlrggmq 154
+                       l g+ +t+ +  sd++  +kaki +   +pp +q+l + g  ++d ++l+ yni   +t++l ++ rgg +
+  HOVITM_024119-T1  79 LKGQVLTVTLPLSDSVSVIKAKIYEATQVPPGKQKLHWEGMFFKDTNSLAFYNISPATTIQLQIKERGGRK 149
+                       34444444444555555555555555555555555555555555555555555555555555555555443 PP
+
+>> HOVITM_100390-T1  HOVITM_100390
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   21.7   0.0   4.7e-08   0.00064      99     147 ..      83     130 ..      72     135 .. 0.42
+
+  Alignments for each domain:
+  == domain 1  score: 21.7 bits;  conditional E-value: 4.7e-08
+    PolyubiquitinA  99 ienvkakiqdkegippdqqrlifagkqledgrtlsdyniqkestlhlvl 147
+                       +   k  i d  +i  d qrli+ g+ l+d ++l++y++     +hlv 
+  HOVITM_100390-T1  83 VRQFKEHIADSVSISADSQRLIYCGRVLQDDKSLTEYDVNG-KVIHLVQ 130
+                       33333333333333333333333333333333333333332.2333333 PP
+
+>> HOVITM_087185-T1  HOVITM_087185
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   17.9   0.0   6.9e-07    0.0095     101     146 ..      72     118 ..      51     135 .. 0.49
+
+  Alignments for each domain:
+  == domain 1  score: 17.9 bits;  conditional E-value: 6.9e-07
+    PolyubiquitinA 101 nvkakiqdkegippdqqrlifagkqledgrtlsdyniqkest.lhlv 146
+                        vk ++    +ip +qq+l++ g+ l d ++l dy   k+ t l+l+
+  HOVITM_087185-T1  72 AVKEQLNKVLNIPVNQQKLLLTGRPLTDDKSLCDYPSIKDGTkLNLI 118
+                       23333333333344444444444444444444444333322213333 PP
+
+>> HOVITM_050701-T1  HOVITM_050701
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   18.1   0.0   6.1e-07    0.0085      26     146 ..      10      55 ..       1      73 [. 0.47
+
+  Alignments for each domain:
+  == domain 1  score: 18.1 bits;  conditional E-value: 6.1e-07
+    PolyubiquitinA  26 vkakiqdkegippdqqrlifagkqledgrtlsdyniqkestlhlvlrlrggmqifvktltgktitleveasdtienvkakiqdkegippdqqr 118
+                       vk ++    +ip +qq+l++ g+ l d ++l dy   k+ t                                                    
+  HOVITM_050701-T1  10 VKEQLNKVLNIPVNQQKLLLTGRPLTDDKSLCDYPSIKDGT---------------------------------------------------- 50 
+                       33333333333444444444444444444444443322222.................................................... PP
+
+    PolyubiquitinA 119 lifagkqledgrtlsdyniqkestlhlv 146
+                                               l+l+
+  HOVITM_050701-T1  51 -----------------------KLNLI 55 
+                       .......................13333 PP
+
+>> HOVITM_063841-T1  HOVITM_063841
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   17.1   0.0   1.2e-06     0.017      73     143 ..      99     168 ..      63     180 .. 0.47
+
+  Alignments for each domain:
+  == domain 1  score: 17.1 bits;  conditional E-value: 1.2e-06
+    PolyubiquitinA  73 lrggmqifv.ktltgktitleveasdtienvkakiqdkegippdqqrlifagkqledgrtlsdyniqkestl 143
+                       lrg+m i     l    + +     d  e++       e i p   +l f+gk+++ g+ lsdy  + e t 
+  HOVITM_063841-T1  99 LRGAMMIVYpMNLPPHDV-IRQ-EFDNTEDLSGTQASLEVIDPSLAQLWFSGKEMQRGKKLSDYLGKNEKTK 168
+                       444444322022222211.111.1233333333333444555555555555555555555555544444443 PP
+
+>> HOVITM_069295-T1  HOVITM_069295
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   15.9   0.0   2.9e-06      0.04       3      46 ..       3      46 ..       1      63 [. 0.36
+
+  Alignments for each domain:
+  == domain 1  score: 15.9 bits;  conditional E-value: 2.9e-06
+    PolyubiquitinA  3 ifvktltgktitleveasdtienvkakiqdkegippdqqrlifa 46
+                      + +k  +g++++l + a +t+e++k ++q + gi  d q l+  
+  HOVITM_069295-T1  3 LVLKNTSGESVSLLIHADETFEDLKKRVQTEVGIALDLQDLFER 46
+                      33333333333333333333333333333333333333333322 PP
+
+>> HOVITM_033169-T1  HOVITM_033169
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   14.4   0.0   8.6e-06      0.12      96     145 ..      26      75 ..       7      97 .. 0.53
+
+  Alignments for each domain:
+  == domain 1  score: 14.4 bits;  conditional E-value: 8.6e-06
+    PolyubiquitinA  96 sdtienvkakiqdkegippdqqrlifagkqledgrtlsdyniqkestlhl 145
+                          +e+ k ++  k ++p +  +l++ g  l+d  tl+   i+    +h+
+  HOVITM_033169-T1  26 HTKVEHFKVEVSKKANVPKESLELVYCGNILDDDSTLNACGIKSGVMIHV 75 
+                       33334444444444444444444444444444444444444433333332 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (229 nodes)
+Target sequences:                     110235  (22157999 residues searched)
+Passed MSV filter:                      2227  (0.0202023); expected 2204.7 (0.02)
+Passed bias filter:                     1835  (0.0166463); expected 2204.7 (0.02)
+Passed Vit filter:                       124  (0.00112487); expected 110.2 (0.001)
+Passed Fwd filter:                         8  (7.25722e-05); expected 1.1 (1e-05)
+Initial search space (Z):             110235  [actual number of targets]
+Domain search space  (domZ):               8  [number of targets reported over threshold]
+# CPU time: 0.29u 0.01s 00:00:00.30 Elapsed: 00:00:00.11
+# Mc/sec: 42900.44
+//
+[ok]

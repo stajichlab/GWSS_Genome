@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+HOVITM_103732-T1     -          PolyubiquitinA       -              8e-12   47.6   0.0   1.5e-11   46.7   0.0   1.3   1   0   0   1   1   1   1 HOVITM_103732
+HOVITM_024119-T1     -          PolyubiquitinA       -            1.8e-08   36.6   0.0   3.3e-08   35.7   0.0   1.3   1   0   0   1   1   1   1 HOVITM_024119
+HOVITM_100390-T1     -          PolyubiquitinA       -            0.00036   22.6   0.0   0.00064   21.7   0.0   1.3   1   0   0   1   1   1   1 HOVITM_100390
+HOVITM_087185-T1     -          PolyubiquitinA       -             0.0063   18.5   0.0    0.0095   17.9   0.0   1.3   1   0   0   1   1   1   1 HOVITM_087185
+HOVITM_050701-T1     -          PolyubiquitinA       -             0.0068   18.4   0.0    0.0085   18.1   0.0   1.2   1   0   0   1   1   1   1 HOVITM_050701
+HOVITM_063841-T1     -          PolyubiquitinA       -              0.011   17.7   0.0     0.017   17.1   0.0   1.3   1   0   0   1   1   1   0 HOVITM_063841
+HOVITM_069295-T1     -          PolyubiquitinA       -              0.026   16.5   0.0      0.04   15.9   0.0   1.3   1   0   0   1   1   1   0 HOVITM_069295
+HOVITM_033169-T1     -          PolyubiquitinA       -              0.078   14.9   0.0      0.12   14.4   0.0   1.2   1   0   0   1   1   1   0 HOVITM_033169
+#
+# Program:         phmmer
+# Version:         3.3.1 (Jul 2020)
+# Pipeline mode:   SEARCH
+# Query file:      PolyubiquitinA.fasta
+# Target file:     Homalodisca_vitripennis_A6A7A9_masurca_v1.proteins.fixed.fa
+# Option settings: phmmer -o PolyubiquitinAphmmer_out --tblout PolyubiquitinAphmmer_out_table PolyubiquitinA.fasta Homalodisca_vitripennis_A6A7A9_masurca_v1.proteins.fixed.fa 
+# Current dir:     /Users/Cassie/Box Sync/StajichLab/GWSS/GWSS_promoters
+# Date:            Thu Nov 19 18:24:00 2020
+# [ok]

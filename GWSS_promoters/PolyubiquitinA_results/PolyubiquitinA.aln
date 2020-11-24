@@ -1,0 +1,47 @@
+MUSCLE (3.8) multiple sequence alignment
+
+
+PolyubiquitinA        --------------MQIFVKTLTGKTITLEVEASDTIENVKAKIQDKEGI----------
+HOVITM_103732-T1      MSYKNGVNTDAQEQLTIFIETLTGTTFEVKVSPQDRVKTIKSKIQKVEGIPVSHQHLLYN
+HOVITM_024119-T1      ---------------------------MIQVVP---------------------------
+                                                  ::* .                           
+
+PolyubiquitinA        --------------------------------PPD-------------QQRLIFAGKQLE
+HOVITM_103732-T1      SKELQDSSCVTEPSVALHDQATVKLVLSLRGGPISLVHQAVPFNRNILKNLLKFNREELE
+HOVITM_024119-T1      --------------------------------PPTMLPTFVPLVTQMHQPLLMHQAEERV
+                                                      *               :  * .  ::  
+
+PolyubiquitinA        D----GRTLSDYNIQKESTLHL--------------------------------------
+HOVITM_103732-T1      EDLPPGCKMAILVLRVGDQLNLLHIVDDVDDSHDSLSNSRENLSIDSLEDEISKSVEENS
+HOVITM_024119-T1      SE-PPAKKM-----RTEESLIPEHVF---------LGKTKSPVTF---------------
+                      .    . .:     .  . *                                        
+
+PolyubiquitinA        -----VLRLRGGMQIFVKTLTGKTITLEVEASDTIENVKAKIQDKEGIPPDQQ---RLIF
+HOVITM_103732-T1      ITMGKVCDLKEKMEKLSLQRKGPKVDIKNEDVGATSLSRDVLHPSKLVGPIKLPSIDHQI
+HOVITM_024119-T1      -----AVAVPHMPERIEWKLKGQVLTVTLPLSDSVSVIKAKIYEATQVPPGKQ---KLHW
+                           .  :    : :    .*  : :     .: .  .  :     : * :        
+
+PolyubiquitinA        AGKQLEDGRTLSDYNIQK--------ESTLHLVLRLRGGMQIFVKTL-------------
+HOVITM_103732-T1      RGEMFKSRSEFSKIPVLPDIIPRPFQSTSRDLECVTLGKESTSTEICDTIRPKTCPGSLA
+HOVITM_024119-T1      EGMFFKDTNSLAFYNISP--------ATTIQLQIKERGGRKKNIKI--------------
+                       *  ::.   ::   :           ::  *     *  .   :               
+
+PolyubiquitinA        ----------------------------------------TGKTIT--------------
+HOVITM_103732-T1      ESQFYNVYSDDECENSLQIAQPHFRSCVSACASKLHHEWGGGKTLLPSLNILPPISGVSD
+HOVITM_024119-T1      -------------------------SFVDHSHIKFSH---GGKTVL--------------
+                                                               ***:               
+
+PolyubiquitinA        ----------------------------------------------------LEVEA---
+HOVITM_103732-T1      ILNNHRPVSNTDPRDMPSTQVPSIEKLSVVHRNLSSTLKLKQNLRKDTQSFLNRTESNFF
+HOVITM_024119-T1      -----------EQRDSAYCLV-----------------------------FLRDSEI---
+                                                                             *    
+
+PolyubiquitinA        --------------------------------------------SDTIENVKAKIQDKEG
+HOVITM_103732-T1      PKNVNCQEKSLQEGFSNSHYLPSTSHEFFPTPSSDFSSLITKMDSSSCDLATSKINNHVE
+HOVITM_024119-T1      --------------------------------------------TSKSDLFSSRVD----
+                                                                  :.. :  .:.::    
+
+PolyubiquitinA        IPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHL---VLRLRGGC-------
+HOVITM_103732-T1      EPLLSNKKIFDKKS-----RLRCAECKKRLSLTN---TFECRCGFAFCSYHR
+HOVITM_024119-T1      -----SKPIAVRHA-----TGKCKSLRGNITLEDRGKIIKEPDGIANITS--
+                           .. *   :           . .   :*      :    *        

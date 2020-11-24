@@ -7,4 +7,5 @@ GWSS_scaffold/scaffold_vs_i5k/data
 GWSS_scaffold/scaffold_vs_i5k/ragtag_scaffold_contigs
 GWSS_scaffold/scaffold_vs_i5k/ragtag_correct_scaffolds
 GWSS_scaffold/scaffold_vs_i5k/quast_results/results_2020_11_20_16_47_11/contigs_reports/minimap_output
-GWSS_promoters
+GWSS_promoters/data
+GWSS_promoters/Fasttree
