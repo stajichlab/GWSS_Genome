@@ -1,0 +1,60 @@
+>HOVITM_100409-T1 HOVITM_100409
+------------------------------------------------------------
+------MEEQGKPLKIIIVGGGLVGSLSACYFGKRGHEVHLYEYRQDIRT----------
+---TELVQGRSINLAMSARARAALREVGLEDTMLRHGIPMHARMIHG-------------
+--------LDGSLHQIPYD-----------------------------------------
+-------------------------ARGKQSIYSVGRKYLNEVLLTAAEKFSNVKIHFEH
+KLVHTRLEAGLVTFKRTALNDEY---TDHADLVVGADGAYSAVRAQYMKRPMFDYNQTYI
+QHGYMELCIPPTQDGQFAMKPNYLHIWPRGSFMMIALPNQDCSWTVTLFMPFSQFSALDS
+PVRLLNFFHTHFPDSISLIG--KEKLVHDYFAASPSNLVSVKCGPYNVGSSAVLIGDAAH
+AMVPFYGQGMNAGFEDCQLLDRILTESGWDLQTALPQFSSFRRPDAHAICDLAMYNYVEM
+RDLVTRQSFLWRKRLDNALYWMFPSLWVPLYNSVTFSDMRYSHCASNKRWQDKMVSRGLR
+VACVFLCLTTVYCSVSWWPSLRQTLHPHFTSVFLFSPLLS
+>HOVITM_073652-T1 HOVITM_073652
+------------------------------------------------------------
+------------------------------------------------------------
+--------------------------------------MYSVRSVS--------------
+--------VAGHKEDDSTR-----------------------------------------
+-------------------------------------------------SSSHSLNKKQR
+KARTAFTDHQLQTLEKSFERQKYLSVQDRMELAAKLSLSDTQVKTWYQNRRLKSR-----
+---------------------------------------------------------GKD
+NPSHVKSQVPRAPLTVA---------EEDIYQGQ--------------------------
+AMILHLH--------------------------------------R--------------
+------------------------------------PEARAPGVIAVYRSPRV-------
+------------------ARVRR-----------------
+>bar_FBpp0074204 type=protein; loc=X:join(17397694..17398516,17401465..17401693,17401828..17402410); ID=FBpp0074204; name=B-H1-PA; parent=FBgn0011758,FBtr0074430; dbxref=FlyBase:FBpp0074204,FlyBase_Annotation_IDs:CG5529-PA,GB_protein:AAF48726.1,REFSEQ:NP_523387,GB_protein:AAF48726,UniProt/Swiss-Prot:Q24255,FlyMine:FBpp0074204,modMine:FBpp0074204; MD5=5a2d8b8f6059fe2571a5a38338869808; length=544; release=r6.35; species=Dmel; 
+MKDSMSILTQTPSEPNAAHPQLHHHLSTLQQQHHQHHLHYGLQPPAVAHSIHSTTTMSSG
+GSTTTASGIGKPNRSRFMINDILAGSAAAAFYKQQQHHQQLHHHNNNNNSGSSGGSSPAH
+SNNNNNINGDNCEASNVAGVGVLPSALHHPQPHPPTHPHTHPHALMHPHGKLGHFPPTAG
+GNGLNVAQYAAAMQQHYAAAAAAAAARNNAAAAAAAAAAAAAAGVAAPPVDGGVDGGVGL
+APPAGGDLDDSSDYHEENEDCDSGNMDDHSVCSNGGKDDDGNSVKSGSTSDMSGLSKKQR
+KARTAFTDHQLQTLEKSFERQKYLSVQERQELAHKLDLSDCQVKTWYQNRRTKWKRQTAV
+GLELLAEAGNFAAFQRLYGGSPYLGAWP--------------------YAAAAGAAHGAT
+PHTNIDIYYRQAAAAAA----MQKPLPYNLYAGVPSVGVGVGVGVGPAPFSHLSASSSLS
+SLSSYYQ--------SAAAAASAANPGGPHPVAPPPSVGGGSPPSG--------------
+-----------------------LVKPIPAHSASASPPPRPPSTPSPTLNPGSPPGRSVD
+SCSQSDDE----------DQIQV-----------------
+>bar_CLEC007883  | Cimex lectularius Harlan | bar | protein | length=151
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------MINHEPRSLI--------------
+--------FVGIMQEIRYI-----------------------------------------
+------------------------------------------------------------
+--------------------------------------------------KTKWKRQTAV
+GLEILAESNNLMAFQRLYGGPPY-GVWP--------------------YPG------GGA
+PP--ADLYYRQAAAAAAAAATLQKPLAYRLYPGV----------AGP---SSALPPGALP
+PLSTYYQ--------------------------PPPPRSPTPPPSP--------------
+------------------------------------PDSRPDSVDIEESAPDS-------
+------------------PQIQV-----------------
+>HOVITM_073654-T1 HOVITM_073654
+------------------------------------------------------------
+------------------------------------------------------------
+---------------------------------METGTLTPPTR----------------
+--------HAATADTPAAA-----------------------------------------
+------------------------------------------------------------
+--------------------------------------------------PTKWKRQTAV
+GLELLAEAGNYAAFQRLYGGPPY--CWP--------------------YPGAA----GST
+APSAADLYYRQAAVAAAAVTTLQKPLAYRLYPGV----------AGP---SHLPPPG-LP
+AAAPYYH--------------------------PLPPRSPSPSPPP--------------
+------------------------------------PHS-PQSVDVEDDSPDS-------
+------------------PNVEV-----------------

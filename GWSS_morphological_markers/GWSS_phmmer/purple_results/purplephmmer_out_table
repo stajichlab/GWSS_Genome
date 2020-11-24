@@ -1,0 +1,21 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+HOVITM_118566-T1     -          purple_CLEC001054    -            1.1e-56  193.7   0.7   1.2e-56  193.5   0.7   1.0   1   0   0   1   1   1   1 HOVITM_118566
+HOVITM_090371-T1     -          purple_CLEC001054    -             0.0044   19.6   1.9        12    8.5   0.0   4.9   2   2   3   5   5   5   1 HOVITM_090371
+HOVITM_092621-T1     -          purple_CLEC001054    -               0.12   14.9   0.0      0.22   14.1   0.0   1.4   1   0   0   1   1   1   0 HOVITM_092621
+HOVITM_118566-T1     -          purple_lcl|MK480218.1_prot_QEO19130.1_1 -            7.3e-52  177.1   0.8     9e-52  176.8   0.8   1.1   1   0   0   1   1   1   1 HOVITM_118566
+HOVITM_092621-T1     -          purple_lcl|MK480218.1_prot_QEO19130.1_1 -              0.054   16.2   0.0     0.095   15.4   0.0   1.3   1   0   0   1   1   1   0 HOVITM_092621
+HOVITM_050875-T1     -          purple_lcl|MK480218.1_prot_QEO19130.1_1 -               0.31   13.7   0.1      0.46   13.2   0.1   1.2   1   0   0   1   1   1   0 HOVITM_050875
+HOVITM_047832-T1     -          purple_lcl|MK480218.1_prot_QEO19130.1_1 -               0.58   12.8   1.1        26    7.5   0.4   3.1   3   1   0   3   3   3   0 HOVITM_047832
+HOVITM_118566-T1     -          purple_FBpp0088417   -            2.3e-51  176.5   0.3   2.6e-51  176.3   0.3   1.0   1   0   0   1   1   1   1 HOVITM_118566
+#
+# Program:         phmmer
+# Version:         3.3.1 (Jul 2020)
+# Pipeline mode:   SEARCH
+# Query file:      purple.fasta
+# Target file:     Homalodisca_vitripennis_A6A7A9_masurca_v1.proteins.fixed.fa
+# Option settings: phmmer -o purplephmmer_out --tblout purplephmmer_out_table purple.fasta Homalodisca_vitripennis_A6A7A9_masurca_v1.proteins.fixed.fa 
+# Current dir:     /Users/Cassie/Box Sync/StajichLab/GWSS/GWSS_morphological_markers/GWSS_phmmer
+# Date:            Thu Nov 19 15:27:28 2020
+# [ok]

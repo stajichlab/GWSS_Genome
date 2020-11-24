@@ -1,0 +1,32 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+HOVITM_094535-T1     -          DhpD_CLEC005050      -            2.9e-30  108.2   0.1   3.1e-30  108.1   0.1   1.0   1   0   0   1   1   1   1 HOVITM_094535
+HOVITM_094531-T1     -          DhpD_CLEC005050      -            2.3e-20   75.6   0.0   3.4e-20   75.0   0.0   1.2   1   0   0   1   1   1   1 HOVITM_094531
+HOVITM_043802-T1     -          DhpD_CLEC005050      -            1.7e-06   30.0   0.1   1.8e-06   29.9   0.1   1.0   1   0   0   1   1   1   1 HOVITM_043802
+HOVITM_063820-T1     -          DhpD_CLEC005050      -             0.0044   18.7   0.0    0.0049   18.6   0.0   1.0   1   0   0   1   1   1   1 HOVITM_063820
+HOVITM_010590-T1     -          DhpD_CLEC005050      -               0.31   12.6   0.0      0.33   12.5   0.0   1.0   1   0   0   1   1   1   0 HOVITM_010590
+HOVITM_060511-T1     -          DhpD_CLEC005050      -               0.39   12.3   0.2      0.57   11.8   0.2   1.2   1   0   0   1   1   1   0 HOVITM_060511
+HOVITM_089125-T1     -          DhpD_CLEC005050      -                0.7   11.5   0.0   1.7e+02    3.6   0.0   2.8   1   1   2   3   3   3   0 HOVITM_089125
+HOVITM_107172-T1     -          DhpD_CLEC005050      -                2.2    9.8   2.8       2.3    9.7   0.4   2.0   2   0   0   2   2   2   0 HOVITM_107172
+HOVITM_094535-T1     -          DhpD_lcl|MK480214.1_prot_QEO19126.1_1 -              3e-33  117.8   0.2   3.4e-33  117.6   0.2   1.0   1   0   0   1   1   1   1 HOVITM_094535
+HOVITM_094531-T1     -          DhpD_lcl|MK480214.1_prot_QEO19126.1_1 -            8.5e-21   76.7   0.0   1.2e-20   76.2   0.0   1.1   1   0   0   1   1   1   1 HOVITM_094531
+HOVITM_043802-T1     -          DhpD_lcl|MK480214.1_prot_QEO19126.1_1 -            2.1e-05   26.0   0.0   2.3e-05   25.9   0.0   1.0   1   0   0   1   1   1   1 HOVITM_043802
+HOVITM_091988-T1     -          DhpD_lcl|MK480214.1_prot_QEO19126.1_1 -                0.6   11.3   0.0      0.75   11.0   0.0   1.1   1   0   0   1   1   1   0 HOVITM_091988
+HOVITM_094535-T1     -          DhpD_FBpp0078625     -            1.9e-23   85.7   1.4   7.2e-23   83.9   1.4   1.7   1   1   0   1   1   1   1 HOVITM_094535
+HOVITM_094531-T1     -          DhpD_FBpp0078625     -            9.2e-17   63.7   0.0   1.2e-16   63.4   0.0   1.2   1   0   0   1   1   1   1 HOVITM_094531
+HOVITM_043802-T1     -          DhpD_FBpp0078625     -            0.00042   22.0   0.0   0.00042   22.0   0.0   1.0   1   0   0   1   1   1   1 HOVITM_043802
+HOVITM_018659-T1     -          DhpD_FBpp0078625     -               0.24   13.0   0.0      0.33   12.5   0.0   1.2   1   0   0   1   1   1   0 HOVITM_018659
+HOVITM_102651-T1     -          DhpD_FBpp0078625     -               0.54   11.8   0.1        60    5.0   0.0   2.1   2   0   0   2   2   2   0 HOVITM_102651
+HOVITM_007308-T1     -          DhpD_FBpp0078625     -               0.89   11.1   0.1      0.89   11.1   0.1   1.0   1   0   0   1   1   1   0 HOVITM_007308
+HOVITM_064556-T1     -          DhpD_FBpp0078625     -                5.5    8.5  12.8        37    5.7   0.3   4.0   4   0   0   4   4   4   0 HOVITM_064556
+#
+# Program:         phmmer
+# Version:         3.3.1 (Jul 2020)
+# Pipeline mode:   SEARCH
+# Query file:      DhpD.fasta
+# Target file:     Homalodisca_vitripennis_A6A7A9_masurca_v1.proteins.fixed.fa
+# Option settings: phmmer -o DhpDphmmer_out --tblout DhpDphmmer_out_table DhpD.fasta Homalodisca_vitripennis_A6A7A9_masurca_v1.proteins.fixed.fa 
+# Current dir:     /Users/Cassie/Box Sync/StajichLab/GWSS/GWSS_morphological_markers/GWSS_phmmer
+# Date:            Thu Nov 19 15:27:29 2020
+# [ok]

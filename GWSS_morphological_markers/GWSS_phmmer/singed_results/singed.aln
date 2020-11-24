@@ -1,0 +1,72 @@
+MUSCLE (3.8) multiple sequence alignment
+
+
+HOVITM_097663-T1        ------MNGHHENGELSNGSNKGVWTIGLINCQFKYLTAETFGFKTFDQNSRLGSVIINA
+singed_FBpp0290891      MNGQGCELGHSNGDIISQNQQKGWWTIGLINGQHKYMTAETFGFK------------LNA
+HOVITM_097664-T1        ------------------------------------------------------------
+HOVITM_097669-T1        ------------------------------------------------------------
+singed_CLEC025340       MNGVNGMNGHTNGEL--NGVGRGTWTIGLINVQYRYLTAETFGFK------------INA
+                                                                                    
+
+HOVITM_097663-T1        NGASLKKKQIWTLEPAGGEAAAIYLRSHLGKYLAVDSFGNVTCESDEKEQGGKFLITVPD
+singed_FBpp0290891      NGASLKKKQLWTLEPSNTGESIIYLRSHLNKYLSVDQFGNVLCESDERDAGSRFQISISE
+HOVITM_097664-T1        ------------------------------------------------------------
+HOVITM_097669-T1        ------------------------------------------------------------
+singed_CLEC025340       NGSSLKKKQMWTLEPAPGETNTVYLRSHLDKYLAVDSFGNVTCESEEKDPGSKFQIVISE
+                                                                                    
+
+HOVITM_097663-T1        NSNPSGRWALKNIARGYYLGASADKLTCTAKTPGNAEFWLVHLAARPQ------------
+singed_FBpp0290891      DG--SGRWALKNESRGYFLGGTPDKLVCTAKTPGASEFWTVHLAARPQ---------VNL
+HOVITM_097664-T1        -------------------------------------------------------MNVNL
+HOVITM_097669-T1        ------------------------------------------------------------
+singed_CLEC025340       DA--SGRWALKNTARGYYLGASSDKLTCTAKVPSNPEYWLVHLAARPQGCRIKPSSTVNL
+                                                                                    
+
+HOVITM_097663-T1        ------------------------------------------------------------
+singed_FBpp0290891      RSIGRKRFAHLSESQDEIHVDANIPWGEDTLFTLEFRAEEGGRYALHTCNNKYLNANGKL
+HOVITM_097664-T1        RSVGRKRFAHLSENLDEIHVDANIPWGEDTLFTLEFRVDDGGKYALHTCNNKYLSREGKL
+HOVITM_097669-T1        -------------------------MAEKAVSAL-------------------LSADGRI
+singed_CLEC025340       RSVGRKRFAHLSENLDEIHFDANIPWGEDTLFTLEFRAEEGGRYAIHTCNNKYLSREGKL
+                                                                                    
+
+HOVITM_097663-T1        ------------YFHTV-------------------------------------------
+singed_FBpp0290891      QVVCNEDCLFSAEYHGGHLALRDRQGQYLSPIGSKAVLKSRSSSVTRDELFSLEDSLPQA
+HOVITM_097664-T1        VDECNPNCLYSAEYHSGQLALRDISGAYLSPIGSKAVLKSRSNSVTKDELFTLEDSLPQA
+HOVITM_097669-T1        -------TMFREAAVTG-------------------------------------------
+singed_CLEC025340       VPSVTPNCLFSAEYHTGQLALRDSAGNYLSPIGSKAVLKTRSQGVTKDELFTLEDSLPQA
+                                                                                    
+
+HOVITM_097663-T1        ------------------------------------------------------------
+singed_FBpp0290891      SFIAGLNLRYVSVKQGVDVTANQDEVGENETFQLEYDWSAHRWALRTTQDRYWCLSAGGG
+HOVITM_097664-T1        SFVAALNSRY--------VSVKQEKLE---------------------------------
+HOVITM_097669-T1        --------------TGVDVTANQDEISDHETFQLEWDSATKRWYIRTMQDRYWTLESGGG
+singed_CLEC025340       SFIAALNSRYVSVKQGVDVTANQDEISDHETFQLEFDSSTKRWYLRTMQDKYWTLETGGG
+                                                                                    
+
+HOVITM_097663-T1        -----------------------------------AEGVGHWFA----------------
+singed_FBpp0290891      IQATGNRRCADALFELIWHGDGSLSFRANNGKFLATKRSGHLFATSESIEEIAKFYFYLI
+HOVITM_097664-T1        ----------------------RICHSTR------AKRADK-------------------
+HOVITM_097669-T1        IQASGDKRSSNALFDLVWQGDGSVCFRANNGKLIATKRSGHLYANSDVVDDSSKYFFYLV
+singed_CLEC025340       IQASGDKRSSNALFDLVWQGDGSVCFRANNGKFVDAKRSGHLYANSDSVDETCKYYFYLI
+                                                           ::  .:                   
+
+HOVITM_097663-T1        -----------------------------------------------VSLR---------
+singed_FBpp0290891      N----------------------------------RPILVLKCEQGFVGYRTPGNLKLEC
+HOVITM_097664-T1        ----------------------------------------------FIAFRTSPT-----
+HOVITM_097669-T1        NRPVSGFFLTVLPGLSGGLAWALPHLYLKEPYRRMRPILVLKCEQGFVGFKAGSSIRLEC
+singed_CLEC025340       N----------------------------------RPILVLKCEQGFVGYKAGSNIRLEC
+                                                                       :. .         
+
+HOVITM_097663-T1        ----YTNVVDIELHRNLILWP---------------------------------------
+singed_FBpp0290891      NKATYETILVERAQKGLVHLK------------------AHSGKYWRIEGE-SISVDADA
+HOVITM_097664-T1        NSDNVQNIQEE-------------------------------------------------
+HOVITM_097669-T1        NRATYETIQVERGEKGVVYFKVGCKIPRIRSIQGRKTLVCRNGKYWHVDGE-GVNVDSDA
+singed_CLEC025340       NRATYETIQVERGEKGVVFFK-----------------GTQTGKYWHVDGEGGVNVDSDT
+                              .:                                                    
+
+HOVITM_097663-T1        --------------------------------------------------
+singed_FBpp0290891      PSDGFFLELREPTRICIRS--QQGKYLGATKNGAFKLLDDGTDSATQWEF
+HOVITM_097664-T1        --------------------------------------------------
+HOVITM_097669-T1        A-EGFFLELREPTRICLKSAGPSGCYLSAGKNGAFRLTDTDCATATKWEY
+singed_CLEC025340       P-EGFFLELREPTRICLKVAAPGGGYLSAGKNGAFRLGDHDYANATKWEY
+                                                                          

@@ -1,0 +1,35 @@
+#                                                                 --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name             accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------   -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+HOVITM_088486-T1     -          vestigal_ACYPI34460-PA -            5.4e-28  101.0  26.7   9.3e-28  100.3  26.7   1.3   1   0   0   1   1   1   1 HOVITM_088486
+HOVITM_039378-T1     -          vestigal_ACYPI34460-PA -            8.7e-08   34.6   2.2   1.1e-07   34.2   2.2   1.1   1   0   0   1   1   1   1 HOVITM_039378
+HOVITM_103681-T1     -          vestigal_ACYPI34460-PA -              0.045   15.7   1.6     0.077   15.0   1.6   1.3   1   0   0   1   1   1   0 HOVITM_103681
+HOVITM_062214-T1     -          vestigal_ACYPI34460-PA -              0.051   15.6   5.8       6.6    8.6   0.5   3.4   3   2   1   4   4   4   0 HOVITM_062214
+HOVITM_082672-T1     -          vestigal_ACYPI34460-PA -              0.081   14.9   3.5       0.1   14.6   3.5   1.2   1   0   0   1   1   1   0 HOVITM_082672
+HOVITM_026355-T1     -          vestigal_ACYPI34460-PA -               0.49   12.3   5.5      0.48   12.4   5.5   1.1   1   0   0   1   1   1   0 HOVITM_026355
+HOVITM_022847-T1     -          vestigal_ACYPI34460-PA -               0.63   12.0   5.1      0.78   11.7   5.1   1.1   1   0   0   1   1   1   0 HOVITM_022847
+HOVITM_111938-T1     -          vestigal_ACYPI34460-PA -                1.2   11.0   1.3       1.8   10.5   0.4   1.7   2   0   0   2   2   2   0 HOVITM_111938
+HOVITM_099822-T1     -          vestigal_ACYPI34460-PA -                1.6   10.7   2.6       2.2   10.2   2.6   1.1   1   0   0   1   1   1   0 HOVITM_099822
+HOVITM_010320-T1     -          vestigal_ACYPI34460-PA -                3.3    9.6   7.6       4.3    9.2   7.6   1.1   1   0   0   1   1   1   0 HOVITM_010320
+HOVITM_084811-T1     -          vestigal_ACYPI34460-PA -                3.6    9.5   9.2       4.6    9.1   9.2   1.3   1   0   0   1   1   1   0 HOVITM_084811
+HOVITM_041028-T1     -          vestigal_ACYPI34460-PA -                8.9    8.2   5.9        13    7.7   5.9   1.2   1   0   0   1   1   1   0 HOVITM_041028
+HOVITM_106715-T1     -          vestigal_ACYPI34460-PA -                8.9    8.2   5.9        13    7.7   5.9   1.2   1   0   0   1   1   1   0 HOVITM_106715
+HOVITM_088486-T1     -          vestigal_FBpp0086898 -            3.4e-09   38.7  31.6     2e-08   36.2  31.6   1.9   1   1   0   1   1   1   1 HOVITM_088486
+HOVITM_039378-T1     -          vestigal_FBpp0086898 -            4.6e-05   25.1   0.5   4.6e-05   25.1   0.5   1.4   2   0   0   2   2   2   1 HOVITM_039378
+HOVITM_052670-T1     -          vestigal_FBpp0086898 -              0.058   14.9   0.9     0.058   14.9   0.9   1.5   2   0   0   2   2   2   0 HOVITM_052670
+HOVITM_041549-T1     -          vestigal_FBpp0086898 -               0.12   13.8   0.6      0.17   13.4   0.6   1.2   1   0   0   1   1   1   0 HOVITM_041549
+HOVITM_049465-T1     -          vestigal_FBpp0086898 -               0.23   12.9   2.5      0.32   12.5   2.5   1.2   1   0   0   1   1   1   0 HOVITM_049465
+HOVITM_022393-T1     -          vestigal_FBpp0086898 -               0.79   11.2  10.1         1   10.8  10.1   1.2   1   0   0   1   1   1   0 HOVITM_022393
+HOVITM_036409-T1     -          vestigal_FBpp0086898 -                1.2   10.6  12.0       1.3   10.4  12.0   1.1   1   0   0   1   1   1   0 HOVITM_036409
+HOVITM_069398-T1     -          vestigal_FBpp0086898 -                1.3   10.5   2.8       1.8   10.0   2.8   1.1   1   0   0   1   1   1   0 HOVITM_069398
+HOVITM_075218-T1     -          vestigal_FBpp0086898 -                3.1    9.2   2.0       3.1    9.2   2.0   1.0   1   0   0   1   1   1   0 HOVITM_075218
+#
+# Program:         phmmer
+# Version:         3.3.1 (Jul 2020)
+# Pipeline mode:   SEARCH
+# Query file:      vestigal.fasta
+# Target file:     Homalodisca_vitripennis_A6A7A9_masurca_v1.proteins.fixed.fa
+# Option settings: phmmer -o vestigalphmmer_out --tblout vestigalphmmer_out_table vestigal.fasta Homalodisca_vitripennis_A6A7A9_masurca_v1.proteins.fixed.fa 
+# Current dir:     /Users/Cassie/Box Sync/StajichLab/GWSS/GWSS_morphological_markers/GWSS_phmmer
+# Date:            Thu Nov 19 15:28:34 2020
+# [ok]

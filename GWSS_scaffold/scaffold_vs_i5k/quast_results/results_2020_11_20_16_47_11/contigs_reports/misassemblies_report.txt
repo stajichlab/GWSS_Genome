@@ -1,0 +1,24 @@
+All statistics are based on contigs of size >= 3000 bp, unless otherwise noted (e.g., "# contigs (>= 0 bp)" and "Total length (>= 0 bp)" include all contigs).
+
+Assembly                     Homalodisca_vitripennis.A6A7A9_masurca_v1.sorted  Homalodisca_vitripennis.A6A7A9_masurca_v1.sorted.corrected  masurca.A6_A7_A9.flye.assembly  ragtag.scaffolds
+# misassemblies              78359                                             66701                                                       78455                           86203           
+  # contig misassemblies     78324                                             66685                                                       78420                           80226           
+    # c. relocations         1263                                              1110                                                        1266                            1439            
+    # c. translocations      76490                                             65200                                                       76586                           78202           
+    # c. inversions          571                                               375                                                         568                             585             
+  # scaffold misassemblies   35                                                16                                                          35                              5977            
+    # s. relocations         5                                                 4                                                           5                               1079            
+    # s. translocations      30                                                12                                                          30                              4869            
+    # s. inversions          0                                                 0                                                           0                               29              
+# misassembled contigs       13266                                             18408                                                       13241                           6223            
+Misassembled contigs length  1265267547                                        1124358278                                                  1268888441                      1432985218      
+# local misassemblies        167329                                            167724                                                      167731                          177584          
+# scaffold gap ext. mis.     7                                                 4                                                           8                               192             
+# scaffold gap loc. mis.     25                                                25                                                          25                              2537            
+# possible TEs               31384                                             31168                                                       31464                           36218           
+# unaligned mis. contigs     11539                                             18570                                                       11521                           7489            
+# mismatches                 29811773                                          29867867                                                    29864786                        30497767        
+# indels                     1475879                                           1467641                                                     1477925                         1484592         
+    # indels (<= 5 bp)       1104639                                           1097842                                                     1106155                         1109892         
+    # indels (> 5 bp)        371240                                            369799                                                      371770                          374700          
+Indels length                11938664                                          11913706                                                    11954434                        12011573        

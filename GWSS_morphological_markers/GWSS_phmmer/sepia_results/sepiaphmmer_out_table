@@ -1,0 +1,91 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+HOVITM_021241-T1     -          sepia_CLEC008904     -            5.8e-63  214.9   2.4   7.3e-63  214.6   2.4   1.0   1   0   0   1   1   1   1 HOVITM_021241
+HOVITM_021242-T1     -          sepia_CLEC008904     -            5.5e-43  149.5   0.0   7.1e-43  149.1   0.0   1.0   1   0   0   1   1   1   1 HOVITM_021242
+HOVITM_021244-T1     -          sepia_CLEC008904     -            1.5e-23   85.8   2.3   1.2e-06   30.4   0.0   3.0   1   1   2   3   3   3   3 HOVITM_021244
+HOVITM_021243-T1     -          sepia_CLEC008904     -            4.7e-17   64.5   0.0   5.2e-17   64.4   0.0   1.0   1   0   0   1   1   1   1 HOVITM_021243
+HOVITM_073228-T1     -          sepia_CLEC008904     -            2.1e-06   29.6   1.0   2.8e-06   29.2   1.0   1.1   1   0   0   1   1   1   1 HOVITM_073228
+HOVITM_073229-T1     -          sepia_CLEC008904     -            2.6e-06   29.3   0.1   3.5e-06   28.9   0.1   1.2   1   0   0   1   1   1   1 HOVITM_073229
+HOVITM_094941-T1     -          sepia_CLEC008904     -            8.7e-06   27.6   0.1   1.2e-05   27.2   0.1   1.1   1   0   0   1   1   1   1 HOVITM_094941
+HOVITM_073230-T1     -          sepia_CLEC008904     -            1.4e-05   27.0   0.1   1.8e-05   26.6   0.1   1.1   1   0   0   1   1   1   1 HOVITM_073230
+HOVITM_008694-T1     -          sepia_CLEC008904     -              3e-05   25.8   0.2   3.6e-05   25.6   0.2   1.3   1   1   0   1   1   1   1 HOVITM_008694
+HOVITM_031316-T1     -          sepia_CLEC008904     -              3e-05   25.8   0.2   3.6e-05   25.6   0.2   1.3   1   1   0   1   1   1   1 HOVITM_031316
+HOVITM_014214-T1     -          sepia_CLEC008904     -            3.1e-05   25.8  18.6        25    6.5   0.1   6.1   2   1   4   6   6   6   2 HOVITM_014214
+HOVITM_075699-T1     -          sepia_CLEC008904     -             0.0007   21.4   0.3     0.001   20.8   0.3   1.3   1   0   0   1   1   1   1 HOVITM_075699
+HOVITM_041316-T1     -          sepia_CLEC008904     -            0.00079   21.2   0.0   0.00087   21.1   0.0   1.2   1   0   0   1   1   1   1 HOVITM_041316
+HOVITM_040907-T1     -          sepia_CLEC008904     -            0.00079   21.2   0.0   0.00087   21.1   0.0   1.2   1   0   0   1   1   1   1 HOVITM_040907
+HOVITM_062625-T1     -          sepia_CLEC008904     -              0.001   20.8   0.1    0.0011   20.7   0.1   1.1   1   0   0   1   1   1   1 HOVITM_062625
+HOVITM_062626-T1     -          sepia_CLEC008904     -              0.001   20.8   0.1    0.0011   20.7   0.1   1.1   1   0   0   1   1   1   1 HOVITM_062626
+HOVITM_062624-T1     -          sepia_CLEC008904     -             0.0015   20.3   0.1    0.0017   20.1   0.1   1.1   1   0   0   1   1   1   1 HOVITM_062624
+HOVITM_062623-T1     -          sepia_CLEC008904     -             0.0017   20.1   0.0    0.0025   19.6   0.0   1.2   1   0   0   1   1   1   1 HOVITM_062623
+HOVITM_015615-T1     -          sepia_CLEC008904     -             0.0023   19.7   0.0    0.0029   19.3   0.0   1.2   1   0   0   1   1   1   1 HOVITM_015615
+HOVITM_089830-T1     -          sepia_CLEC008904     -             0.0023   19.7   0.0    0.0029   19.3   0.0   1.2   1   0   0   1   1   1   1 HOVITM_089830
+HOVITM_041315-T1     -          sepia_CLEC008904     -             0.0023   19.6   0.0    0.0029   19.3   0.0   1.2   1   0   0   1   1   1   1 HOVITM_041315
+HOVITM_007489-T1     -          sepia_CLEC008904     -              0.011   17.4   0.0     0.014   17.1   0.0   1.1   1   0   0   1   1   1   0 HOVITM_007489
+HOVITM_067208-T1     -          sepia_CLEC008904     -              0.014   17.1   0.0     0.018   16.8   0.0   1.2   1   0   0   1   1   1   0 HOVITM_067208
+HOVITM_041324-T1     -          sepia_CLEC008904     -              0.022   16.4   0.1      0.03   16.0   0.1   1.2   1   0   0   1   1   1   0 HOVITM_041324
+HOVITM_013048-T1     -          sepia_CLEC008904     -              0.025   16.3   0.0     0.031   16.0   0.0   1.2   1   0   0   1   1   1   0 HOVITM_013048
+HOVITM_049630-T1     -          sepia_CLEC008904     -              0.027   16.2   0.6         9    7.9   0.1   3.7   2   1   2   5   5   5   0 HOVITM_049630
+HOVITM_041325-T1     -          sepia_CLEC008904     -              0.028   16.1   0.0     0.033   15.9   0.0   1.2   1   0   0   1   1   1   0 HOVITM_041325
+HOVITM_062621-T1     -          sepia_CLEC008904     -                0.1   14.3   0.2      0.14   13.9   0.2   1.3   1   1   0   1   1   1   0 HOVITM_062621
+HOVITM_013585-T1     -          sepia_CLEC008904     -               0.13   14.0   0.0      0.14   13.9   0.0   1.2   1   0   0   1   1   1   0 HOVITM_013585
+HOVITM_065258-T1     -          sepia_CLEC008904     -               0.15   13.8   0.0      0.15   13.8   0.0   1.0   1   0   0   1   1   1   0 HOVITM_065258
+HOVITM_017309-T1     -          sepia_CLEC008904     -               0.27   12.9   0.2      0.41   12.3   0.1   1.5   1   1   0   1   1   1   0 HOVITM_017309
+HOVITM_116789-T1     -          sepia_CLEC008904     -               0.27   12.9   0.2      0.41   12.3   0.1   1.4   1   1   0   1   1   1   0 HOVITM_116789
+HOVITM_062622-T1     -          sepia_CLEC008904     -               0.29   12.8   0.0      0.33   12.6   0.0   1.3   1   1   0   1   1   1   0 HOVITM_062622
+HOVITM_100681-T1     -          sepia_CLEC008904     -               0.33   12.6   0.1      0.47   12.1   0.1   1.3   1   0   0   1   1   1   0 HOVITM_100681
+HOVITM_032313-T1     -          sepia_CLEC008904     -               0.47   12.1   0.0         1   11.0   0.0   1.5   1   1   1   2   2   2   0 HOVITM_032313
+HOVITM_021241-T1     -          sepia_lcl|MK480215.1_prot_QEO19127.1_1 -            3.2e-57  196.3   2.8     4e-57  196.0   2.8   1.0   1   0   0   1   1   1   1 HOVITM_021241
+HOVITM_021242-T1     -          sepia_lcl|MK480215.1_prot_QEO19127.1_1 -            1.3e-37  132.1   0.0   1.6e-37  131.8   0.0   1.0   1   0   0   1   1   1   1 HOVITM_021242
+HOVITM_021244-T1     -          sepia_lcl|MK480215.1_prot_QEO19127.1_1 -            1.6e-19   72.8   0.2   2.9e-05   26.1   0.0   3.0   1   1   2   3   3   3   3 HOVITM_021244
+HOVITM_021243-T1     -          sepia_lcl|MK480215.1_prot_QEO19127.1_1 -            7.1e-17   64.2   0.1   7.6e-17   64.1   0.1   1.0   1   0   0   1   1   1   1 HOVITM_021243
+HOVITM_073228-T1     -          sepia_lcl|MK480215.1_prot_QEO19127.1_1 -            7.4e-05   24.8   0.5   8.8e-05   24.6   0.5   1.1   1   0   0   1   1   1   1 HOVITM_073228
+HOVITM_007489-T1     -          sepia_lcl|MK480215.1_prot_QEO19127.1_1 -              8e-05   24.7   0.0   9.4e-05   24.5   0.0   1.0   1   0   0   1   1   1   1 HOVITM_007489
+HOVITM_075699-T1     -          sepia_lcl|MK480215.1_prot_QEO19127.1_1 -            0.00016   23.7   0.2   0.00019   23.4   0.2   1.2   1   0   0   1   1   1   1 HOVITM_075699
+HOVITM_067208-T1     -          sepia_lcl|MK480215.1_prot_QEO19127.1_1 -            0.00058   21.9   0.1   0.00079   21.4   0.1   1.1   1   0   0   1   1   1   1 HOVITM_067208
+HOVITM_041324-T1     -          sepia_lcl|MK480215.1_prot_QEO19127.1_1 -             0.0016   20.4   0.1    0.0023   19.9   0.1   1.2   1   0   0   1   1   1   1 HOVITM_041324
+HOVITM_041316-T1     -          sepia_lcl|MK480215.1_prot_QEO19127.1_1 -              0.002   20.1   0.2    0.0026   19.7   0.2   1.1   1   0   0   1   1   1   1 HOVITM_041316
+HOVITM_040907-T1     -          sepia_lcl|MK480215.1_prot_QEO19127.1_1 -              0.002   20.1   0.2    0.0026   19.7   0.2   1.1   1   0   0   1   1   1   1 HOVITM_040907
+HOVITM_073229-T1     -          sepia_lcl|MK480215.1_prot_QEO19127.1_1 -             0.0029   19.6   0.2     0.004   19.2   0.2   1.1   1   0   0   1   1   1   1 HOVITM_073229
+HOVITM_067204-T1     -          sepia_lcl|MK480215.1_prot_QEO19127.1_1 -             0.0029   19.6   0.1    0.0039   19.2   0.1   1.2   1   0   0   1   1   1   1 HOVITM_067204
+HOVITM_015615-T1     -          sepia_lcl|MK480215.1_prot_QEO19127.1_1 -               0.02   16.8   0.3     0.026   16.5   0.3   1.1   1   0   0   1   1   1   0 HOVITM_015615
+HOVITM_089830-T1     -          sepia_lcl|MK480215.1_prot_QEO19127.1_1 -               0.02   16.8   0.3     0.026   16.5   0.3   1.1   1   0   0   1   1   1   0 HOVITM_089830
+HOVITM_041315-T1     -          sepia_lcl|MK480215.1_prot_QEO19127.1_1 -               0.02   16.8   0.3     0.026   16.5   0.3   1.1   1   0   0   1   1   1   0 HOVITM_041315
+HOVITM_008694-T1     -          sepia_lcl|MK480215.1_prot_QEO19127.1_1 -              0.031   16.2   0.3     0.039   15.9   0.3   1.4   1   1   0   1   1   1   0 HOVITM_008694
+HOVITM_031316-T1     -          sepia_lcl|MK480215.1_prot_QEO19127.1_1 -              0.031   16.2   0.3     0.039   15.9   0.3   1.4   1   1   0   1   1   1   0 HOVITM_031316
+HOVITM_065258-T1     -          sepia_lcl|MK480215.1_prot_QEO19127.1_1 -              0.046   15.7   0.0     0.048   15.6   0.0   1.0   1   0   0   1   1   1   0 HOVITM_065258
+HOVITM_044062-T1     -          sepia_lcl|MK480215.1_prot_QEO19127.1_1 -              0.051   15.5   0.0      0.07   15.1   0.0   1.2   1   0   0   1   1   1   0 HOVITM_044062
+HOVITM_094941-T1     -          sepia_lcl|MK480215.1_prot_QEO19127.1_1 -              0.065   15.2   0.1     0.074   15.0   0.1   1.2   1   0   0   1   1   1   0 HOVITM_094941
+HOVITM_013048-T1     -          sepia_lcl|MK480215.1_prot_QEO19127.1_1 -               0.18   13.7   0.1      0.23   13.3   0.1   1.1   1   0   0   1   1   1   0 HOVITM_013048
+HOVITM_062621-T1     -          sepia_lcl|MK480215.1_prot_QEO19127.1_1 -               0.19   13.6   0.1      0.23   13.4   0.1   1.1   1   0   0   1   1   1   0 HOVITM_062621
+HOVITM_014837-T1     -          sepia_lcl|MK480215.1_prot_QEO19127.1_1 -               0.46   12.4   0.0      0.62   12.0   0.0   1.2   1   0   0   1   1   1   0 HOVITM_014837
+HOVITM_062625-T1     -          sepia_lcl|MK480215.1_prot_QEO19127.1_1 -               0.61   12.0   0.1       0.7   11.8   0.1   1.1   1   0   0   1   1   1   0 HOVITM_062625
+HOVITM_062626-T1     -          sepia_lcl|MK480215.1_prot_QEO19127.1_1 -               0.61   12.0   0.1       0.7   11.8   0.1   1.1   1   0   0   1   1   1   0 HOVITM_062626
+HOVITM_062624-T1     -          sepia_lcl|MK480215.1_prot_QEO19127.1_1 -               0.77   11.7   0.1      0.89   11.5   0.1   1.1   1   0   0   1   1   1   0 HOVITM_062624
+HOVITM_102607-T1     -          sepia_lcl|MK480215.1_prot_QEO19127.1_1 -                  1   11.2   0.1       1.9   10.4   0.1   1.3   1   0   0   1   1   1   0 HOVITM_102607
+HOVITM_021241-T1     -          sepia_FBpp0076349    -              2e-47  164.3   2.7   2.4e-47  164.0   2.7   1.0   1   0   0   1   1   1   1 HOVITM_021241
+HOVITM_021242-T1     -          sepia_FBpp0076349    -              8e-29  103.3   0.0   9.8e-29  103.0   0.0   1.0   1   0   0   1   1   1   1 HOVITM_021242
+HOVITM_021244-T1     -          sepia_FBpp0076349    -            4.1e-19   71.5   0.0   2.5e-05   26.3   0.0   3.0   1   1   2   3   3   3   3 HOVITM_021244
+HOVITM_021243-T1     -          sepia_FBpp0076349    -              5e-14   54.8   0.0   5.5e-14   54.7   0.0   1.1   1   0   0   1   1   1   1 HOVITM_021243
+HOVITM_067208-T1     -          sepia_FBpp0076349    -             0.0031   19.5   0.0     0.007   18.3   0.0   1.5   1   1   0   1   1   1   1 HOVITM_067208
+HOVITM_065258-T1     -          sepia_FBpp0076349    -             0.0056   18.6   0.0    0.0062   18.5   0.0   1.0   1   0   0   1   1   1   1 HOVITM_065258
+HOVITM_041324-T1     -          sepia_FBpp0076349    -              0.011   17.7   0.0     0.019   16.9   0.0   1.4   1   1   0   1   1   1   0 HOVITM_041324
+HOVITM_116789-T1     -          sepia_FBpp0076349    -              0.012   17.6   0.3     0.027   16.4   0.3   1.6   1   1   0   1   1   1   0 HOVITM_116789
+HOVITM_017309-T1     -          sepia_FBpp0076349    -              0.012   17.5   0.3     0.027   16.4   0.3   1.6   1   1   0   1   1   1   0 HOVITM_017309
+HOVITM_015615-T1     -          sepia_FBpp0076349    -              0.014   17.3   0.0     0.039   15.9   0.0   1.7   1   1   0   1   1   1   0 HOVITM_015615
+HOVITM_089830-T1     -          sepia_FBpp0076349    -              0.014   17.3   0.0     0.039   15.9   0.0   1.7   1   1   0   1   1   1   0 HOVITM_089830
+HOVITM_041315-T1     -          sepia_FBpp0076349    -              0.014   17.3   0.0     0.039   15.9   0.0   1.7   1   1   0   1   1   1   0 HOVITM_041315
+HOVITM_021574-T1     -          sepia_FBpp0076349    -               0.15   13.9   0.9        74    5.1   0.0   4.2   2   2   3   5   5   5   0 HOVITM_021574
+HOVITM_027639-T1     -          sepia_FBpp0076349    -               0.15   13.9   0.9        74    5.1   0.0   4.2   2   2   3   5   5   5   0 HOVITM_027639
+HOVITM_067204-T1     -          sepia_FBpp0076349    -               0.39   12.6   0.0       1.4   10.7   0.0   1.7   1   1   0   1   1   1   0 HOVITM_067204
+#
+# Program:         phmmer
+# Version:         3.3.1 (Jul 2020)
+# Pipeline mode:   SEARCH
+# Query file:      sepia.fasta
+# Target file:     Homalodisca_vitripennis_A6A7A9_masurca_v1.proteins.fixed.fa
+# Option settings: phmmer -o sepiaphmmer_out --tblout sepiaphmmer_out_table sepia.fasta Homalodisca_vitripennis_A6A7A9_masurca_v1.proteins.fixed.fa 
+# Current dir:     /Users/Cassie/Box Sync/StajichLab/GWSS/GWSS_morphological_markers/GWSS_phmmer
+# Date:            Thu Nov 19 15:27:29 2020
+# [ok]

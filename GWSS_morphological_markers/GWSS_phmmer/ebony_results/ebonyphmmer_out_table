@@ -1,0 +1,56 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+HOVITM_049649-T1     -          ebony_CLEC007608     -           2.3e-138  465.1   0.1  2.6e-138  465.0   0.1   1.0   1   0   0   1   1   1   1 HOVITM_049649
+HOVITM_024223-T1     -          ebony_CLEC007608     -            6.5e-55  189.2   0.1   8.1e-55  188.8   0.1   1.0   1   0   0   1   1   1   1 HOVITM_024223
+HOVITM_070686-T1     -          ebony_CLEC007608     -            3.8e-37  130.4   0.0   4.8e-36  126.8   0.0   2.0   1   1   0   1   1   1   1 HOVITM_070686
+HOVITM_024224-T1     -          ebony_CLEC007608     -            1.8e-25   91.8   0.1   2.2e-25   91.5   0.1   1.0   1   0   0   1   1   1   1 HOVITM_024224
+HOVITM_027089-T1     -          ebony_CLEC007608     -            1.2e-11   46.0   0.5   1.6e-11   45.6   0.5   1.1   1   0   0   1   1   1   1 HOVITM_027089
+HOVITM_107448-T1     -          ebony_CLEC007608     -            1.1e-08   36.3   0.1   1.3e-08   36.0   0.1   1.0   1   0   0   1   1   1   1 HOVITM_107448
+HOVITM_047520-T1     -          ebony_CLEC007608     -            2.8e-08   34.9   0.0   4.3e-08   34.3   0.0   1.1   1   0   0   1   1   1   1 HOVITM_047520
+HOVITM_006424-T1     -          ebony_CLEC007608     -            1.5e-07   32.5   0.0   1.9e-07   32.2   0.0   1.1   1   0   0   1   1   1   1 HOVITM_006424
+HOVITM_006420-T1     -          ebony_CLEC007608     -            1.4e-06   29.3   0.0   1.7e-06   29.0   0.0   1.0   1   0   0   1   1   1   1 HOVITM_006420
+HOVITM_035156-T1     -          ebony_CLEC007608     -            3.7e-06   27.9   0.0   4.3e-06   27.7   0.0   1.0   1   0   0   1   1   1   1 HOVITM_035156
+HOVITM_072439-T1     -          ebony_CLEC007608     -            2.5e-05   25.2   0.0   6.2e-05   23.9   0.0   1.6   1   1   0   1   1   1   1 HOVITM_072439
+HOVITM_043273-T1     -          ebony_CLEC007608     -            0.00013   22.9   0.0    0.0029   18.4   0.0   2.1   2   0   0   2   2   2   1 HOVITM_043273
+HOVITM_053890-T1     -          ebony_CLEC007608     -            0.00053   20.8   0.0    0.0067   17.1   0.0   2.0   2   0   0   2   2   2   1 HOVITM_053890
+HOVITM_000958-T1     -          ebony_CLEC007608     -             0.0011   19.8   0.0    0.0013   19.5   0.0   1.0   1   0   0   1   1   1   1 HOVITM_000958
+HOVITM_025633-T1     -          ebony_CLEC007608     -              0.018   15.8   0.0        16    5.9   0.0   2.9   3   0   0   3   3   3   0 HOVITM_025633
+HOVITM_065227-T1     -          ebony_CLEC007608     -              0.019   15.6   0.0        17    5.9   0.0   3.0   3   0   0   3   3   3   0 HOVITM_065227
+HOVITM_093499-T1     -          ebony_CLEC007608     -               0.12   13.1   0.1      0.23   12.1   0.0   1.4   2   0   0   2   2   2   0 HOVITM_093499
+HOVITM_062379-T1     -          ebony_CLEC007608     -               0.14   12.8   0.0       1.3    9.5   0.0   2.0   1   1   0   1   1   1   0 HOVITM_062379
+HOVITM_107449-T1     -          ebony_CLEC007608     -                0.3   11.7   0.0      0.41   11.3   0.0   1.1   1   0   0   1   1   1   0 HOVITM_107449
+HOVITM_062380-T1     -          ebony_CLEC007608     -                0.6   10.7   0.0      0.69   10.5   0.0   1.0   1   0   0   1   1   1   0 HOVITM_062380
+HOVITM_049649-T1     -          ebony_FBpp0083505    -           2.3e-148  498.3   0.0  2.6e-148  498.1   0.0   1.0   1   0   0   1   1   1   1 HOVITM_049649
+HOVITM_024223-T1     -          ebony_FBpp0083505    -            1.4e-58  201.3   0.2   1.6e-58  201.1   0.2   1.0   1   0   0   1   1   1   1 HOVITM_024223
+HOVITM_070686-T1     -          ebony_FBpp0083505    -            2.1e-47  164.3   0.0   5.6e-47  162.9   0.0   1.6   1   1   0   1   1   1   1 HOVITM_070686
+HOVITM_024224-T1     -          ebony_FBpp0083505    -            1.3e-27   98.8   0.1   1.7e-27   98.5   0.1   1.0   1   0   0   1   1   1   1 HOVITM_024224
+HOVITM_027089-T1     -          ebony_FBpp0083505    -            9.6e-15   56.3   0.2   1.8e-14   55.3   0.1   1.5   1   1   0   2   2   2   1 HOVITM_027089
+HOVITM_072439-T1     -          ebony_FBpp0083505    -            4.3e-13   50.8   0.0   7.1e-06   26.9   0.0   2.1   2   0   0   2   2   2   2 HOVITM_072439
+HOVITM_080601-T1     -          ebony_FBpp0083505    -            5.7e-11   43.8   0.0   1.1e-10   42.9   0.0   1.3   2   0   0   2   2   2   1 HOVITM_080601
+HOVITM_047520-T1     -          ebony_FBpp0083505    -            1.2e-10   42.7   0.0   2.1e-10   41.9   0.0   1.2   1   0   0   1   1   1   1 HOVITM_047520
+HOVITM_053890-T1     -          ebony_FBpp0083505    -            5.1e-10   40.7   0.0   0.00041   21.1   0.0   2.1   2   0   0   2   2   2   2 HOVITM_053890
+HOVITM_006424-T1     -          ebony_FBpp0083505    -            5.2e-08   34.0   0.0   1.6e-07   32.4   0.0   1.7   1   1   0   1   1   1   1 HOVITM_006424
+HOVITM_000957-T1     -          ebony_FBpp0083505    -            8.6e-08   33.3   0.0   1.4e-07   32.5   0.0   1.2   1   0   0   1   1   1   1 HOVITM_000957
+HOVITM_107448-T1     -          ebony_FBpp0083505    -            5.3e-06   27.3   0.1   6.9e-06   27.0   0.1   1.0   1   0   0   1   1   1   1 HOVITM_107448
+HOVITM_000958-T1     -          ebony_FBpp0083505    -            2.2e-05   25.3   0.0   2.6e-05   25.1   0.0   1.0   1   0   0   1   1   1   1 HOVITM_000958
+HOVITM_107449-T1     -          ebony_FBpp0083505    -            0.00039   21.2   0.0   0.00051   20.8   0.0   1.1   1   0   0   1   1   1   1 HOVITM_107449
+HOVITM_035156-T1     -          ebony_FBpp0083505    -            0.00062   20.5   0.0   0.00073   20.3   0.0   1.0   1   0   0   1   1   1   1 HOVITM_035156
+HOVITM_011881-T1     -          ebony_FBpp0083505    -              0.026   15.1   0.0     0.028   15.0   0.0   1.0   1   0   0   1   1   1   0 HOVITM_011881
+HOVITM_025633-T1     -          ebony_FBpp0083505    -              0.029   15.0   0.0      0.19   12.3   0.0   1.8   2   0   0   2   2   2   0 HOVITM_025633
+HOVITM_057087-T1     -          ebony_FBpp0083505    -               0.03   15.0   0.0      0.05   14.2   0.0   1.3   1   0   0   1   1   1   0 HOVITM_057087
+HOVITM_065227-T1     -          ebony_FBpp0083505    -              0.031   14.9   0.0       0.2   12.2   0.0   1.8   2   0   0   2   2   2   0 HOVITM_065227
+HOVITM_049607-T1     -          ebony_FBpp0083505    -              0.034   14.8   0.0     0.042   14.5   0.0   1.1   1   0   0   1   1   1   0 HOVITM_049607
+HOVITM_114532-T1     -          ebony_FBpp0083505    -              0.072   13.7   0.0      0.79   10.2   0.0   2.0   2   0   0   2   2   2   0 HOVITM_114532
+HOVITM_035157-T1     -          ebony_FBpp0083505    -               0.47   11.0   0.0      0.64   10.5   0.0   1.1   1   0   0   1   1   1   0 HOVITM_035157
+HOVITM_006423-T1     -          ebony_FBpp0083505    -               0.53   10.8   0.0      0.75   10.3   0.0   1.1   1   0   0   1   1   1   0 HOVITM_006423
+#
+# Program:         phmmer
+# Version:         3.3.1 (Jul 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ebony.fasta
+# Target file:     Homalodisca_vitripennis_A6A7A9_masurca_v1.proteins.fixed.fa
+# Option settings: phmmer -o ebonyphmmer_out --tblout ebonyphmmer_out_table ebony.fasta Homalodisca_vitripennis_A6A7A9_masurca_v1.proteins.fixed.fa 
+# Current dir:     /Users/Cassie/Box Sync/StajichLab/GWSS/GWSS_morphological_markers/GWSS_phmmer
+# Date:            Thu Nov 19 15:27:34 2020
+# [ok]

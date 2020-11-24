@@ -1,0 +1,82 @@
+MUSCLE (3.8) multiple sequence alignment
+
+
+HOVITM_117535-T1          ---------MSMVRVMKRGDLNSAAPTSGPGGVEVEVLVFWSVDFVLKFICENCSWRQST
+HOVITM_026070-T1          --------MLRPMSRPTPGVDDELWWARLLGLQGPSQGAVSLGPLSHKENCHRLQYLVER
+wingless_FBpp0079060      -MDISYIFVICLMALCSGGSSLSQVEGKQKSGRGRGSMWWGIAKVGEPNNITPIMYMDPA
+HOVITM_026395-T1          ------------------------------------------------------------
+wingless_CLEC012013       MFKFKTIYYFCFFRNIEPANFNDVNGCEVTKGLSIG------------------------
+HOVITM_053081-T1          ---------MGLLE-----ETSEPLPCGRTPGLSPG------------------------
+                                                                                      
+
+HOVITM_117535-T1          -REHFQCVDLFVLESTTNPAYPTGKSFSSAASKTQASPGNEALNCNEVECIDKNEGSLAV
+HOVITM_026070-T1          --------QQQLCGLSENVLAAVGNGAKMSIEECQHQFRMSRWNCTTF----SNTSSVFG
+wingless_FBpp0079060      IHSTLRRKQRRLVRDNPGVLGALVKGANLAISECQHQFRNRRWNCSTRNF--SRGKNLFG
+HOVITM_026395-T1          -----------MCRAAPDAMIAVGDGIRLATLECQQQFKTHRWNCSAI-----GKGNSFG
+wingless_CLEC012013       --------QVRLCQVYSDHMERVTIGAKKGISECQHQFKYRRWNCSAL-----PDSTFFG
+HOVITM_053081-T1          --------QTKLCHLYEDHMPGVGRGARAGIDECQWQFRHRRWNCSIV-----NDATVFG
+                                     :     .       .   .  : * .      **.          .   
+
+HOVITM_117535-T1          GQADEAVSSTSIVLSITTVFMHMAYNNACATPNPLSHLSRLSLAATGELFH--LESVLYV
+HOVITM_026070-T1          EVISIKSRETAFVYAISSAGVAYAVTRACSR----GELTECSCDNRVRLRKPRK------
+wingless_FBpp0079060      KIVDRGCRETSFIYAITSAAVTHSIARACSE----GTIESCTCDYSHQSRSPQANHQAGS
+HOVITM_026395-T1          HVVVVGSKEAAFTYAVSSAGVAYAIAAACSR----GNISACGCDPKHKTRKELAPA----
+wingless_CLEC012013       SQRHTASRESAFIYAITAAGITHSVARSCRD----GHLASCSCSRAPRPRD--LHH----
+HOVITM_053081-T1          PVVKIASREAAFTHAIAAAGVVYSIARACRD----GQLSSCGCSRSGRPRD--LHR----
+                                  .:::  ::::. :  :   :*      . :                      
+
+HOVITM_117535-T1          RPGMLKWRSPGMMEAGDWRTLRPNNCFGVTSVLEKVKKRLVSRLAEKEGVHCETRKETKA
+HOVITM_026070-T1          -----NWQ---------WGSCSEDIHYG-----EKFSREFVDARESH--------ETAEG
+wingless_FBpp0079060      VAGVRDWE---------WGGCSDNIGFG-----FKFSREFVDTGERG--------RNLRE
+HOVITM_026395-T1          -----GWK---------WGGCSVDAGYG-----MRLARRFLDAREIE--------ADARS
+wingless_CLEC012013       -----EWI---------WGGCGDNLEYG-----YKFTQSFIDIREREKRYRRGSHDHGQA
+HOVITM_053081-T1          -----DWI---------WGGCGDNLEYG-----YRFTQGFVDVRERERTFRRGSREQARA
+                                *          *     :  :*      .. . ::.                  
+
+HOVITM_117535-T1          RNDLWSSEQTGDKHTNGRCREIGVRLRREVQTCHPGRYKERHLHSRELISFPVSRNFFFN
+HOVITM_026070-T1          LMNLHNNE--------------------------AGR-----------------------
+wingless_FBpp0079060      KMNLHNNE--------------------------AGR-----------------------
+HOVITM_026395-T1          LMNLHNNK--------------------------AGR-----------------------
+wingless_CLEC012013       LMNLHNNE--------------------------AGR-----------------------
+HOVITM_053081-T1          LMNLHNNE--------------------------AGR-----------------------
+                            :*...:                          .**                       
+
+HOVITM_117535-T1          DKLPLKFAMLPPHYPTDCPTQTTPSSPTSHHVAAEMRQECKCHGMSGSCTVKTCWMRLPS
+HOVITM_026070-T1          -----------------------------RIIRSQMQRVCKCHGMSGSCSVRVCWRKLPS
+wingless_FBpp0079060      -----------------------------AHVQAEMRQECKCHGMSGSCTVKTCWMRLAN
+HOVITM_026395-T1          -----------------------------KAVRQSLVTECKCHGVSGSCSMKTCWKTLPP
+wingless_CLEC012013       -----------------------------RAVIKMAKVTCKCHGVSGSCSLITCWQQLPT
+HOVITM_053081-T1          -----------------------------RAVIKTAQVTCKCHGVSGSCSLITCWQQMPS
+                                                         :       *****:****:: .**  :. 
+
+HOVITM_117535-T1          FRVVGDNLKDRFDGASRVMVSN--------------------------------------
+HOVITM_026070-T1          FRQVGDTLSARFEGASFVKMVE--------------------------------------
+wingless_FBpp0079060      FRVIGDNLKARFDGATRVQVTNSLRATNALAPVSPNAAGSNSVGSNGLIIPQSGLVYGEE
+HOVITM_026395-T1          FRVIGDNLMRKYWRARPVVAMP--------------------------------------
+wingless_CLEC012013       FREIGDYIRDKYDGATEVKVNV--------------------------------------
+HOVITM_053081-T1          FRRI-------VWRAR--------------------------------------------
+                          ** :          *                                             
+
+HOVITM_117535-T1          ---------------------------------------AGSLRGG--GGKKGKYNFQLK
+HOVITM_026070-T1          ---------------------------------------KRRRRVK-----------KLR
+wingless_FBpp0079060      EERMLNDHMPDILLENSHPISKIHHPNMPSPNSLPQAGQRGGRNGRRQGRKHNRYHFQLN
+HOVITM_026395-T1          -----------------------------SPKGLALSVRRGRAAQG--------------
+wingless_CLEC012013       ---------------------------------------RGKLQIK--------------
+HOVITM_053081-T1          ------------------------------------------------------------
+                                                                                      
+
+HOVITM_117535-T1          PYNPEHKPPGVKDLVYLEPSPMFCERNPKLGIQGTHGRQCNDTSIGVDGCDLMCCGRGYR
+HOVITM_026070-T1          AAIRELKQPNRTELVYLEESPDYCERNETLGVLGTRGRLCNRGSPGLDGCRLLCCGRGYQ
+wingless_FBpp0079060      PHNPEHKPPGSKDLVYLEPSPSFCEKNLRQGILGTHGRQCNETSLGVDGCGLMCCGRGYR
+HOVITM_026395-T1          -----VTTPKKSDLVFLEPSPNYCEKDLSAGSLGTVGRLCNRTSKGTDGCDLMCCGRGYN
+wingless_CLEC012013       --DPRFDLPTANDLIFLDESPNYCVPNASAGSLGTQGRICNRTSDGMDGCNLMCCGRGYN
+HOVITM_053081-T1          -----------------------------------VSRLLSKSPGNVDEYFLYAARHGAA
+                                                              .*  .  . . *   * .. .*  
+
+HOVITM_117535-T1          TQEIVVVERCSCTFHWCCEVKCKLCRTKKTIHTCL
+HOVITM_026070-T1          TRVKEVEEKCHCRFVWCCDVKCDLCRYKREEHICN
+wingless_FBpp0079060      RDEVVVVERCACTFHWCCEVKCKLCRTKKVIYTCL
+HOVITM_026395-T1          THQFTKVSQCHCKFHWCCYVKCDTCSERTEQYSCK
+wingless_CLEC012013       TQKISVKQRCDCKFHWCCYVKCNLCTETVDVHSCK
+HOVITM_053081-T1          DMFELVYRKAYS-----------------------
+                                  .. .                       

@@ -1,0 +1,957 @@
+# phmmer :: search a protein sequence against a protein database
+# HMMER 3.3.1 (Jul 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query sequence file:             miniature.fasta
+# target sequence database:        Homalodisca_vitripennis_A6A7A9_masurca_v1.proteins.fixed.fa
+# output directed to file:         miniaturephmmer_out
+# per-seq hits tabular output:     miniaturephmmer_out_table
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       miniature_CLEC002209  [L=557]
+Description: | Cimex lectularius Harlan | miniature | protein | length=557
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence         Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------         -----------
+   9.2e-266  885.1   1.9   1.2e-265  884.7   1.9    1.1  1  HOVITM_009639-T1  HOVITM_009639
+    1.7e-91  309.9   1.2    3.9e-84  285.5   0.5    2.3  2  HOVITM_045920-T1  HOVITM_045920
+    6.3e-84  284.8   5.5    6.3e-84  284.8   5.5    1.8  1  HOVITM_045631-T1  HOVITM_045631
+      2e-83  283.2   8.2      2e-83  283.2   8.2    1.9  1  HOVITM_074771-T1  HOVITM_074771
+    4.2e-34  120.4   0.1      6e-34  119.8   0.1    1.1  1  HOVITM_013697-T1  HOVITM_013697
+    3.1e-24   87.8   0.0    4.3e-24   87.3   0.0    1.1  1  HOVITM_065434-T1  HOVITM_065434
+    3.6e-16   61.2   0.0    3.6e-16   61.2   0.0    2.3  1  HOVITM_066693-T1  HOVITM_066693
+    6.8e-11   43.7   0.0    9.3e-11   43.3   0.0    1.1  1  HOVITM_049276-T1  HOVITM_049276
+    1.5e-08   36.0   0.0    2.4e-08   35.3   0.0    1.2  1  HOVITM_081739-T1  HOVITM_081739
+    3.9e-08   34.6   0.1    3.9e-08   34.6   0.1    1.4  2  HOVITM_062047-T1  HOVITM_062047
+    6.8e-07   30.5   0.0    8.7e-07   30.2   0.0    1.1  1  HOVITM_065442-T1  HOVITM_065442
+      1e-05   26.6   0.0    2.2e-05   25.6   0.0    1.5  1  HOVITM_072486-T1  HOVITM_072486
+    1.5e-05   26.1   0.9    3.3e-05   25.0   0.1    1.8  2  HOVITM_089585-T1  HOVITM_089585
+    1.5e-05   26.1   0.1    2.1e-05   25.6   0.1    1.1  1  HOVITM_051560-T1  HOVITM_051560
+  ------ inclusion threshold ------
+      0.094   13.6   0.1         10    6.9   0.0    2.1  2  HOVITM_115758-T1  HOVITM_115758
+        0.2   12.4   0.2       0.21   12.4   0.2    1.1  1  HOVITM_038283-T1  HOVITM_038283
+       0.33   11.7   0.1       0.47   11.2   0.1    1.2  1  HOVITM_114303-T1  HOVITM_114303
+
+
+Domain annotation for each sequence (and alignments):
+>> HOVITM_009639-T1  HOVITM_009639
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  884.7   1.9  1.9e-269  1.2e-265       9     551 ..      62     591 ..      57     599 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 884.7 bits;  conditional E-value: 1.9e-269
+  miniature_CLEC002209   9 geiwplerpegmpaiqslevmcgkdhmdvhlsftqpfegivsskgqyadprcvyvppstgktffsfriayarcgtkpdlngqfyentvv 97 
+                           ++iwplerp+gmpaiqslevmcgkdhmdvhlsftqpfegivsskgqy dprcvyvppstgktffsfriayarcgtkpdl+gqfyentvv
+      HOVITM_009639-T1  62 SDIWPLERPDGMPAIQSLEVMCGKDHMDVHLSFTQPFEGIVSSKGQYGDPRCVYVPPSTGKTFFSFRIAYARCGTKPDLHGQFYENTVV 150
+                           68*************************************************************************************** PP
+
+  miniature_CLEC002209  98 vqydkdllevwdeakrlrcewyndyektaskppmviadldviqldfrgdnvdcwmeiqhgkgpwappvsgivplgstltlvvaindnrg 186
+                           vqydkdllevwdeakrlrcewyndyektaskppmviadldviqldfrgdnvdcwmeiqhgkgpwappvsgivplgstltlvvaind rg
+      HOVITM_009639-T1 151 VQYDKDLLEVWDEAKRLRCEWYNDYEKTASKPPMVIADLDVIQLDFRGDNVDCWMEIQHGKGPWAPPVSGIVPLGSTLTLVVAINDYRG 239
+                           ***************************************************************************************** PP
+
+  miniature_CLEC002209 187 efdmrvkscaasdgaghviqlsdeygcvlrpkmisrflkariaderasvityaffhafkfpdalsvhikckveicrhgclehcqleggg 275
+                           efdmrvkscaasdg gh+iqlsde+gcvlrpkmisrflkariaderasvityaffhafkfpdalsvhikckveicrhgcl+hcql  + 
+      HOVITM_009639-T1 240 EFDMRVKSCAASDGGGHIIQLSDEHGCVLRPKMISRFLKARIADERASVITYAFFHAFKFPDALSVHIKCKVEICRHGCLDHCQLGDNY 328
+                           *************************************************************************************7766 PP
+
+  miniature_CLEC002209 276 heqaghygplerkdggsptpksapteptpvsqpyekddeliydemvdlgkeifnservvg.tsmgsaapvaaahhrpqsppspsstsss 363
+                                +y+pler+d   p p s p +  p   p +  d+liyd++ ++g +  nse+ v+   mg           p +         s
+      HOVITM_009639-T1 329 GGLPENYSPLERRDPVQPKPTSTPEKSEP---PQDSFDDLIYDDITNVGDD--NSEKNVAsIPMGMNQ--------PHAQQQ-----VS 399
+                           667789****************9988777...778889***********97..888755304444443........333222.....33 PP
+
+  miniature_CLEC002209 364 hqppppvkeqiddip..ppfqeaplrasgvrdnseerfphgprnlnddslplvstl.....sqrrkrsvvvsdrkvrsadvgvsglyev 445
+                            + ppp+ e +ddip   pfq   +r +g     +erfphgprnl+ +s p++ tl     sqrr+rsvvvsdrkvrsadvgvsglyev
+      HOVITM_009639-T1 400 GKSPPPIHEVLDDIPipRPFQGPQMRPNG----PQERFPHGPRNLDTNSEPILGTLtvppvSQRRRRSVVVSDRKVRSADVGVSGLYEV 484
+                           45699********8721467777777766....479****************9986445558*************************** PP
+
+  miniature_CLEC002209 446 iseadlaftpdskgeavtvfqgrireevvygiclpvpgfsalfvfvalsavisalvagallyryqvqrethelsnrqvrmrrqlse.pp 533
+                           iseadlaftpds++eavtvfqgrireevvygiclpvpgfs lf +va+s+v+salvag+llyryqvqret+++  +q ++ rq      
+      HOVITM_009639-T1 485 ISEADLAFTPDSRAEAVTVFQGRIREEVVYGICLPVPGFSLLFFLVAVSSVVSALVAGSLLYRYQVQRETQQIVAQQQQQARQTGAnTL 573
+                           ************************************************************************99988888888765156 PP
+
+  miniature_CLEC002209 534 pptsiaswvalkllrpra 551
+                              s+ sw+al+llr r 
+      HOVITM_009639-T1 574 VLNSLTSWMALRLLRARI 591
+                           7899***********985 PP
+
+>> HOVITM_045920-T1  HOVITM_045920
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  285.5   0.5     6e-88   3.9e-84       6     304 ..       4     315 ..       1     325 [. 0.89
+   2 !   25.0   0.0   4.8e-09   3.1e-05     409     509 ..     307     410 ..     298     424 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 285.5 bits;  conditional E-value: 6e-88
+  miniature_CLEC002209   6 vlggeiwplerpegmpaiqslevmcgkdhmdvhlsftqpfegivsskgqyadprcvyvppstgktffsfriayarcgtkpdl....... 87 
+                           + gg+ wp   p+ mp i sl+v c k+ m v++ f +pf giv skg y++ +cv++p   g+t  +f+i+   cgt  +        
+      HOVITM_045920-T1   4 LYGGDPWPSSTPD-MPKIVSLDVKCEKNLMKVYIGFDKPFYGIVFSKGHYSNVNCVHLPAGLGRTSANFEISIHACGTAGNTenglygy 91 
+                           679*******997.9**************************************************************975432111222 PP
+
+  miniature_CLEC002209  88 .....ngqfyentvvvqydkdllevwdeakrlrcewyndyektaskppmviadldviqldfrgdnvdcwmeiqhgkgpwappvsgivpl 171
+                                +g ++en +v+qyd  + evwd+a++lrc w++ yek+ +  p+ +  ldv++ df gdnv cwm+iq gkgpwa  vsg+v +
+      HOVITM_045920-T1  92 gadsgSGTYFENIIVIQYDPQVQEVWDQARKLRCTWHDQYEKSVTFRPFPVDMLDVVRADFAGDNVGCWMQIQVGKGPWASEVSGLVKI 180
+                           222225789******************************************************************************** PP
+
+  miniature_CLEC002209 172 gstltlvvaindnrgefdmrvkscaasdgaghviqlsdeygcvlrpkmisrflkariaderasvityaffhafkfpdalsvhikckvei 260
+                           g t+t+v+ai d+ ++fdm v++c a dg    iql d+ gcv rpk++srf k +     asv++ya f+afkfpd++ vh++c ++i
+      HOVITM_045920-T1 181 GQTMTMVLAIKDDDSKFDMLVRNCMAHDGKRAPIQLVDQKGCVTRPKLMSRFTKIKNFGASASVLSYAHFQAFKFPDSMEVHFQCTIQI 269
+                           ***************************************************************************************** PP
+
+  miniature_CLEC002209 261 crhgclehcqlegg.gheqa..ghygplerkdggsptpksapteptp 304
+                           cr+ c ++c   ++  h      ++ p+e   g  p p s p e   
+      HOVITM_045920-T1 270 CRYQCPDQCSDPNAiLHSGLidVQHTPVETAYG-PPPPPSLPLEAFL 315
+                           *********855431232211124578887654.5667788887655 PP
+
+  == domain 2  score: 25.0 bits;  conditional E-value: 4.8e-09
+  miniature_CLEC002209 409 dslplvstlsqr..rkrsvvvsdrkvrsadvgvsglyeviseadlaftpdskgeav.tvfqgrireevvygiclpvpgfsalfvfvals 494
+                            slpl + l  r   +r v    r+  s +vgv+ +  v+s  dl f+ d    +    +    re+    ic+  pgf+a +v +   
+      HOVITM_045920-T1 307 PSLPLEAFLQGRprDERRVRRHRRETPSEEVGVNRIIRVVSTGDLTFSLDENTNSTaPTMVFPAREDANSMICMTTPGFAATLVVLLGI 395
+                           588988888754114677778889999*********************997654431344456799***************99988777 PP
+
+  miniature_CLEC002209 495 avisalvagallyry 509
+                            ++s l+++ l  r 
+      HOVITM_045920-T1 396 LIVSCLMSAFLCVRL 410
+                           889999988777765 PP
+
+>> HOVITM_045631-T1  HOVITM_045631
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  284.8   5.5   9.7e-88   6.3e-84       8     509 ..     225     746 ..     220     754 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 284.8 bits;  conditional E-value: 9.7e-88
+  miniature_CLEC002209   8 ggeiwplerpegmpaiqslevmcgkdhmdvhlsftqpfegivsskgqyadprcvyvppstgktffsfriayarcgtkpdln........ 88 
+                           g + wpl  p+ mp i+ l+v+c k hm v++ f +pf g++ skg y+dp+c+++ p +g    +f+i    cg     n        
+      HOVITM_045631-T1 225 GDDPWPLATPD-MPQIKHLQVQCEKTHMRVNIEFDRPFYGMIFSKGFYSDPHCIHLKPGSGHLSATFEIFLNSCGMSSSGNhntgggys 312
+                           5578*****97.9*************************************************************976543322333333 PP
+
+  miniature_CLEC002209  89 ...gqfyentvvvqydkdllevwdeakrlrcewyndyektaskppmviadldviqldfrgdnvdcwmeiqhgkgpwappvsgivplgst 174
+                              g + ent+++qyd  + evwd+a++lrc wy+ yek  +  p+ +  l  +  +f gdn+ cwm+iq gkgpwa  vsgiv +g t
+      HOVITM_045631-T1 313 tpsGSYVENTIIIQYDPYVQEVWDQARKLRCTWYDFYEKAVTFRPFQVDMLHAVTANFLGDNLQCWMQIQVGKGPWASEVSGIVKIGQT 401
+                           3338899********************************************************************************** PP
+
+  miniature_CLEC002209 175 ltlvvaindnrgefdmrvkscaasdgaghviqlsdeygcvlrpkmisrflkariaderasvityaffhafkfpdalsvhikckveicrh 263
+                           +t+v+ai d++++fdm v++c a dg    iql d++gcv+rpk++s+f k +     asv+++a+f+afkfpd+++vh++c +++cr+
+      HOVITM_045631-T1 402 MTMVLAIKDDENKFDMLVRNCVAHDGKRAPIQLVDQHGCVVRPKIMSKFQKIKNFGPSASVVSFAYFQAFKFPDSMNVHFQCVIQVCRY 490
+                           ***************************************************************************************** PP
+
+  miniature_CLEC002209 264 gcle.hcqleggghe...qaghygplerkdggsptpksapteptpvsqpyekddeliydemvdlgkeifnservvgtsmgsaapvaaah 348
+                           +c e +c  + g        g ygp     g+s   +  p        p    d          g    n  +v+    +++ p +  +
+      HOVITM_045631-T1 491 NCPEpRCGNDYGLPAlggLGGDYGPPPP-PGNSIHSEYGPPPLPEYGAPAAYPDPRH--PSGPAGAYSENKPEVLPPPSSTSNPASLTN 576
+                           **99457766654431113456666443.3333333333322222333433333322..233445555566666666666666654443 PP
+
+  miniature_CLEC002209 349 hrpqsppspsstsss.......hqppppvkeqiddipppfqeaplrasgvrdnseerfp.hgprnlnddslplvstlsqrrk.....rs 424
+                             p s p+p  ts s       + pppp    +d           r  gv d  e ++   g r  + ++l      ++rr+     ++
+      HOVITM_045631-T1 577 --PSS-PAPQKTSPSnvndndiNLPPPPPPGLFDQY-----TTVKRKGGVSDEFESKLAtIGGRPRSVENLQAELQGARRRRspeviHT 657
+                           ..333.233344333000001134444444444432.....2346889*****999875245555555555443332333221122235 PP
+
+  miniature_CLEC002209 425 vvvsd...rkvr.sadvgvsglyeviseadlaftpds...kgeavtvfqgrireevvygiclpvpgfsalfvfvalsavisalvagall 506
+                           vvvs    r+ +   dv+ s   +v+s  d+ f  ++    +e v v        +  +ic+ +p+f   ++++ +  v++ lva+ l+
+      HOVITM_045631-T1 658 VVVSRiykREAQeMTDVNTSRTIQVVSPGDVNFALNAgstNNETVVVSS---TSGLDDSICMSIPSFVVGLIMLLVVLVVACLVAAFLF 743
+                           6776522133321469**************9997654111345554443...34566789********9999999999******99998 PP
+
+  miniature_CLEC002209 507 yry 509
+                            r 
+      HOVITM_045631-T1 744 VRV 746
+                           875 PP
+
+>> HOVITM_074771-T1  HOVITM_074771
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  283.2   8.2   3.1e-87     2e-83       8     509 ..      87     608 ..      81     618 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 283.2 bits;  conditional E-value: 3.1e-87
+  miniature_CLEC002209   8 ggeiwplerpegmpaiqslevmcgkdhmdvhlsftqpfegivsskgqyadprcvyvppstgktffsfriayarcgtkpdln........ 88 
+                           g + wpl  p+ mp i+ l+v+c k hm v++ f +pf g++ skg y+dp+c+++ p +g    +f+i    cg     n        
+      HOVITM_074771-T1  87 GDDPWPLATPD-MPQIKHLQVQCEKTHMRVNIEFDRPFYGMIFSKGFYSDPHCIHLKPGSGHLSATFEIFLNSCGMSSSGNhntgggys 174
+                           5578*****97.9*************************************************************976543322333333 PP
+
+  miniature_CLEC002209  89 ...gqfyentvvvqydkdllevwdeakrlrcewyndyektaskppmviadldviqldfrgdnvdcwmeiqhgkgpwappvsgivplgst 174
+                              g + ent+++qyd  + evwd+a++lrc wy+ yek  +  p+ +  l  +  +f gdn+ cwm+iq gkgpwa  vsgiv +g t
+      HOVITM_074771-T1 175 tpsGSYVENTIIIQYDPYVQEVWDQARKLRCTWYDFYEKAVTFRPFQVDMLHAVTANFLGDNLQCWMQIQVGKGPWASEVSGIVKIGQT 263
+                           3338899********************************************************************************** PP
+
+  miniature_CLEC002209 175 ltlvvaindnrgefdmrvkscaasdgaghviqlsdeygcvlrpkmisrflkariaderasvityaffhafkfpdalsvhikckveicrh 263
+                           +t+v+ai d++++fdm v++c a dg    iql d++gcv+rpk++s+f k +     asv+++a+f+afkfpd+++vh++c +++cr+
+      HOVITM_074771-T1 264 MTMVLAIKDDENKFDMLVRNCVAHDGKRAPIQLVDQHGCVVRPKIMSKFQKIKNFGPSASVVSFAYFQAFKFPDSMNVHFQCVIQVCRY 352
+                           ***************************************************************************************** PP
+
+  miniature_CLEC002209 264 gcle.hcqleggghe...qaghygplerkdggsptpksapteptpvsqpyekddeliydemvdlgkeifnservvgtsmgsaapvaaah 348
+                           +c e +c  + g        g ygp     g+s   +  p        p    d          g    n  +v+    +++ p +  +
+      HOVITM_074771-T1 353 NCPEpRCGNDYGLPAlggLGGDYGPPPP-PGNSIHSEYGPPPLPEYGAPAAYPDPRH--PSGPAGAYSENKPEVLPPPSSTSNPASLTN 438
+                           **99457766654431113456666443.3333333333322222333433333322..233445555566666666666666654443 PP
+
+  miniature_CLEC002209 349 hrpqsppspsstsss.......hqppppvkeqiddipppfqeaplrasgvrdnseerfp.hgprnlnddslplvstlsqrrk.....rs 424
+                             p s p+p  ts s       + pppp    +d           r  gv d  e ++   g r  + ++l      ++rr+     ++
+      HOVITM_074771-T1 439 --PSS-PAPQKTSPSnvndndiNLPPPPPPGLFDQY-----TTVKRKGGVSDEFESKLAtIGGRPRSVENLQAELQGARRRRspeviHT 519
+                           ..333.233344333000001134444444444432.....2346889*****999875245555555555443332333221122235 PP
+
+  miniature_CLEC002209 425 vvvsd...rkvr.sadvgvsglyeviseadlaftpds...kgeavtvfqgrireevvygiclpvpgfsalfvfvalsavisalvagall 506
+                           vvvs    r+ +   dv+ s   +v+s  d+ f  ++    +e v v        +  +ic+ +p+f   ++++ +  v++ lva+ l+
+      HOVITM_074771-T1 520 VVVSRiykREAQeMTDVNTSRTIQVVSPGDVNFALNAgstNNETVVVSS---TSGLDDSICMSIPSFVVGLIMLLVVLVVACLVAAFLF 605
+                           6776522133321469**************9997654111345554443...34566789********9999999999*******9998 PP
+
+  miniature_CLEC002209 507 yry 509
+                            r 
+      HOVITM_074771-T1 606 VRV 608
+                           885 PP
+
+>> HOVITM_013697-T1  HOVITM_013697
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  119.8   0.1   9.3e-38     6e-34      21     266 ..       7     261 ..       2     271 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 119.8 bits;  conditional E-value: 9.3e-38
+  miniature_CLEC002209  21 paiqslevmcgkdhmdvhlsftqpfegivsskgqyadprcvyvppstgktffsfriayarcgt......kpdln....gqfyentvvvq 99 
+                           p + +   +++ d+m +++ f   f g++ s g   dp cvy+   tg+ ++ f i   rcgt      + d        +  ntv vq
+      HOVITM_013697-T1   7 PTVVASVRLASDDYMKIRIGFNGSFGGLLYSSGYSYDPDCVYIN-GTGRDYYEFYIQLNRCGTlgknsrQEDARknpaKNLMWNTVTVQ 94 
+                           555555567889******************************96.79***************9443332223321111246679***** PP
+
+  miniature_CLEC002209 100 ydkdllevwdeakrlrcewyndyektaskppmviadldviqldfrgdnvdcwmeiqhgkgpwappvsgivplgstltlvvaindnrgef 188
+                           y+  + e wde  ++ ce+  d+ kt + p + +       + f     +c+mei++g g     v g v +g  ltl++ +      f
+      HOVITM_013697-T1  95 YNPLIEEEWDEHFKVTCEYGYDFWKTVTFPFLDVEVATGNPVVFTLSPPECYMEIRYGYGTSGNRVGGPVRVGDPLTLIIYMRSKYDGF 183
+                           ***99***********************9988777777778899999****************************************** PP
+
+  miniature_CLEC002209 189 dmrvkscaasdgaghviqlsdeygcvlrpkmisrflkariaderasvityaffhafkfpdalsvhikckveicrhgcl 266
+                           d+ v  c a +ga+  iql d+ygc +  k+isrf  +           +a++  f+f  + +++i+c v +c+  c 
+      HOVITM_013697-T1 184 DIVVNDCYAHNGANKRIQLIDQYGCPVDDKLISRFRGSWSESGVFETQVFAYMKTFRFTGSPALYIECDVRMCHGRCP 261
+                           ***********************************988877777788899***********************87784 PP
+
+>> HOVITM_065434-T1  HOVITM_065434
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   87.3   0.0   6.7e-28   4.3e-24     106     269 ..       3     174 ..       1     178 [. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 87.3 bits;  conditional E-value: 6.7e-28
+  miniature_CLEC002209 106 evwdeakrlrcewy.ndyektaskppmviadldviqldfrgdnvdcwmeiqhgkgpwappvsgivplgstltlvvaindnrgefdmrvk 193
+                           evwd a+r+ c    n  +kt    p+ +  l+v+ +      +dcwm+iq+g  p   p++gi+ +g tlt++v i d  + +d+ v+
+      HOVITM_065434-T1   3 EVWDLARRISCPTSsNLNQKTVYFQPITVDMLEVVSVPSALGTIDCWMDIQRGTYPRITPINGIIKIGETLTVLVYIKDPDNGLDLLVR 91 
+                           9**********986155689********************************************************************* PP
+
+  miniature_CLEC002209 194 scaasdgaghv......iqlsdeygcvlrpkmisrflk.ariaderasvityaffhafkfpdalsvhikckveicrhgclehc 269
+                            c a dg  +       +ql+d+ gc  + k+i  +    +  +  a+v+ +  + afkfpd   v + c +e+c   c   c
+      HOVITM_065434-T1  92 DCWAYDGEDYEspettrLQLTDKQGCPKKKKLIHYWTTtTNTGNSGATVLAFNNMTAFKFPDKQQVFLTCNIELCPGKCEGGC 174
+                           *******98743333448***************99876156788999****************************99887666 PP
+
+>> HOVITM_066693-T1  HOVITM_066693
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   61.2   0.0   5.6e-20   3.6e-16      21     106 ..     316     406 ..     308     411 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 61.2 bits;  conditional E-value: 5.6e-20
+  miniature_CLEC002209  21 paiqslevmcgkdhmdvhlsftqpfegivsskgqyadprcvyvppstgktffsfriayarcgtk..pdl.ng.q.fyentvvvqydkdl 104
+                           p i  + v+c+kd+m ++l f +pf gi+ skg y+dp+c yv p++g+t fsf +    cgt+   ++  g q + en +v+q +  +
+      HOVITM_066693-T1 316 PHIHDINVQCAKDQMTINLEFNRPFNGIIYSKGYYSDPQCRYVSPNSGQTKFSFTVYMRSCGTQfiDEFrEGkQaYLENVLVLQNEPGI 404
+                           88999***************************************************9999***83212213322256777777777666 PP
+
+  miniature_CLEC002209 105 le 106
+                            e
+      HOVITM_066693-T1 405 QE 406
+                           66 PP
+
+>> HOVITM_049276-T1  HOVITM_049276
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.3   0.0   1.4e-14   9.3e-11      24     263 ..      75     309 ..      62     324 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 43.3 bits;  conditional E-value: 1.4e-14
+  miniature_CLEC002209  24 qslevmcgkdhmdvhlsf.tqpfegivsskgqyadprcvyvppstgktffsfriayarcgtkp.dl..ngqfyentvvvqydkdllevw 108
+                           q + + c+ + + v ++  +  f g++  kg   +  c+       ++   +++    c+t   +l   g  y nt+vvq  + l+   
+      HOVITM_049276-T1  75 QDVRIECNSNDIGVAITTkSGVFNGMIYPKGLSKNSSCMTEFF-HQRSPVYYKLPLRSCNTMStELfeGGIEYFNTIVVQPHRKLVTNQ 162
+                           6677888888887777641457999999999999999986543.33444456777777777541333267889*************999 PP
+
+  miniature_CLEC002209 109 deakrlrcewyndyektaskppmviadldviqldfrgdnvdcwmeiqhgkgpwappvsgivplgstltlvvaindnrgefdmrvkscaa 197
+                               ++ c  y   +kt s   + ++ ++   l        c m+i  g  p    v+  v +g  ltlv++i d+++ + ++v  c  
+      HOVITM_049276-T1 163 GRGFHISCR-YQTRDKTISND-VDVSTMEPTTLYATVPMPGCTMKIFSGD-PSQREVAENVKIGDPLTLVISI-DSQAIYGLKVSDCLV 247
+                           9999****8.67789**9986.567899999999999999******9985.888999999************9.78899********** PP
+
+  miniature_CLEC002209 198 sdgaghviq.lsdeygcvlrpkmisrflkariaderasvityaffhafkfpdalsvhikckveicrh 263
+                            dg g   q l d  gc +  +++  f  +           + +f+a kfp   sv+ +c v +c  
+      HOVITM_049276-T1 248 RDGLGWGEQrLIDSEGCPVDQEIMGMFHYS---SN--MTTAFVYFQAHKFPYTASVYYQCNVRLCLK 309
+                           *****8765499********9999999654...22..3446889*********************63 PP
+
+>> HOVITM_081739-T1  HOVITM_081739
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   35.3   0.0   3.8e-12   2.4e-08     150     266 ..      12     131 ..       5     151 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 35.3 bits;  conditional E-value: 3.8e-12
+  miniature_CLEC002209 150 cwmeiqhgkgpwappvsgivplgstltlvvaindnrgefdmrvkscaasdgaghviq.lsdeygcvlrpkmisrflkariaderas... 234
+                           +w+eiq g +   p   + v +g   t++v        +  +v  c a dg g+  q l d  gc +   ++ r+ k++    r +   
+      HOVITM_081739-T1  12 AWLEIQ-GSAMSNPHQLNTVSVGEHTTILVKTWL-PENISGQVVDCLAHDGLGETSQaLVDPAGCPVDEVLVPRLHKSQELSRRQNgyq 98 
+                           799998.677778888899999998888776543.334677999**********998578***************99998888876222 PP
+
+  miniature_CLEC002209 235 .vityaffhafkfpdalsvhikckveicrhgcl 266
+                             +    f afkfpd  svhi+c +++cr+ c 
+      HOVITM_081739-T1  99 fTVQATSFPAFKFPDRESVHIRCGLQLCRQYCQ 131
+                           24455689*********************9996 PP
+
+>> HOVITM_062047-T1  HOVITM_062047
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   34.6   0.1   6.1e-12   3.9e-08     185     269 ..       3      84 ..       1     133 [. 0.85
+   2 ?   -3.8   0.7       2.7   1.7e+04     328     366 ..     215     249 ..     210     252 .. 0.67
+
+  Alignments for each domain:
+  == domain 1  score: 34.6 bits;  conditional E-value: 6.1e-12
+  miniature_CLEC002209 185 rgefdmrvkscaasdgaghviqlsdeygcvlrpkmisrflkariaderasvityaffhafkfpdalsvhikckveicrhgcle.hc 269
+                           rg + +rvksc a +  +  + l d+ gc  + ++is+f      +e+       ++  f+fpd+  vh++c + +c+  c e +c
+      HOVITM_062047-T1   3 RGTYGIRVKSCFAFNKRNSSVILVDDRGCANNKQVISQFKY----NEKLGYADATIYSMFRFPDSSEVHLQCDIAVCKGVCPEvNC 84 
+                           99***************99999****************953....577777777788899******************99987345 PP
+
+  == domain 2  score: -3.8 bits;  conditional E-value: 2.7
+  miniature_CLEC002209 328 fnservvgtsmgsaapvaaahhrpqsppspsstssshqp 366
+                           +ns r ++t+       a  h rp s  sp   +  h+ 
+      HOVITM_062047-T1 215 MNSTRSISTNSD---HYAIVHSRPGSRYSPGQKN-GHRG 249
+                           677777777654...4567899999999998654.4544 PP
+
+>> HOVITM_065442-T1  HOVITM_065442
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   30.2   0.0   1.3e-10   8.7e-07       4      62 ..      54     111 ..      52     124 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 30.2 bits;  conditional E-value: 1.3e-10
+  miniature_CLEC002209   4 rnvlggeiwplerpegmpaiqslevmcgkdhmdvhlsftqpfegivsskgqyadprcvy 62 
+                           r +lg+ei    r   +  ++ l+v+c+   m v+l f +pf+g+v skg + dp+c  
+      HOVITM_065442-T1  54 RQLLGNEIAEHARHHHLD-LKRLDVQCSNQGMQVRLEFLEPFDGVVYSKGHFEDPKCRK 111
+                           678999998888887775.799***********************************75 PP
+
+>> HOVITM_072486-T1  HOVITM_072486
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   25.6   0.0   3.4e-09   2.2e-05      27     278 ..     752     998 ..     730    1053 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 25.6 bits;  conditional E-value: 3.4e-09
+  miniature_CLEC002209  27 evmcgkdhmdvhlsftqpfegivsskgqyadprcvyvppstgktffsfria....yarcgtkpdlngqfyentvvvqydkdllevwdea 111
+                             +c++d m+  l   +pf g + + g y   rc y     g t   +ri+    y  cgt+    g    n vvvq+   +    d+ 
+      HOVITM_072486-T1 752 NQVCSEDGMEFTLRTPEPFVGRIYTYGYY--DRCFYR--GNGGTVNVLRISgaqgYPDCGTQR--YGDTMTNIVVVQFSDYVQTGRDKR 834
+                           458************************98..49**96..456666666664222277899874..68899999*****87777778999 PP
+
+  miniature_CLEC002209 112 krlrcewyndyektaskppmviadldviqldfrgdnvdcwmeiqhgkgpwappvsgivplgstltlvvaindnrg.efdmrvkscaasd 199
+                            +l c +    e   +   m       i +++          ++        p ++ + +g  lt+ +   +  +   d+   +  a d
+      HOVITM_072486-T1 835 YNLTCLFRGPGEAVVTSSYMTANSGSPIPIEYLPAENSLSSRVRLYILFQDRP-TNTIAVGDPLTFRLESQEGYNyVTDIFATNVIARD 922
+                           9***************999999999999**99876656666666544444444.567789***99988877765514688777777766 PP
+
+  miniature_CLEC002209 200 .gaghviqlsdeygcvlrpkmisrflkariaderasvityaffhafkfpdalsvhikckveicrhgcl.ehcqlegggheq 278
+                             +g+ +ql d +gc +   ++  + +ar  +        a f+afk+p++  + +++ v+ cr+gc   +c   +g +e 
+      HOVITM_072486-T1 923 pYSGRSVQLIDRFGCPVDNYVFPGLDRAREGN-----GLEARFNAFKIPESNFLVFEATVKTCREGCQpAYCTAPSGKNEP 998
+                           268************98877777776666443.....35689*************************73589988887775 PP
+
+>> HOVITM_089585-T1  HOVITM_089585
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   25.0   0.1     5e-09   3.3e-05      26     266 ..     497     731 ..     492     744 .. 0.75
+   2 ?   -1.3   0.1      0.45   2.9e+03     473     504 ..     799     830 ..     742     844 .. 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 25.0 bits;  conditional E-value: 5e-09
+  miniature_CLEC002209  26 levmcgkdhmdvhlsftq.pfegivsskgqyadprc...vyvppstgktffsfriayarcgtkpdlngqfyentvvvqydkdllevwde 110
+                           + v c  d + v++ +t+  f g++  kg   d +c   v +p  +      f++ +  cg    +ngq     +v+q    l+    +
+      HOVITM_089585-T1 497 MVVSCLSDGVQVEIHITEkGFNGVLYVKGHSKDEQCrrvVTLPSDSLPRTEIFKVNFGSCGLI-HVNGQAS-FVLVIQKHPKLVTYKAQ 583
+                           56789999999998888636*************9995423445444455667*********85.79***75.5677788888999999* PP
+
+  miniature_CLEC002209 111 akrlrcewyndyektaskppmviadldviqldfrgdnvdcwmeiqhgkgpwappvsgivplgstltlvvaindnrgefdmrvkscaa.. 197
+                           a +++c +    e+  +    v        +   g    c m i    g     + +   +g  l l v +  +   +    +sc a  
+      HOVITM_089585-T1 584 AYHIKCVYTT-GEQNVTLGFNVSMLTTAGTIANTGPPPTCSMRIVTHTGQE---I-NSAEIGDNLMLQVDVQPSS-IYGGFARSCVAkt 666
+                           ******8655.44444444333333334455678999******99888864...3.346799*999999998764.4444556666522 PP
+
+  miniature_CLEC002209 198 .sdgaghviqlsdeygcvlrpkmisrflkariaderasvityaffhafkfpdalsvhikckveicrhgcl 266
+                             d+  +   ++de gc   p ++ ++       e  s++  a f+afkfp + +++++c + +c   c 
+      HOVITM_089585-T1 667 mEDSVENEYIVTDENGCATDPSIFGEW---DYNPETQSLL--AGFNAFKFPSSDNIRFQCNIRVCFGKCQ 731
+                           26888888899**********987766...5567777765..78*********************88774 PP
+
+  == domain 2  score: -1.3 bits;  conditional E-value: 0.45
+  miniature_CLEC002209 473 vvygiclpvpgfsalfvfvalsavisalvaga 504
+                            v  ic+ + gf   +++ al a+++  va +
+      HOVITM_089585-T1 799 QVEDICVSMIGFIIALIMTALLALVAVAVAVS 830
+                           57789*******99999999999888777643 PP
+
+>> HOVITM_051560-T1  HOVITM_051560
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   25.6   0.1   3.2e-09   2.1e-05      22     273 ..     113     358 ..     102     380 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 25.6 bits;  conditional E-value: 3.2e-09
+  miniature_CLEC002209  22 aiqslevmcgkdhmdvhlsftqpfegivsskgqyadprcvyvppstgktffsfriay..arcgtkpdlngqfyentvvvqydkdllevw 108
+                           a  ++ + c    m  ++  ++ f g + +kg      cv      g   f +r+ay   +c+ k    g+ y n vv+q+   ++   
+      HOVITM_051560-T1 113 ACYNVSIDCRSGDMVARIKTSKLFSGKIYAKGS--PNSCV--QDVRGSLEFELRMAYddVECNVKHQGLGK-YLNDVVIQHHDTIVTSS 196
+                           6667788899999999999999*********96..34576..5678999********55589999998888.5688999999999999* PP
+
+  miniature_CLEC002209 109 deakrlrcewyndyektaskppm.viadld.viqldfrgdnvdcwmeiqhgkgpwappvsgivplgstltlvvaindnrgefdmrvksc 195
+                           d    + c++    +  +++  + v  d+   +  +   d+ +  m+i    g    p      +g  l l   i d ++ +++ v+  
+      HOVITM_051560-T1 197 DLGLAVTCQYDLTNKSVSNEVDLgVHGDVRpALTEEVIVDSPNVAMKITDRHGGDVLPS---AEVGDPLALRFEIIDKNSPYEIFVREL 282
+                           ********976555555555555244565414556677788888888876666555554...467999********************* PP
+
+  miniature_CLEC002209 196 aasdgag.hviqlsdeygcvlrpkmisrflkariaderasvityaffhafkfpdalsvhikckveicrhgcle.hcqleg 273
+                            a dg     i l d  gc     ++  + k+ i d     +  ++f afkfp +  v++++ v  c  +c   +c  e 
+      HOVITM_051560-T1 283 VAMDGVDsSEIVLIDSDGCPTDHFIMGPLYKS-I-DT--GKVLLSYFDAFKFPSSEVVQFRALVTPCMPACEPvQCDQED 358
+                           *****862578999*****9887777776665.3.33..3455689**********************999532565554 PP
+
+>> HOVITM_115758-T1  HOVITM_115758
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    5.3   0.0    0.0048        31     195     238 ..       3      46 ..       1      49 [. 0.94
+   2 ?    6.9   0.0    0.0015        10     195     239 ..      48      92 ..      46     105 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 5.3 bits;  conditional E-value: 0.0048
+  miniature_CLEC002209 195 caasdgaghviqlsdeygcvlrpkmisrflkariaderasvity 238
+                            aas+g ++++  sd+   ++  ++++ +l ++  + +asvit 
+      HOVITM_115758-T1   3 MAASNGPSRIMLASDKLLPIITARLVASYLSSKYCNANASVITM 46 
+                           589***************************************96 PP
+
+  == domain 2  score: 6.9 bits;  conditional E-value: 0.0015
+  miniature_CLEC002209 195 caasdgaghviqlsdeygcvlrpkmisrflkariaderasvitya 239
+                            aas+g ++++  sd+   ++  ++++ +l ++  + +asvit  
+      HOVITM_115758-T1  48 MAASNGPSRIMLASDKLLSIITARLVASYLSSKYCNANASVITMP 92 
+                           589***************************************975 PP
+
+>> HOVITM_038283-T1  HOVITM_038283
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.4   0.2   3.3e-05      0.21     320     362 ..      43      86 ..       5      89 .. 0.68
+
+  Alignments for each domain:
+  == domain 1  score: 12.4 bits;  conditional E-value: 3.3e-05
+  miniature_CLEC002209 320 mvdlgkeifnserv.vgtsmgsaapvaaahhrpqsppspsstss 362
+                             d+g +   s+ + +g   + + p a  hh+p spp p +t+ 
+      HOVITM_038283-T1  43 KADFGVQYEISQLIcLGLPDAGSRPCARYHHEPHSPPPPETTAC 86 
+                           467777666666543677778889***************99975 PP
+
+>> HOVITM_114303-T1  HOVITM_114303
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.2   0.1   7.3e-05      0.47     333     392 ..      99     158 ..      85     164 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 11.2 bits;  conditional E-value: 7.3e-05
+  miniature_CLEC002209 333 vvgtsmgsaapvaaahhrpqsppspsstssshqppppvkeqiddipppfqeaplrasgvr 392
+                           v+   +    p  a hh pq  p p      +  p  vke+   +  pf + p +  g+r
+      HOVITM_114303-T1  99 VLQPGQKIRIPAYALHHDPQYYPDPDKFDPERFAPEKVKERHPCLHLPFGDGPRNCIGMR 158
+                           5555556678999****************************************9999988 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (557 nodes)
+Target sequences:                     110235  (22157999 residues searched)
+Passed MSV filter:                      4018  (0.0364494); expected 2204.7 (0.02)
+Passed bias filter:                     2347  (0.0212909); expected 2204.7 (0.02)
+Passed Vit filter:                       195  (0.00176895); expected 110.2 (0.001)
+Passed Fwd filter:                        21  (0.000190502); expected 1.1 (1e-05)
+Initial search space (Z):             110235  [actual number of targets]
+Domain search space  (domZ):              17  [number of targets reported over threshold]
+# CPU time: 0.67u 0.02s 00:00:00.69 Elapsed: 00:00:00.32
+# Mc/sec: 38328.35
+//
+Query:       miniature_FBpp0073400  [L=682]
+Description: type=protein; loc=X:join(11763204..11763281,11766327..11766480,11766553..11766680,11766751..11766898,11766979..11767101,11767170..11768587); ID=FBpp0073400; name=m-PA; parent=FBgn0002577,FBtr0073555; dbxref=FlyBase:FBpp0073400,FlyBase_Annotation_IDs:CG9369-PA,GB_protein:AAF48088.2,REFSEQ:NP_572747,GB_protein:AAF48088,UniProt/TrEMBL:Q9VYU8,FlyMine:FBpp0073400,modMine:FBpp0073400; MD5=a23b54f6ab5361a27e9bd353306b5e51; length=682; release=r6.35; species=Dmel; 
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence         Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------         -----------
+   1.1e-220  736.9  15.5     2e-174  584.0   1.3    3.0  2  HOVITM_009639-T1  HOVITM_009639
+    5.5e-91  308.3   1.1    2.1e-82  279.9   0.6    2.2  2  HOVITM_045920-T1  HOVITM_045920
+    4.2e-81  275.6   4.2      3e-78  266.1   1.1    2.1  2  HOVITM_074771-T1  HOVITM_074771
+    7.2e-81  274.8   3.9    4.7e-78  265.5   1.1    2.1  2  HOVITM_045631-T1  HOVITM_045631
+    1.8e-33  118.2   0.2    2.5e-33  117.7   0.2    1.1  1  HOVITM_013697-T1  HOVITM_013697
+    3.5e-24   87.5   0.0    4.7e-24   87.0   0.0    1.1  1  HOVITM_065434-T1  HOVITM_065434
+    8.1e-16   59.8   0.1    1.1e-15   59.3   0.1    1.1  1  HOVITM_066693-T1  HOVITM_066693
+    7.6e-11   43.4   0.0    9.8e-11   43.0   0.0    1.1  1  HOVITM_049276-T1  HOVITM_049276
+    4.7e-08   34.2   0.0      7e-08   33.6   0.0    1.1  1  HOVITM_081739-T1  HOVITM_081739
+    2.4e-07   31.8   0.2    3.2e-07   31.4   0.2    1.1  1  HOVITM_062047-T1  HOVITM_062047
+    2.9e-06   28.3   0.7      5e-06   27.4   0.2    1.5  2  HOVITM_089585-T1  HOVITM_089585
+    2.6e-05   25.1   0.0      3e-05   24.9   0.0    1.1  1  HOVITM_065442-T1  HOVITM_065442
+    0.00012   22.9   0.2    0.00018   22.3   0.2    1.2  1  HOVITM_051560-T1  HOVITM_051560
+    0.00023   22.0   0.2    0.00036   21.3   0.2    1.2  1  HOVITM_098195-T1  HOVITM_098195
+     0.0076   16.9   0.0       0.01   16.5   0.0    1.1  1  HOVITM_060886-T1  HOVITM_060886
+  ------ inclusion threshold ------
+      0.011   16.4   0.0      0.016   15.9   0.0    1.1  1  HOVITM_112262-T1  HOVITM_112262
+       0.89   10.1   0.2       0.89   10.1   0.2    1.0  1  HOVITM_026030-T1  HOVITM_026030
+       0.92   10.1   0.0       0.94   10.0   0.0    1.1  1  HOVITM_006497-T1  HOVITM_006497
+       0.92   10.1   0.0       0.94   10.0   0.0    1.1  1  HOVITM_019450-T1  HOVITM_019450
+        1.9    9.0  12.9        3.3    8.2  12.9    1.3  1  HOVITM_070932-T1  HOVITM_070932
+        6.9    7.2   7.1        8.6    6.9   7.1    1.1  1  HOVITM_044617-T1  HOVITM_044617
+        7.3    7.1   8.2         16    5.9   8.2    1.5  1  HOVITM_085758-T1  HOVITM_085758
+
+
+Domain annotation for each sequence (and alignments):
+>> HOVITM_009639-T1  HOVITM_009639
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  584.0   1.3    4e-178    2e-174      12     298 ..      42     326 ..      35     339 .. 0.95
+   2 !  155.9   7.4   1.4e-48     7e-45     530     657 ..     457     595 ..     328     603 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 584.0 bits;  conditional E-value: 4e-178
+  miniature_FBpp0073400  12 wdlrfsscifilhlmfslviagn.elwpmerpdgmpnivslevmcgkdhmdvhltfshpfegivsskgqhsdprcvyvppstgktffs 98 
+                            wdl  s      +l+ s+   gn ++wp+erpdgmp i slevmcgkdhmdvhl+f++pfegivsskgq+ dprcvyvppstgktffs
+       HOVITM_009639-T1  42 WDLASSGS---WELLTSIAETGNsDIWPLERPDGMPAIQSLEVMCGKDHMDVHLSFTQPFEGIVSSKGQYGDPRCVYVPPSTGKTFFS 126
+                            77776654...35677888888747*************************************************************** PP
+
+  miniature_FBpp0073400  99 frisysrcgtkpdlngqfyentvvvqydkdllevwdeakrlrcewfndyektaskppmviadldviqldfrgdnvdcwmeiqhgkgpw 186
+                            fri+y+rcgtkpdl+gqfyentvvvqydkdllevwdeakrlrcew+ndyektaskppmviadldviqldfrgdnvdcwmeiqhgkgpw
+       HOVITM_009639-T1 127 FRIAYARCGTKPDLHGQFYENTVVVQYDKDLLEVWDEAKRLRCEWYNDYEKTASKPPMVIADLDVIQLDFRGDNVDCWMEIQHGKGPW 214
+                            **************************************************************************************** PP
+
+  miniature_FBpp0073400 187 appvsgivplgstltlvvaindyrgefdmrvkscvasdgsghvinlsdefgcvlrpkmisrflkarapderatvityaffhafkfpda 274
+                            appvsgivplgstltlvvaindyrgefdmrvksc asdg gh+i lsde gcvlrpkmisrflkar  dera+vityaffhafkfpda
+       HOVITM_009639-T1 215 APPVSGIVPLGSTLTLVVAINDYRGEFDMRVKSCAASDGGGHIIQLSDEHGCVLRPKMISRFLKARIADERASVITYAFFHAFKFPDA 302
+                            **************************************************************************************** PP
+
+  miniature_FBpp0073400 275 lsvhikckveicrhgcldhcqntg 298
+                            lsvhikckveicrhgcldhcq   
+       HOVITM_009639-T1 303 LSVHIKCKVEICRHGCLDHCQLGD 326
+                            ********************9532 PP
+
+  == domain 2  score: 155.9 bits;  conditional E-value: 1.4e-48
+  miniature_FBpp0073400 530 ksrrrrslvisdrkvrsadvgvsglydviseadlafspdskqeavtvfqgkiseevvygicmpvpgfsilfivvisttivsalvagsl 617
+                              rrrrs+v+sdrkvrsadvgvsgly+viseadlaf+pds+ eavtvfqg+i eevvygic+pvpgfs+lf++v  +++vsalvagsl
+       HOVITM_009639-T1 457 SQRRRRSVVVSDRKVRSADVGVSGLYEVISEADLAFTPDSRAEAVTVFQGRIREEVVYGICLPVPGFSLLFFLVAVSSVVSALVAGSL 544
+                            5799**********************************************************************99************ PP
+
+  miniature_FBpp0073400 618 lyryqlqkeale....kqtpmp.......vtgtlaswmtlrlfrlrhmqqq 657
+                            lyryq+q+e  +    +q           v ++l swm lrl+r r +q  
+       HOVITM_009639-T1 545 LYRYQVQRETQQivaqQQQQARqtgantlVLNSLTSWMALRLLRARIQQPP 595
+                            *******9964322222222220111122556799*********9976654 PP
+
+>> HOVITM_045920-T1  HOVITM_045920
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  279.9   0.6   4.2e-86   2.1e-82      32     296 ..       5     280 ..       2     288 .. 0.94
+   2 !   26.6   0.0   1.9e-09   9.3e-06     537     637 ..     325     427 ..     315     434 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 279.9 bits;  conditional E-value: 4.2e-86
+  miniature_FBpp0073400  32 agnelwpmerpdgmpnivslevmcgkdhmdvhltfshpfegivsskgqhsdprcvyvppstgktffsfrisysrcgtkpdl....... 112
+                             g + wp   pd mp ivsl+v c k+ m v++ f  pf giv skg +s+ +cv++p   g+t  +f+is   cgt  +        
+       HOVITM_045920-T1   5 YGGDPWPSSTPD-MPKIVSLDVKCEKNLMKVYIGFDKPFYGIVFSKGHYSNVNCVHLPAGLGRTSANFEISIHACGTAGNTenglygy 91 
+                            58899******9.9**************************************************************975432111222 PP
+
+  miniature_FBpp0073400 113 .....ngqfyentvvvqydkdllevwdeakrlrcewfndyektaskppmviadldviqldfrgdnvdcwmeiqhgkgpwappvsgivp 195
+                                 +g ++en +v+qyd  + evwd+a++lrc w + yek+ +  p+ +  ldv++ df gdnv cwm+iq gkgpwa  vsg+v 
+       HOVITM_045920-T1  92 gadsgSGTYFENIIVIQYDPQVQEVWDQARKLRCTWHDQYEKSVTFRPFPVDMLDVVRADFAGDNVGCWMQIQVGKGPWASEVSGLVK 179
+                            222225789******************************************************************************* PP
+
+  miniature_FBpp0073400 196 lgstltlvvaindyrgefdmrvkscvasdgsghvinlsdefgcvlrpkmisrflkarapderatvityaffhafkfpdalsvhikckv 283
+                            +g t+t+v+ai d  ++fdm v++c+a dg    i l d+ gcv rpk++srf k +     a+v++ya f+afkfpd++ vh++c +
+       HOVITM_045920-T1 180 IGQTMTMVLAIKDDDSKFDMLVRNCMAHDGKRAPIQLVDQKGCVTRPKLMSRFTKIKNFGASASVLSYAHFQAFKFPDSMEVHFQCTI 267
+                            **************************************************************************************** PP
+
+  miniature_FBpp0073400 284 eicrhgcldhcqn 296
+                            +icr+ c d+c +
+       HOVITM_045920-T1 268 QICRYQCPDQCSD 280
+                            ***********86 PP
+
+  == domain 2  score: 26.6 bits;  conditional E-value: 1.9e-09
+  miniature_FBpp0073400 537 lvisdrkvrsadvgvsglydviseadlafspdskqeavt.vfqgkiseevvygicmpvpgfsilfivvisttivsalvagsllyryq. 622
+                            +    r+  s +vgv+ +  v+s  dl fs d    +    +     e+    icm  pgf+  ++v++   ivs l+++ l  r + 
+       HOVITM_045920-T1 325 VRRHRRETPSEEVGVNRIIRVVSTGDLTFSLDENTNSTApTMVFPAREDANSMICMTTPGFAATLVVLLGILIVSCLMSAFLCVRLRp 412
+                            44456888999*******************99876544313334566888899***************************99999762 PP
+
+  miniature_FBpp0073400 623 lqkealekqtpmpvt 637
+                            + k +     p+pv 
+       HOVITM_045920-T1 413 FSKSSKNVAYPQPVV 427
+                            566666666777775 PP
+
+>> HOVITM_074771-T1  HOVITM_074771
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  266.1   1.1     6e-82     3e-78      33     305 ..      87     371 ..      82     382 .. 0.91
+   2 !   10.2   0.1   0.00016      0.81     545     621 ..     532     608 ..     488     619 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 266.1 bits;  conditional E-value: 6e-82
+  miniature_FBpp0073400  33 gnelwpmerpdgmpnivslevmcgkdhmdvhltfshpfegivsskgqhsdprcvyvppstgktffsfrisysrcgtkpdln....... 113
+                            g++ wp+  pd mp i  l+v+c k hm v++ f +pf g++ skg +sdp+c+++ p +g    +f+i  + cg     n       
+       HOVITM_074771-T1  87 GDDPWPLATPD-MPQIKHLQVQCEKTHMRVNIEFDRPFYGMIFSKGFYSDPHCIHLKPGSGHLSATFEIFLNSCGMSSSGNhntgggy 173
+                            8899******9.9*************************************************************97654332233333 PP
+
+  miniature_FBpp0073400 114 ....gqfyentvvvqydkdllevwdeakrlrcewfndyektaskppmviadldviqldfrgdnvdcwmeiqhgkgpwappvsgivplg 197
+                                g + ent+++qyd  + evwd+a++lrc w++ yek  +  p+ +  l  +  +f gdn+ cwm+iq gkgpwa  vsgiv +g
+       HOVITM_074771-T1 174 stpsGSYVENTIIIQYDPYVQEVWDQARKLRCTWYDFYEKAVTFRPFQVDMLHAVTANFLGDNLQCWMQIQVGKGPWASEVSGIVKIG 261
+                            33338899******************************************************************************** PP
+
+  miniature_FBpp0073400 198 stltlvvaindyrgefdmrvkscvasdgsghvinlsdefgcvlrpkmisrflkarapderatvityaffhafkfpdalsvhikckvei 285
+                             t+t+v+ai d +++fdm v++cva dg    i l d+ gcv+rpk++s+f k +     a+v+++a+f+afkfpd+++vh++c +++
+       HOVITM_074771-T1 262 QTMTMVLAIKDDENKFDMLVRNCVAHDGKRAPIQLVDQHGCVVRPKIMSKFQKIKNFGPSASVVSFAYFQAFKFPDSMNVHFQCVIQV 349
+                            **************************************************************************************** PP
+
+  miniature_FBpp0073400 286 crhgcld.hcqnt.gvgggggg 305
+                            cr++c + +c n  g+ + gg 
+       HOVITM_074771-T1 350 CRYNCPEpRCGNDyGLPALGGL 371
+                            *****87468875344333322 PP
+
+  == domain 2  score: 10.2 bits;  conditional E-value: 0.00016
+  miniature_FBpp0073400 545 rsadvgvsglydviseadlafspdskq.eavtvfqgkiseevvygicmpvpgfsilfivvisttivsalvagsllyry 621
+                            +  dv+ s    v+s  d+ f+ ++      tv  +  +  +  +icm +p+f + +i+++   +v+ lva+ l+ r 
+       HOVITM_074771-T1 532 EMTDVNTSRTIQVVSPGDVNFALNAGStNNETVVVSS-TSGLDDSICMSIPSFVVGLIMLLVVLVVACLVAAFLFVRV 608
+                            4579999999*****9999987664331223333333.3456679**************************9998885 PP
+
+>> HOVITM_045631-T1  HOVITM_045631
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  265.5   1.1   9.4e-82   4.7e-78      33     305 ..     225     509 ..     220     520 .. 0.91
+   2 !    9.8   0.1   0.00021       1.1     545     621 ..     670     746 ..     630     757 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 265.5 bits;  conditional E-value: 9.4e-82
+  miniature_FBpp0073400  33 gnelwpmerpdgmpnivslevmcgkdhmdvhltfshpfegivsskgqhsdprcvyvppstgktffsfrisysrcgtkpdln....... 113
+                            g++ wp+  pd mp i  l+v+c k hm v++ f +pf g++ skg +sdp+c+++ p +g    +f+i  + cg     n       
+       HOVITM_045631-T1 225 GDDPWPLATPD-MPQIKHLQVQCEKTHMRVNIEFDRPFYGMIFSKGFYSDPHCIHLKPGSGHLSATFEIFLNSCGMSSSGNhntgggy 311
+                            8899******9.9*************************************************************97654332233333 PP
+
+  miniature_FBpp0073400 114 ....gqfyentvvvqydkdllevwdeakrlrcewfndyektaskppmviadldviqldfrgdnvdcwmeiqhgkgpwappvsgivplg 197
+                                g + ent+++qyd  + evwd+a++lrc w++ yek  +  p+ +  l  +  +f gdn+ cwm+iq gkgpwa  vsgiv +g
+       HOVITM_045631-T1 312 stpsGSYVENTIIIQYDPYVQEVWDQARKLRCTWYDFYEKAVTFRPFQVDMLHAVTANFLGDNLQCWMQIQVGKGPWASEVSGIVKIG 399
+                            33338899******************************************************************************** PP
+
+  miniature_FBpp0073400 198 stltlvvaindyrgefdmrvkscvasdgsghvinlsdefgcvlrpkmisrflkarapderatvityaffhafkfpdalsvhikckvei 285
+                             t+t+v+ai d +++fdm v++cva dg    i l d+ gcv+rpk++s+f k +     a+v+++a+f+afkfpd+++vh++c +++
+       HOVITM_045631-T1 400 QTMTMVLAIKDDENKFDMLVRNCVAHDGKRAPIQLVDQHGCVVRPKIMSKFQKIKNFGPSASVVSFAYFQAFKFPDSMNVHFQCVIQV 487
+                            **************************************************************************************** PP
+
+  miniature_FBpp0073400 286 crhgcld.hcqnt.gvgggggg 305
+                            cr++c + +c n  g+ + gg 
+       HOVITM_045631-T1 488 CRYNCPEpRCGNDyGLPALGGL 509
+                            *****87468875344333322 PP
+
+  == domain 2  score: 9.8 bits;  conditional E-value: 0.00021
+  miniature_FBpp0073400 545 rsadvgvsglydviseadlafspdskq.eavtvfqgkiseevvygicmpvpgfsilfivvisttivsalvagsllyry 621
+                            +  dv+ s    v+s  d+ f+ ++      tv  +  +  +  +icm +p+f + +i+++   +v+ lva+ l+ r 
+       HOVITM_045631-T1 670 EMTDVNTSRTIQVVSPGDVNFALNAGStNNETVVVSS-TSGLDDSICMSIPSFVVGLIMLLVVLVVACLVAAFLFVRV 746
+                            4579999999*****9999987664331223333333.3456679**************************9998885 PP
+
+>> HOVITM_013697-T1  HOVITM_013697
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  117.7   0.2     5e-37   2.5e-33      45     291 ..       6     261 ..       2     271 .. 0.89
+
+  Alignments for each domain:
+  == domain 1  score: 117.7 bits;  conditional E-value: 5e-37
+  miniature_FBpp0073400  45 mpnivslevmcgkdhmdvhltfshpfegivsskgqhsdprcvyvppstgktffsfrisysrcgt......kpdln....gqfyentvv 122
+                             p +v+   +++ d+m +++ f+  f g++ s g   dp cvy+   tg+ ++ f i  +rcgt      + d        +  ntv 
+       HOVITM_013697-T1   6 SPTVVASVRLASDDYMKIRIGFNGSFGGLLYSSGYSYDPDCVYIN-GTGRDYYEFYIQLNRCGTlgknsrQEDARknpaKNLMWNTVT 92 
+                            6888888889999******************************96.79***************9443332223321111246679*** PP
+
+  miniature_FBpp0073400 123 vqydkdllevwdeakrlrcewfndyektaskppmviadldviqldfrgdnvdcwmeiqhgkgpwappvsgivplgstltlvvaindyr 210
+                            vqy+  + e wde  ++ ce+  d+ kt + p + +       + f     +c+mei++g g     v g v +g  ltl++ +    
+       HOVITM_013697-T1  93 VQYNPLIEEEWDEHFKVTCEYGYDFWKTVTFPFLDVEVATGNPVVFTLSPPECYMEIRYGYGTSGNRVGGPVRVGDPLTLIIYMRSKY 180
+                            *****99************************988777777778899999**********************************99888 PP
+
+  miniature_FBpp0073400 211 gefdmrvkscvasdgsghvinlsdefgcvlrpkmisrflkarapderatvityaffhafkfpdalsvhikckveicrhgcl 291
+                              fd+ v  c a +g++  i l d++gc +  k+isrf  + +         +a++  f+f  + +++i+c v +c+  c 
+       HOVITM_013697-T1 181 DGFDIVVNDCYAHNGANKRIQLIDQYGCPVDDKLISRFRGSWSESGVFETQVFAYMKTFRFTGSPALYIECDVRMCHGRCP 261
+                            88************************************999988888888899***********************87785 PP
+
+>> HOVITM_065434-T1  HOVITM_065434
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   87.0   0.0   9.4e-28   4.7e-24     131     297 ..       3     177 ..       1     180 [. 0.90
+
+  Alignments for each domain:
+  == domain 1  score: 87.0 bits;  conditional E-value: 9.4e-28
+  miniature_FBpp0073400 131 evwdeakrlrcewf.ndyektaskppmviadldviqldfrgdnvdcwmeiqhgkgpwappvsgivplgstltlvvaindyrgefdmrv 217
+                            evwd a+r+ c    n  +kt    p+ +  l+v+ +      +dcwm+iq+g  p   p++gi+ +g tlt++v i d  + +d+ v
+       HOVITM_065434-T1   3 EVWDLARRISCPTSsNLNQKTVYFQPITVDMLEVVSVPSALGTIDCWMDIQRGTYPRITPINGIIKIGETLTVLVYIKDPDNGLDLLV 90 
+                            9**********986155689******************************************************************** PP
+
+  miniature_FBpp0073400 218 kscvasdgsghv......inlsdefgcvlrpkmisrflk.arapderatvityaffhafkfpdalsvhikckveicrhgcldhcqnt 297
+                            + c a dg  +       + l+d+ gc  + k+i  +    +  +  atv+ +  + afkfpd   v + c +e+c   c   c  t
+       HOVITM_065434-T1  91 RDCWAYDGEDYEspettrLQLTDKQGCPKKKKLIHYWTTtTNTGNSGATVLAFNNMTAFKFPDKQQVFLTCNIELCPGKCEGGCGQT 177
+                            ********8764333334789*************9987615678899******************************9999999665 PP
+
+>> HOVITM_066693-T1  HOVITM_066693
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   59.3   0.1   2.3e-19   1.1e-15      45     131 ..     315     406 ..     307     411 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 59.3 bits;  conditional E-value: 2.3e-19
+  miniature_FBpp0073400  45 mpnivslevmcgkdhmdvhltfshpfegivsskgqhsdprcvyvppstgktffsfrisysrcgtk..pdl.ng.q.fyentvvvqydk 127
+                             p+i  + v+c+kd+m ++l f++pf gi+ skg +sdp+c yv p++g+t fsf +    cgt+   ++  g q + en +v+q + 
+       HOVITM_066693-T1 315 PPHIHDINVQCAKDQMTINLEFNRPFNGIIYSKGYYSDPQCRYVSPNSGQTKFSFTVYMRSCGTQfiDEFrEGkQaYLENVLVLQNEP 402
+                            589999***************************************************999****832122133222567777777776 PP
+
+  miniature_FBpp0073400 128 dlle 131
+                             + e
+       HOVITM_066693-T1 403 GIQE 406
+                            6666 PP
+
+>> HOVITM_049276-T1  HOVITM_049276
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.0   0.0     2e-14   9.8e-11      52     292 ..      78     316 ..      61     353 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 43.0 bits;  conditional E-value: 2e-14
+  miniature_FBpp0073400  52 evmcgkdhmdvhlt.fshpfegivsskgqhsdprcvyvppstgktffsfrisysrcgt...kpdlngqfyentvvvqydkdllevwde 135
+                             + c+ + + v +t  s  f g++  kg   +  c+       ++   +++    c+t   +    g  y nt+vvq  + l+     
+       HOVITM_049276-T1  78 RIECNSNDIGVAITtKSGVFNGMIYPKGLSKNSSCMTEFFH-QRSPVYYKLPLRSCNTmstELFEGGIEYFNTIVVQPHRKLVTNQGR 164
+                            5678888888887615789**********999999865433.333344566666666610044457889**************99999 PP
+
+  miniature_FBpp0073400 136 akrlrcewfndyektaskppmviadldviqldfrgdnvdcwmeiqhgkgpwappvsgivplgstltlvvaindyrgefdmrvkscvas 223
+                              ++ c +    +kt s   + ++ ++   l        c m+i  g  p    v+  v +g  ltlv++i d ++ + ++v  c+  
+       HOVITM_049276-T1 165 GFHISCRY-QTRDKTISND-VDVSTMEPTTLYATVPMPGCTMKIFSGD-PSQREVAENVKIGDPLTLVISI-DSQAIYGLKVSDCLVR 248
+                            99****86.6789999986.567889999999999999******9985.888999999************9.56899*********** PP
+
+  miniature_FBpp0073400 224 dgsgh.vinlsdefgcvlrpkmisrflkarapderatvityaffhafkfpdalsvhikckveicr...hgcld 292
+                            dg g     l d  gc +  +++  f  +       t   + +f+a kfp   sv+ +c v +c    +gc d
+       HOVITM_049276-T1 249 DGLGWgEQRLIDSEGCPVDQEIMGMFHYSS---NMTT--AFVYFQAHKFPYTASVYYQCNVRLCLkadNGCSD 316
+                            **997246899**********999997543...3333..5788*********************622246655 PP
+
+>> HOVITM_081739-T1  HOVITM_081739
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   33.6   0.0   1.4e-11     7e-08     175     291 ..      12     131 ..       5     138 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 33.6 bits;  conditional E-value: 1.4e-11
+  miniature_FBpp0073400 175 cwmeiqhgkgpwappvsgivplgstltlvvaindyrgefdmrvkscvasdgsghvin.lsdefgcvlrpkmisrflkarapderat.. 259
+                            +w+eiq g +   p   + v +g   t++v        +  +v  c+a dg g+    l d  gc +   ++ r+ k++    r    
+       HOVITM_081739-T1  12 AWLEIQ-GSAMSNPHQLNTVSVGEHTTILVKT-WLPENISGQVVDCLAHDGLGETSQaLVDPAGCPVDEVLVPRLHKSQELSRRQNgy 97 
+                            799998.6777788889999999998887754.344567889***********9975489*****99999999999988777665411 PP
+
+  miniature_FBpp0073400 260 ..vityaffhafkfpdalsvhikckveicrhgcl 291
+                               +    f afkfpd  svhi+c +++cr+ c 
+       HOVITM_081739-T1  98 qfTVQATSFPAFKFPDRESVHIRCGLQLCRQYCQ 131
+                            114455679*********************9985 PP
+
+>> HOVITM_062047-T1  HOVITM_062047
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   31.4   0.2   6.4e-11   3.2e-07     210     292 ..       3      81 ..       1      87 [. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 31.4 bits;  conditional E-value: 6.4e-11
+  miniature_FBpp0073400 210 rgefdmrvkscvasdgsghvinlsdefgcvlrpkmisrflkarapderatvityaffhafkfpdalsvhikckveicrhgcld 292
+                            rg + +rvksc a +  +  + l d+ gc  + ++is+f      +e+       ++  f+fpd+  vh++c + +c+  c +
+       HOVITM_062047-T1   3 RGTYGIRVKSCFAFNKRNSSVILVDDRGCANNKQVISQFKY----NEKLGYADATIYSMFRFPDSSEVHLQCDIAVCKGVCPE 81 
+                            899************9999999****************954....566666666777889******************99865 PP
+
+>> HOVITM_089585-T1  HOVITM_089585
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   27.4   0.2     1e-09     5e-06      53     291 ..     499     731 ..     490     750 .. 0.73
+   2 ?   -2.4   0.0       1.1   5.4e+03     570     616 ..     784     830 ..     738     843 .. 0.64
+
+  Alignments for each domain:
+  == domain 1  score: 27.4 bits;  conditional E-value: 1e-09
+  miniature_FBpp0073400  53 vmcgkd..hmdvhltfshpfegivsskgqhsdprc...vyvppstgktffsfrisysrcgtkpdlngqfyentvvvqydkdllevwde 135
+                            v c  d  ++++h+t    f g++  kg   d +c   v +p  +      f++++  cg    +ngq     +v+q    l+    +
+       HOVITM_089585-T1 499 VSCLSDgvQVEIHITE-KGFNGVLYVKGHSKDEQCrrvVTLPSDSLPRTEIFKVNFGSCGLI-HVNGQAS-FVLVIQKHPKLVTYKAQ 583
+                            5566661145677774.57*************9995423445444455667*********85.79***75.5677788888999999* PP
+
+  miniature_FBpp0073400 136 akrlrcewfndyek.taskppmviadldviqldfrgdnvdcwmeiqhgkgpwappvsgivplgstltlvvaindyrgefdmrvkscva 222
+                            a +++c +    +  t      ++       +   g    c m i    g     ++    +g  l l v +    + +    +scva
+       HOVITM_089585-T1 584 AYHIKCVYTTGEQNvTLGFNVSMLTTAG--TIANTGPPPTCSMRIVTHTGQE---IN-SAEIGDNLMLQVDVQPS-SIYGGFARSCVA 664
+                            ******9876544314444444444444..45678999******99888864...33.46799999999988653.445555789998 PP
+
+  miniature_FBpp0073400 223 sdgsghvin...lsdefgcvlrpkmisrflkarapderatvityaffhafkfpdalsvhikckveicrhgcl 291
+                                  v n   ++de gc   p ++ ++     p+ ++     a f+afkfp + +++++c + +c   c 
+       HOVITM_089585-T1 665 KTMEDSVENeyiVTDENGCATDPSIFGEWD--YNPETQS---LLAGFNAFKFPSSDNIRFQCNIRVCFGKCQ 731
+                            76666555533389*********9998874..3465444...4689*********************88885 PP
+
+  == domain 2  score: -2.4 bits;  conditional E-value: 1.1
+  miniature_FBpp0073400 570 kqeavtvfqgkiseevvygicmpvpgfsilfivvisttivsalvags 616
+                            ++e  t        + v  ic+ + gf i +i+     +v+  va s
+       HOVITM_089585-T1 784 REERYTSPTEAPDIQQVEDICVSMIGFIIALIMTALLALVAVAVAVS 830
+                            44444444444444567899*******99988887777777777655 PP
+
+>> HOVITM_065442-T1  HOVITM_065442
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   24.9   0.0   5.9e-09     3e-05      31      87 ..      56     111 ..      39     123 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 24.9 bits;  conditional E-value: 5.9e-09
+  miniature_FBpp0073400  31 iagnelwpmerpdgmpnivslevmcgkdhmdvhltfshpfegivsskgqhsdprcvy 87 
+                            + gne+    r   + ++  l+v+c+   m v+l f +pf+g+v skg   dp+c  
+       HOVITM_065442-T1  56 LLGNEIAEHARHHHL-DLKRLDVQCSNQGMQVRLEFLEPFDGVVYSKGHFEDPKCRK 111
+                            567777777776655.6889***********************************65 PP
+
+>> HOVITM_051560-T1  HOVITM_051560
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   22.3   0.2   3.6e-08   0.00018      51     292 ..     117     351 ..     110     380 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 22.3 bits;  conditional E-value: 3.6e-08
+  miniature_FBpp0073400  51 levmcgkdhmdvhltfshpfegivsskgqhsdprcvyvppstgktffsfrisys..rcgtkpdlngqfyentvvvqydkdllevwdea 136
+                            + + c    m  ++  s  f g + +kg      cv      g   f +r++y   +c+ k    g+ y n vv+q+   ++   d  
+       HOVITM_051560-T1 117 VSIDCRSGDMVARIKTSKLFSGKIYAKGSP--NSCVQ--DVRGSLEFELRMAYDdvECNVKHQGLGK-YLNDVVIQHHDTIVTSSDLG 199
+                            4566888888999999999******99964..45865..6789999*******74479999988887.5688999999999999**** PP
+
+  miniature_FBpp0073400 137 krlrcewfndyektaskppm.viadld.viqldfrgdnvdcwmeiqhgkgpwappvsgivplgstltlvvaindyrgefdmrvkscva 222
+                              + c++    +  +++  + v  d+   +  +   d+ +  m+i    g    p      +g  l l   i d ++ +++ v+  va
+       HOVITM_051560-T1 200 LAVTCQYDLTNKSVSNEVDLgVHGDVRpALTEEVIVDSPNVAMKITDRHGGDVLPS---AEVGDPLALRFEIIDKNSPYEIFVRELVA 284
+                            ******97776666666666244666424556677788888888876666555554...467999*********************** PP
+
+  miniature_FBpp0073400 223 sdg.sghvinlsdefgcvlrpkmisrflkarapderatvityaffhafkfpdalsvhikckveicrhgcld 292
+                             dg  +  i l d  gc     ++  + k+   d        ++f afkfp +  v++++ v  c  +c  
+       HOVITM_051560-T1 285 MDGvDSSEIVLIDSDGCPTDHFIMGPLYKS--IDTGKV--LLSYFDAFKFPSSEVVQFRALVTPCMPACEP 351
+                            ***434568899*****9988887777765..454444..4567*********************999954 PP
+
+>> HOVITM_098195-T1  HOVITM_098195
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   21.3   0.2   7.2e-08   0.00036      51     290 ..     152     375 ..     143     398 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 21.3 bits;  conditional E-value: 7.2e-08
+  miniature_FBpp0073400  51 levmcgkdhmdvhltfshpfegivsskgqhsdprcvyvppstgktffsfrisysrcgtkpdlngqfyentvvvqydkdllevwdeakr 138
+                            + v c   ++ v++  + pf g + + g+     c     ++    + + +s   c+t+  + g  y ntvv+q+   ++   d+  +
+       HOVITM_098195-T1 152 VSVNCKDTRIAVQVRTNKPFNGRIYALGRSET--CNIDVINSDLFRLDLTMSGQDCNTQS-VTG-VYSNTVVLQHHSVVMTKADKIYK 235
+                            56778888889999999999999999997543..43333333444456777888899874.666.69********************* PP
+
+  miniature_FBpp0073400 139 lrcewfndyektaskppmviadldviqldfrgdnvdcwmeiqhgkgpwappvsgivplgstltlvvaindyrgefdmrvkscvas.dg 225
+                            ++c + +   k  +   m i d ++i +    +     + i   +      v   v +g  lt+ + i +    + +  +scva    
+       HOVITM_098195-T1 236 VKCTY-DMSSKNITFGMMPIRDPEMISITSAPEAPPPRIRILDTRQRE---V-ETVRIGDKLTFRIEIPED-TPYGIFARSCVAMaKD 317
+                            ***86.5567888899999************99999999998877554...3.35789********99875.5789999***985256 PP
+
+  miniature_FBpp0073400 226 sghvinlsdefgcvlrpkmisrflkarapderatvityaffhafkfpdalsvhikckveicrhgc 290
+                            s   + + d+ gc + p ++  f     pd +a     + ++af+f ++  v ++c v+ c   c
+       HOVITM_098195-T1 318 SKSTFQIIDDEGCPVDPSIFPAF----TPDGNALQ---SVYEAFRFTESYGVIFQCNVKYCLGPC 375
+                            7789999**********987655....79*99865...56789*****************98777 PP
+
+>> HOVITM_060886-T1  HOVITM_060886
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   16.5   0.0   2.1e-06      0.01     194     305 ..      17     119 ..       9     125 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 16.5 bits;  conditional E-value: 2.1e-06
+  miniature_FBpp0073400 194 vplgstltlvvaindyrgefdmrvkscvasdgsgh.vinlsdefgcvlrpkmisrflkarapderatvityaffhafkfpdalsvhik 280
+                              lg  l l + ++   +   +r    vas gsg+  + l d  gc   p     f  a +p   + +i  a f+afkfpd+  +++ 
+       HOVITM_060886-T1  17 TDLGDELELQIFVDPRYNVSMIRAGHLVASSGSGQdTLLLLDSRGCPPDPST---F-PALSPRNSSALI--ARFRAFKFPDSNVLRF- 97 
+                            57899999999887766667789999********7467899*****877754...4.566776665554..78********976554. PP
+
+  miniature_FBpp0073400 281 ckveicrhgcldhcqntgvgggggg 305
+                                i    c+  cq t  g+g ++
+       HOVITM_060886-T1  98 ---SIFLTFCVSVCQPTDCGNGIAS 119
+                            ...4555667888888888887655 PP
+
+>> HOVITM_112262-T1  HOVITM_112262
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   15.9   0.0   3.1e-06     0.016     194     305 ..      71     173 ..      63     179 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 15.9 bits;  conditional E-value: 3.1e-06
+  miniature_FBpp0073400 194 vplgstltlvvaindyrgefdmrvkscvasdgsgh.vinlsdefgcvlrpkmisrflkarapderatvityaffhafkfpdalsvhik 280
+                              lg  l l + ++   +   +r    vas gsg+  + l d  gc   p     f  a +p   + +i  a f+afkfpd+  +++ 
+       HOVITM_112262-T1  71 TDLGDELELQIFVDPRYNVSMIRAGHLVASSGSGQdTLLLLDSRGCPPDPST---F-PALSPRNSSALI--ARFRAFKFPDSNVLRF- 151
+                            57889999999887766667789999********7467899*****877754...4.566776665554..78********976554. PP
+
+  miniature_FBpp0073400 281 ckveicrhgcldhcqntgvgggggg 305
+                                i    c+  cq t  g+g ++
+       HOVITM_112262-T1 152 ---SIFLTFCVSVCQPTDCGNGIAS 173
+                            ...4555667888888888887655 PP
+
+>> HOVITM_026030-T1  HOVITM_026030
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.1   0.2   0.00018      0.89     531     605 ..       3      75 ..       1      89 [. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 10.1 bits;  conditional E-value: 0.00018
+  miniature_FBpp0073400 531 srrrrslvisdrkvrsadvgvsglydviseadlafspdskqeavtvfqgkiseevvygicmpvpgfsilfivvis 605
+                            sr  + + isd   + + +gv +++d  s+ d  f  +  +  ++vf g +   ++  ic  + ++ ++f   i 
+       HOVITM_026030-T1   3 SRSLNDVAISDVLDEDSFIGVDSIFDG-SDIDPDFMEED-ETHISVFSGVLGSHLINDICSVIASIFLMFADYIK 75 
+                            566778899999999999********6.88999998665.5679*******************999999976665 PP
+
+>> HOVITM_006497-T1  HOVITM_006497
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.0   0.0   0.00019      0.94     274     314 ..      77     116 ..      19     121 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 10.0 bits;  conditional E-value: 0.00019
+  miniature_FBpp0073400 274 alsvhikckveicrhgcldhcqntgvggggggsgeslglgl 314
+                               +    k+ i r+g   +c   g gggg  +++  glg+
+       HOVITM_006497-T1  77 PGMIAPTVKITILRYGDCQNCGEIGAGGGG-RAADRRGLGV 116
+                            55555667999*****98888888877655.4566777776 PP
+
+>> HOVITM_019450-T1  HOVITM_019450
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.0   0.0   0.00019      0.94     274     314 ..      77     116 ..      19     121 .. 0.79
+
+  Alignments for each domain:
+  == domain 1  score: 10.0 bits;  conditional E-value: 0.00019
+  miniature_FBpp0073400 274 alsvhikckveicrhgcldhcqntgvggggggsgeslglgl 314
+                               +    k+ i r+g   +c   g gggg  +++  glg+
+       HOVITM_019450-T1  77 PGMIAPTVKITILRYGDCQNCGEIGAGGGG-RAADRRGLGV 116
+                            55555667999*****98888888877655.4566777776 PP
+
+>> HOVITM_070932-T1  HOVITM_070932
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    8.2  12.9   0.00066       3.3     624     670 ..     449     491 ..     431     497 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 8.2 bits;  conditional E-value: 0.00066
+  miniature_FBpp0073400 624 qkealekqtpmpvtgtlaswmtlrlfrlrhmqqqqqqqqqqqqqqqq 670
+                            q+ +  +q pmp+   l     l+l++++++qqqqqqqqqqqq+qq+
+       HOVITM_070932-T1 449 QQHSSGQQPPMPIPHDL----VLKLLQVQQQQQQQQQQQQQQQRQQE 491
+                            55566789999998765....68999888877777777777777765 PP
+
+>> HOVITM_044617-T1  HOVITM_044617
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    6.9   7.1    0.0017       8.6     650     673 ..     141     162 ..     123     170 .. 0.58
+
+  Alignments for each domain:
+  == domain 1  score: 6.9 bits;  conditional E-value: 0.0017
+  miniature_FBpp0073400 650 rlrhmqqqqqqqqqqqqqqqqvrq 673
+                             ++h+qqqqqqqqq  qq q+ rq
+       HOVITM_044617-T1 141 AVKHQQQQQQQQQQ--QQYQRGRQ 162
+                            34555444444433..33444454 PP
+
+>> HOVITM_085758-T1  HOVITM_085758
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    5.9   8.2    0.0032        16     438     546 ..     627     739 ..     600     746 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 5.9 bits;  conditional E-value: 0.0032
+  miniature_FBpp0073400 438 sgkfphgprqleaqkrmgvpmagprslephghgdedvpr..pvyrpqaealkqpredhidldkeeeeekekeektqqedkltge.... 519
+                            +g  p+  ++ e +k+ g p    +  +p  +g+e  p    + + + e   +p  + ++ dk+eee  e  ++  + +kl  +    
+       HOVITM_085758-T1 627 AGTVPEKDEEAEKEKKEGEPSK--EGEDPKQNGEESAPDasAIVKKEVEKPAEPAPEPMEEDKKEEEGVEVAKEETEREKLVKDaqlq 712
+                            4678888899999999999975..5678999999999962268899999999***********9999877544444445555441111 PP
+
+  miniature_FBpp0073400 520 ggaaasndssksrrrrslvisdrkvrs 546
+                            ++aaa+  ++  + ++   + +rk++s
+       HOVITM_085758-T1 713 AAAAAALAAAAVKAKHLAAVEERKIKS 739
+                            455555566666667777889999987 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (682 nodes)
+Target sequences:                     110235  (22157999 residues searched)
+Passed MSV filter:                      3658  (0.0331837); expected 2204.7 (0.02)
+Passed bias filter:                     2855  (0.0258992); expected 2204.7 (0.02)
+Passed Vit filter:                       321  (0.00291196); expected 110.2 (0.001)
+Passed Fwd filter:                        83  (0.000752937); expected 1.1 (1e-05)
+Initial search space (Z):             110235  [actual number of targets]
+Domain search space  (domZ):              22  [number of targets reported over threshold]
+# CPU time: 1.15u 0.01s 00:00:01.15 Elapsed: 00:00:00.56
+# Mc/sec: 26688.42
+//
+[ok]

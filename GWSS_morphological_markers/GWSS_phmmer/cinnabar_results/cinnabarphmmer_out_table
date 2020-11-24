@@ -1,0 +1,25 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+HOVITM_100409-T1     -          cinnabar_CLEC025106  -           4.6e-161  538.9   0.0  5.6e-161  538.6   0.0   1.0   1   0   0   1   1   1   1 HOVITM_100409
+HOVITM_062936-T1     -          cinnabar_CLEC025106  -            9.1e-15   56.9   0.0   9.4e-15   56.8   0.0   1.0   1   0   0   1   1   1   1 HOVITM_062936
+HOVITM_047469-T1     -          cinnabar_CLEC025106  -             0.0018   19.7   0.0      0.03   15.6   0.0   2.1   2   0   0   2   2   2   1 HOVITM_047469
+HOVITM_083683-T1     -          cinnabar_CLEC025106  -              0.027   15.8   0.0     0.031   15.5   0.0   1.1   1   0   0   1   1   1   0 HOVITM_083683
+HOVITM_060850-T1     -          cinnabar_CLEC025106  -               0.62   11.3   0.0      0.72   11.1   0.0   1.1   1   0   0   1   1   1   0 HOVITM_060850
+HOVITM_081001-T1     -          cinnabar_CLEC025106  -               0.67   11.2   0.0      0.98   10.6   0.0   1.1   1   0   0   1   1   1   0 HOVITM_081001
+HOVITM_100409-T1     -          cinnabar_lcl|MK480216.1_prot_QEO19128.1_1 -           1.6e-176  590.1   3.7  3.6e-120  404.3   0.2   2.0   1   1   1   2   2   2   2 HOVITM_100409
+HOVITM_062936-T1     -          cinnabar_lcl|MK480216.1_prot_QEO19128.1_1 -            8.5e-16   60.1   0.2   8.7e-16   60.1   0.2   1.0   1   0   0   1   1   1   1 HOVITM_062936
+HOVITM_047469-T1     -          cinnabar_lcl|MK480216.1_prot_QEO19128.1_1 -             0.0066   17.6   0.4      0.21   12.6   0.1   2.4   3   0   0   3   3   3   2 HOVITM_047469
+HOVITM_100409-T1     -          cinnabar_FBpp0311059 -           2.7e-143  480.7   0.1  3.2e-143  480.4   0.1   1.0   1   0   0   1   1   1   1 HOVITM_100409
+HOVITM_062936-T1     -          cinnabar_FBpp0311059 -            1.2e-10   43.4   0.1   1.2e-10   43.4   0.1   1.0   1   0   0   1   1   1   1 HOVITM_062936
+HOVITM_047469-T1     -          cinnabar_FBpp0311059 -              0.017   16.6   0.0     0.096   14.1   0.0   1.9   2   0   0   2   2   2   0 HOVITM_047469
+#
+# Program:         phmmer
+# Version:         3.3.1 (Jul 2020)
+# Pipeline mode:   SEARCH
+# Query file:      cinnabar.fasta
+# Target file:     Homalodisca_vitripennis_A6A7A9_masurca_v1.proteins.fixed.fa
+# Option settings: phmmer -o cinnabarphmmer_out --tblout cinnabarphmmer_out_table cinnabar.fasta Homalodisca_vitripennis_A6A7A9_masurca_v1.proteins.fixed.fa 
+# Current dir:     /Users/Cassie/Box Sync/StajichLab/GWSS/GWSS_morphological_markers/GWSS_phmmer
+# Date:            Thu Nov 19 15:27:30 2020
+# [ok]

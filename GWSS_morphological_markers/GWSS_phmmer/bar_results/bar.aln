@@ -1,0 +1,79 @@
+MUSCLE (3.8) multiple sequence alignment
+
+
+HOVITM_100409-T1      ------------------------------------------------------------
+HOVITM_073652-T1      ------------------------------------------------------------
+bar_FBpp0074204       MKDSMSILTQTPSEPNAAHPQLHHHLSTLQQQHHQHHLHYGLQPPAVAHSIHSTTTMSSG
+bar_CLEC007883        ------------------------------------------------------------
+HOVITM_073654-T1      ------------------------------------------------------------
+                                                                                  
+
+HOVITM_100409-T1      ------MEEQGKPLKIIIVGGGLVGSLSACYFGKRGHEVHLYEYRQDIRT----------
+HOVITM_073652-T1      ------------------------------------------------------------
+bar_FBpp0074204       GSTTTASGIGKPNRSRFMINDILAGSAAAAFYKQQQHHQQLHHHNNNNNSGSSGGSSPAH
+bar_CLEC007883        ------------------------------------------------------------
+HOVITM_073654-T1      ------------------------------------------------------------
+                                                                                  
+
+HOVITM_100409-T1      ---TELVQGRSINLAMSARARAALREVGLEDTMLRHGIPMHARMIHG-------------
+HOVITM_073652-T1      --------------------------------------MYSVRSVS--------------
+bar_FBpp0074204       SNNNNNINGDNCEASNVAGVGVLPSALHHPQPHPPTHPHTHPHALMHPHGKLGHFPPTAG
+bar_CLEC007883        ------------------------------------MINHEPRSLI--------------
+HOVITM_073654-T1      ---------------------------------METGTLTPPTR----------------
+                                                                                  
+
+HOVITM_100409-T1      --------LDGSLHQIPYD-----------------------------------------
+HOVITM_073652-T1      --------VAGHKEDDSTR-----------------------------------------
+bar_FBpp0074204       GNGLNVAQYAAAMQQHYAAAAAAAAARNNAAAAAAAAAAAAAAGVAAPPVDGGVDGGVGL
+bar_CLEC007883        --------FVGIMQEIRYI-----------------------------------------
+HOVITM_073654-T1      --------HAATADTPAAA-----------------------------------------
+                                .                                                 
+
+HOVITM_100409-T1      -------------------------ARGKQSIYSVGRKYLNEVLLTAAEKFSNVKIHFEH
+HOVITM_073652-T1      -------------------------------------------------SSSHSLNKKQR
+bar_FBpp0074204       APPAGGDLDDSSDYHEENEDCDSGNMDDHSVCSNGGKDDDGNSVKSGSTSDMSGLSKKQR
+bar_CLEC007883        ------------------------------------------------------------
+HOVITM_073654-T1      ------------------------------------------------------------
+                                                                                  
+
+HOVITM_100409-T1      KLVHTRLEAGLVTFKRTALNDEY---TDHADLVVGADGAYSAVRAQYMKRPMFDYNQTYI
+HOVITM_073652-T1      KARTAFTDHQLQTLEKSFERQKYLSVQDRMELAAKLSLSDTQVKTWYQNRRLKSR-----
+bar_FBpp0074204       KARTAFTDHQLQTLEKSFERQKYLSVQERQELAHKLDLSDCQVKTWYQNRRTKWKRQTAV
+bar_CLEC007883        --------------------------------------------------KTKWKRQTAV
+HOVITM_073654-T1      --------------------------------------------------PTKWKRQTAV
+                                                                                  
+
+HOVITM_100409-T1      QHGYMELCIPPTQDGQFAMKPNYLHIWPRGSFMMIALPNQDCSWTVTLFMPFSQFSALDS
+HOVITM_073652-T1      ---------------------------------------------------------GKD
+bar_FBpp0074204       GLELLAEAGNFAAFQRLYGGSPYLGAWP--------------------YAAAAGAAHGAT
+bar_CLEC007883        GLEILAESNNLMAFQRLYGGPPY-GVWP--------------------YPG------GGA
+HOVITM_073654-T1      GLELLAEAGNYAAFQRLYGGPPY--CWP--------------------YPGAA----GST
+                                                                                  
+
+HOVITM_100409-T1      PVRLLNFFHTHFPDSISLIG--KEKLVHDYFAASPSNLVSVKCGPYNVGSSAVLIGDAAH
+HOVITM_073652-T1      NPSHVKSQVPRAPLTVA---------EEDIYQGQ--------------------------
+bar_FBpp0074204       PHTNIDIYYRQAAAAAA----MQKPLPYNLYAGVPSVGVGVGVGVGPAPFSHLSASSSLS
+bar_CLEC007883        PP--ADLYYRQAAAAAAAAATLQKPLAYRLYPGV----------AGP---SSALPPGALP
+HOVITM_073654-T1      APSAADLYYRQAAVAAAAVTTLQKPLAYRLYPGV----------AGP---SHLPPPG-LP
+                           .    . . : :             : .                           
+
+HOVITM_100409-T1      AMVPFYGQGMNAGFEDCQLLDRILTESGWDLQTALPQFSSFRRPDAHAICDLAMYNYVEM
+HOVITM_073652-T1      AMILHLH--------------------------------------R--------------
+bar_FBpp0074204       SLSSYYQ--------SAAAAASAANPGGPHPVAPPPSVGGGSPPSG--------------
+bar_CLEC007883        PLSTYYQ--------------------------PPPPRSPTPPPSP--------------
+HOVITM_073654-T1      AAAPYYH--------------------------PLPPRSPSPSPPP--------------
+                      .   .                                                       
+
+HOVITM_100409-T1      RDLVTRQSFLWRKRLDNALYWMFPSLWVPLYNSVTFSDMRYSHCASNKRWQDKMVSRGLR
+HOVITM_073652-T1      ------------------------------------PEARAPGVIAVYRSPRV-------
+bar_FBpp0074204       -----------------------LVKPIPAHSASASPPPRPPSTPSPTLNPGSPPGRSVD
+bar_CLEC007883        ------------------------------------PDSRPDSVDIEESAPDS-------
+HOVITM_073654-T1      ------------------------------------PHS-PQSVDVEDDSPDS-------
+                                                          .                       
+
+HOVITM_100409-T1      VACVFLCLTTVYCSVSWWPSLRQTLHPHFTSVFLFSPLLS
+HOVITM_073652-T1      ------------------ARVRR-----------------
+bar_FBpp0074204       SCSQSDDE----------DQIQV-----------------
+bar_CLEC007883        ------------------PQIQV-----------------
+HOVITM_073654-T1      ------------------PNVEV-----------------
+                                          :                   

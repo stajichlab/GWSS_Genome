@@ -1,0 +1,405 @@
+# phmmer :: search a protein sequence against a protein database
+# HMMER 3.3.1 (Jul 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query sequence file:             vestigal.fasta
+# target sequence database:        Homalodisca_vitripennis_A6A7A9_masurca_v1.proteins.fixed.fa
+# output directed to file:         vestigalphmmer_out
+# per-seq hits tabular output:     vestigalphmmer_out_table
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       vestigal_ACYPI34460-PA  [L=352]
+Description: | 352 aa | vestigal
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence         Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------         -----------
+    5.4e-28  101.0  26.7    9.3e-28  100.3  26.7    1.3  1  HOVITM_088486-T1  HOVITM_088486
+    8.7e-08   34.6   2.2    1.1e-07   34.2   2.2    1.1  1  HOVITM_039378-T1  HOVITM_039378
+  ------ inclusion threshold ------
+      0.045   15.7   1.6      0.077   15.0   1.6    1.3  1  HOVITM_103681-T1  HOVITM_103681
+      0.051   15.6   5.8        6.6    8.6   0.5    3.4  4  HOVITM_062214-T1  HOVITM_062214
+      0.081   14.9   3.5        0.1   14.6   3.5    1.2  1  HOVITM_082672-T1  HOVITM_082672
+       0.49   12.3   5.5       0.48   12.4   5.5    1.1  1  HOVITM_026355-T1  HOVITM_026355
+       0.63   12.0   5.1       0.78   11.7   5.1    1.1  1  HOVITM_022847-T1  HOVITM_022847
+        1.2   11.0   1.3        1.8   10.5   0.4    1.7  2  HOVITM_111938-T1  HOVITM_111938
+        1.6   10.7   2.6        2.2   10.2   2.6    1.1  1  HOVITM_099822-T1  HOVITM_099822
+        3.3    9.6   7.6        4.3    9.2   7.6    1.1  1  HOVITM_010320-T1  HOVITM_010320
+        3.6    9.5   9.2        4.6    9.1   9.2    1.3  1  HOVITM_084811-T1  HOVITM_084811
+        8.9    8.2   5.9         13    7.7   5.9    1.2  1  HOVITM_041028-T1  HOVITM_041028
+        8.9    8.2   5.9         13    7.7   5.9    1.2  1  HOVITM_106715-T1  HOVITM_106715
+
+
+Domain annotation for each sequence (and alignments):
+>> HOVITM_088486-T1  HOVITM_088486
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  100.3  26.7   1.1e-31   9.3e-28     192     337 ..     122     251 ..     101     255 .. 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 100.3 bits;  conditional E-value: 1.1e-31
+  vestigal_ACYPI34460-PA 192 stkdtspmssrnfpasfwnsnyhs.hhstsqvyhpdtmyhhhgtagnpadpwqthyqqytaaaahhhhravheyhhhhnmaaqygsl 277
+                              + + spms+rnfp sfwn +  s  h    +y  d+myh  +ta  padpw thyqqytaaa  hhhravh+yhhhh   a yg l
+        HOVITM_088486-T1 122 VSTECSPMSARNFPPSFWNQSSVSvSHGHGDLY-GDSMYH-GATAHTPADPWHTHYQQYTAAA--HHHRAVHDYHHHHQHMAGYGGL 204
+                             34578**************76554278888877.699*96.68*****************876..789******************* PP
+
+  vestigal_ACYPI34460-PA 278 llppptsrlapppppppppsshphphqyhgkagmepwpnsahhpaldtgasyssyptvpg 337
+                             llp p+srlap    p    +    h+ h +        sahh  ld ++sy+syp + g
+        HOVITM_088486-T1 205 LLP-PSSRLAPHAQYP---KAVDWNHRLHHE-------QSAHH--LDAASSYASYPGMAG 251
+                             997.689***976654...444556777753.......699*9..9**********8877 PP
+
+>> HOVITM_039378-T1  HOVITM_039378
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   34.2   2.2   1.3e-11   1.1e-07       1      44 [.      81     118 ..      81     130 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 34.2 bits;  conditional E-value: 1.3e-11
+  vestigal_ACYPI34460-PA   1 msctevmyqayypylyqrssgtaapptraphhhfppfthqydrl 44 
+                             msc ev+yqayypylyqr+s +a pp  +    fpp+   ydr+
+        HOVITM_039378-T1  81 MSCPEVVYQAYYPYLYQRASTSAGPPRTS---SFPPY---YDRV 118
+                             89******************999999754...69998...4554 PP
+
+>> HOVITM_103681-T1  HOVITM_103681
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   15.0   1.6   9.1e-06     0.077     285     316 ..      76     107 ..      60     122 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 15.0 bits;  conditional E-value: 9.1e-06
+  vestigal_ACYPI34460-PA 285 rlapppppppppsshphphqyhgkagmepwpn 316
+                              l ppppppppp+s p p + +    +e   +
+        HOVITM_103681-T1  76 YLIPPPPPPPPPTSVPLPPRNNTSTTLESEDS 107
+                             589**************998887777776555 PP
+
+>> HOVITM_062214-T1  HOVITM_062214
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    6.7   0.5    0.0029        25     216     282 ..      35      98 ..      27     103 .. 0.68
+   2 ?   -0.6   0.0       0.5   4.2e+03     254     281 ..     130     157 ..     124     160 .. 0.84
+   3 ?    5.0   0.1      0.01        86     227     282 ..     171     222 ..     164     227 .. 0.72
+   4 ?    8.6   0.5   0.00078       6.6     216     282 ..     197     260 ..     188     265 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 6.7 bits;  conditional E-value: 0.0029
+  vestigal_ACYPI34460-PA 216 hhstsqvyhpd.tmyhhhgtagnpadpwqthyqqytaaaahhhhravheyhhhhnmaaqygslllppp 282
+                             h+     y  d t+y  hg+  +p  p+  +  +   ++ah+++    +   +  +   +gs+l ppp
+        HOVITM_062214-T1  35 HYRQVAQYDGDmTLYCTHGSVLSPP-PFLIYVNEVD-SSAHYRQF--AQNDDYMTLYCSHGSILSPPP 98 
+                             4333333444438999999999884.7877666655.45555444..455567889999999999999 PP
+
+  == domain 2  score: -0.6 bits;  conditional E-value: 0.5
+  vestigal_ACYPI34460-PA 254 ahhhhravheyhhhhnmaaqygslllpp 281
+                             +  h+r + +y     +   +gs+l pp
+        HOVITM_062214-T1 130 SSAHYRQIAQYDDVITLYCSHGSILSPP 157
+                             4568999999999999999****99998 PP
+
+  == domain 3  score: 5.0 bits;  conditional E-value: 0.01
+  vestigal_ACYPI34460-PA 227 tmyhhhgtagnpadpwqthyqqytaaaahhhhravheyhhhhnmaaqygslllppp 282
+                             t+y  hg+   p+  +  +  +   ++   h+r v +y     +   +gs+l ppp
+        HOVITM_062214-T1 171 TLYCSHGSILRPSL-FLIYVNEV-DSS--AHYRQVAQYDGDMTLYCTHGSVLSPPP 222
+                             66777777777653.33443333.333..4789999*******************9 PP
+
+  == domain 4  score: 8.6 bits;  conditional E-value: 0.00078
+  vestigal_ACYPI34460-PA 216 hhstsqvyhpd.tmyhhhgtagnpadpwqthyqqytaaaahhhhravheyhhhhnmaaqygslllppp 282
+                             h+     y  d t+y  hg+  +p  p+  +  +  ++ a  h+r   +y     +   +gs+l ppp
+        HOVITM_062214-T1 197 HYRQVAQYDGDmTLYCTHGSVLSPP-PFLIYVNEVDSS-A--HYRQFAQYDDDMTLYCSHGSILSPPP 260
+                             4433334444448999***999984.888877766554.4..567788999999*************9 PP
+
+>> HOVITM_082672-T1  HOVITM_082672
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   14.6   3.5   1.2e-05       0.1     251     300 ..      59     102 ..      29     107 .. 0.71
+
+  Alignments for each domain:
+  == domain 1  score: 14.6 bits;  conditional E-value: 1.2e-05
+  vestigal_ACYPI34460-PA 251 aaaahhhhravheyhhhhnmaaqygslllppptsrlapppppppppsshp 300
+                               a +h+hr  h  hh+  +       +  p   ++appppppp  ++ p
+        HOVITM_082672-T1  59 ECALEHNHRLRHVMHHQVLV------TVTVPYCDNVAPPPPPPPHHTTTP 102
+                             35678999999988765433......345678899***999999877666 PP
+
+>> HOVITM_026355-T1  HOVITM_026355
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.4   5.5   5.6e-05      0.48     273     304 ..      22      53 ..       4      55 .. 0.63
+
+  Alignments for each domain:
+  == domain 1  score: 12.4 bits;  conditional E-value: 5.6e-05
+  vestigal_ACYPI34460-PA 273 qygslllppptsrlapppppppppsshphphq 304
+                              +g+l       +  pppppp p s h hp++
+        HOVITM_026355-T1  22 DHGTLREKGLGEEEPPPPPPPSPTSLHAHPRR 53 
+                             55555444444444555666666778***975 PP
+
+>> HOVITM_022847-T1  HOVITM_022847
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.7   5.1   9.2e-05      0.78     274     325 ..      34      89 ..      28      99 .. 0.62
+
+  Alignments for each domain:
+  == domain 1  score: 11.7 bits;  conditional E-value: 9.2e-05
+  vestigal_ACYPI34460-PA 274 ygslllppptsrlapppppppppsshp...hphqyhgk.agmepwpnsahh.paldt 325
+                              g    p  t  l ppppppp p+ h    h  q +g+  ++  wp    +  al t
+        HOVITM_022847-T1  34 RGLCSAPSVTVWLPPPPPPPPWPTLHYtviHT-QSQGEgTALMSWPRDGSEgGALRT 89 
+                             56666778888899999999999998522233.333331356689987654144544 PP
+
+>> HOVITM_111938-T1  HOVITM_111938
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -2.7   0.0       2.2   1.8e+04     155     186 ..     264     295 ..     259     316 .. 0.72
+   2 ?   10.5   0.4   0.00022       1.8     208     232 ..     345     370 ..     338     381 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: -2.7 bits;  conditional E-value: 2.2
+  vestigal_ACYPI34460-PA 155 vncvvfthytgdvanvvdehfsralnsdqkln 186
+                             ++cv f      v ++ d h    ln+d  + 
+        HOVITM_111938-T1 264 LDCVWFEKLERLVTHIYDTHNQVVLNADTTFT 295
+                             57999999999999999999999999998654 PP
+
+  == domain 2  score: 10.5 bits;  conditional E-value: 0.00022
+  vestigal_ACYPI34460-PA 208 fwnsnyhshhs.tsqvyhpdtmyhhh 232
+                             + n nyh h + t qv hpd m+h+ 
+        HOVITM_111938-T1 345 YVNDNYHCHSTaTLQVSHPDGMFHQW 370
+                             789*****975378*********975 PP
+
+>> HOVITM_099822-T1  HOVITM_099822
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.2   2.6   0.00026       2.2     252     300 ..      44      90 ..      37     108 .. 0.70
+
+  Alignments for each domain:
+  == domain 1  score: 10.2 bits;  conditional E-value: 0.00026
+  vestigal_ACYPI34460-PA 252 aaahhhhravheyhhhhnmaaqygslllppptsrlapppppppppsshp 300
+                             a  h++   +   h+hh++    + ++    t r app ppppp +   
+        HOVITM_099822-T1  44 AIFHRNFSGILRRHRHHSLECV-SEFIAVIETMR-APPSPPPPPLNQSK 90 
+                             4567788889999999999765.44444555665.67766666655444 PP
+
+>> HOVITM_010320-T1  HOVITM_010320
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    9.2   7.6   0.00051       4.3     276     310 ..      71     103 ..      62     105 .. 0.68
+
+  Alignments for each domain:
+  == domain 1  score: 9.2 bits;  conditional E-value: 0.00051
+  vestigal_ACYPI34460-PA 276 slllppptsrlapppppppppsshphphqyhgkag 310
+                              ll+       ap ppppppps  p  h +h +ag
+        HOVITM_010320-T1  71 ILLMDSKLHAWAP-PPPPPPPSDCPLAH-FHFRAG 103
+                             4555555555555.56677889999988.777777 PP
+
+>> HOVITM_084811-T1  HOVITM_084811
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    9.1   9.2   0.00055       4.6     270     302 ..      93     124 ..      71     127 .] 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 9.1 bits;  conditional E-value: 0.00055
+  vestigal_ACYPI34460-PA 270 maaqygslllppptsrlapppppppppsshphp 302
+                              +a y  l lppp    a p ppp  ps hp  
+        HOVITM_084811-T1  93 RSAVYTRLALPPPPPAAAAP-PPPAAPSGHPFK 124
+                             5688999***9999877665.556778998864 PP
+
+>> HOVITM_041028-T1  HOVITM_041028
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    7.7   5.9    0.0015        13     278     305 ..     147     174 ..     126     189 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 7.7 bits;  conditional E-value: 0.0015
+  vestigal_ACYPI34460-PA 278 llppptsrlapppppppppsshphphqy 305
+                             ++   ts + pppppp pp   p p+ +
+        HOVITM_041028-T1 147 VVSSSTSFMPPPPPPPLPPPMPPTPYVH 174
+                             5566788888888888888888888754 PP
+
+>> HOVITM_106715-T1  HOVITM_106715
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    7.7   5.9    0.0015        13     278     305 ..     147     174 ..     126     189 .. 0.74
+
+  Alignments for each domain:
+  == domain 1  score: 7.7 bits;  conditional E-value: 0.0015
+  vestigal_ACYPI34460-PA 278 llppptsrlapppppppppsshphphqy 305
+                             ++   ts + pppppp pp   p p+ +
+        HOVITM_106715-T1 147 VVSSSTSFMPPPPPPPLPPPMPPTPYVH 174
+                             5566788888888888888888888754 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (352 nodes)
+Target sequences:                     110235  (22157999 residues searched)
+Passed MSV filter:                      8523  (0.0773166); expected 2204.7 (0.02)
+Passed bias filter:                     3917  (0.0355332); expected 2204.7 (0.02)
+Passed Vit filter:                       662  (0.00600535); expected 110.2 (0.001)
+Passed Fwd filter:                        96  (0.000870867); expected 1.1 (1e-05)
+Initial search space (Z):             110235  [actual number of targets]
+Domain search space  (domZ):              13  [number of targets reported over threshold]
+# CPU time: 0.96u 0.01s 00:00:00.97 Elapsed: 00:00:00.45
+# Mc/sec: 17050.04
+//
+Query:       vestigal_FBpp0086898  [L=453]
+Description: type=protein; loc=2R:join(12887145..12887240,12891467..12891947,12892674..12893051,12897726..12897817,12898002..12898195,12898268..12898329,12898682..12898740); ID=FBpp0086898; name=vg-PA; parent=FBgn0003975,FBtr0087785; dbxref=FlyBase:FBpp0086898,FlyBase_Annotation_IDs:CG3830-PA,GB_protein:AAF58444.1,REFSEQ:NP_523723,GB_protein:AAF58444,UniProt/Swiss-Prot:Q26366,FlyMine:FBpp0086898,modMine:FBpp0086898; MD5=9b79a4bd88a2b91fa472b396b1116841; length=453; release=r6.35; species=Dmel; 
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence         Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------         -----------
+    3.4e-09   38.7  31.6      2e-08   36.2  31.6    1.9  1  HOVITM_088486-T1  HOVITM_088486
+    4.6e-05   25.1   0.5    4.6e-05   25.1   0.5    1.4  2  HOVITM_039378-T1  HOVITM_039378
+  ------ inclusion threshold ------
+      0.058   14.9   0.9      0.058   14.9   0.9    1.5  2  HOVITM_052670-T1  HOVITM_052670
+       0.12   13.8   0.6       0.17   13.4   0.6    1.2  1  HOVITM_041549-T1  HOVITM_041549
+       0.23   12.9   2.5       0.32   12.5   2.5    1.2  1  HOVITM_049465-T1  HOVITM_049465
+       0.79   11.2  10.1          1   10.8  10.1    1.2  1  HOVITM_022393-T1  HOVITM_022393
+        1.2   10.6  12.0        1.3   10.4  12.0    1.1  1  HOVITM_036409-T1  HOVITM_036409
+        1.3   10.5   2.8        1.8   10.0   2.8    1.1  1  HOVITM_069398-T1  HOVITM_069398
+        3.1    9.2   2.0        3.1    9.2   2.0    1.0  1  HOVITM_075218-T1  HOVITM_075218
+
+
+Domain annotation for each sequence (and alignments):
+>> HOVITM_088486-T1  HOVITM_088486
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   36.2  31.6   1.7e-12     2e-08     254     436 ..      73     252 ..      69     255 .. 0.65
+
+  Alignments for each domain:
+  == domain 1  score: 36.2 bits;  conditional E-value: 1.7e-12
+  vestigal_FBpp0086898 254 aipknlpaletpmgsgggglagsgqgqaqylsascvvftnysgdtasqvdehfsralnynnkdskessspmsnrnfppsfwnsnyvhpi 342
+                            ip++ p + +p+g+gg+  ++   g++ +l     + t+ s               +          spms rnfppsfwn + v   
+      HOVITM_088486-T1  73 GIPRHYPVMYSPVGTGGSRTSSFTSGRSVWLEYR--LNTDISCP------------SSETKPSVSTECSPMSARNFPPSFWNQSSVS-- 145
+                           5888888888888888877777666666665432..22222221............1112222234579*************99875.. PP
+
+  vestigal_FBpp0086898 343 papthhqvsdlygtatdtgy.atdpwvphaahygsyahaahahaa.hahayhh.nmaqygsllrlpq.qyash.........gsrlhhd 418
+                                h   dlyg +   g  a  p  p   hy  y  aah h a h + +hh +ma yg ll  p  + a h         + rlhh+
+      HOVITM_088486-T1 146 ---VSHGHGDLYGDSMYHGAtAHTPADPWHTHYQQYTAAAHHHRAvHDYHHHHqHMAGYGGLLLPPSsRLAPHaqypkavdwNHRLHHE 231
+                           ...45677999999887764255677777789999999999986526544433379*****997775233444111222222579***9 PP
+
+  vestigal_FBpp0086898 419 qqtah...aleyssyptmagl 436
+                           q   h   a  y+syp mag 
+      HOVITM_088486-T1 232 QSAHHldaASSYASYPGMAGT 252
+                           876664444579999999985 PP
+
+>> HOVITM_039378-T1  HOVITM_039378
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -3.4   0.1       1.7     2e+04     107     126 ..      23      42 ..       9      50 .. 0.67
+   2 !   25.1   0.5   3.8e-09   4.6e-05       1      26 [.      79     104 ..      79     132 .. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: -3.4 bits;  conditional E-value: 1.7
+  vestigal_FBpp0086898 107 glgglgggpasgllgsnvvp 126
+                           ++ g  + pa gl+gs + p
+      HOVITM_039378-T1  23 AVRGEEAWPALGLVGSLLPP 42 
+                           45566667888888876655 PP
+
+  == domain 2  score: 25.1 bits;  conditional E-value: 3.8e-09
+  vestigal_FBpp0086898   1 mavscpevmygayypylygragtsrs 26 
+                           +a+scpev+y ayypyly ra+ts  
+      HOVITM_039378-T1  79 LAMSCPEVVYQAYYPYLYQRASTSAG 104
+                           589*******************9864 PP
+
+>> HOVITM_052670-T1  HOVITM_052670
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   14.9   0.9   4.8e-06     0.058     151     175 ..      27      50 ..       2      71 .. 0.71
+   2 ?   -4.3   1.3       3.1   3.7e+04     228     234 ..     128     134 ..     124     142 .. 0.42
+
+  Alignments for each domain:
+  == domain 1  score: 14.9 bits;  conditional E-value: 4.8e-06
+  vestigal_FBpp0086898 151 hsshrthahslahahthphshthth 175
+                           h+ +r +   lahahth h+htht 
+      HOVITM_052670-T1  27 HNPERGE-GVLAHAHTHTHTHTHTK 50 
+                           4444433.35899999888888875 PP
+
+  == domain 2  score: -4.3 bits;  conditional E-value: 3.1
+  vestigal_FBpp0086898 228 ggggatg 234
+                           gggg  g
+      HOVITM_052670-T1 128 GGGGCGG 134
+                           2222222 PP
+
+>> HOVITM_041549-T1  HOVITM_041549
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.4   0.6   1.4e-05      0.17     153     199 ..     150     196 ..     122     206 .. 0.88
+
+  Alignments for each domain:
+  == domain 1  score: 13.4 bits;  conditional E-value: 1.4e-05
+  vestigal_FBpp0086898 153 shrthahslahahthphshthththqtkeedlivprseaearlvgsq 199
+                           s r h h+  h hth h ++ t   +  +e l + +s   ar vg +
+      HOVITM_041549-T1 150 SGRGHVHTRTHTHTHSHLESMTGMWRKAKEWLRMAQSNTSARAVGRE 196
+                           67899999999999999999999999999999999999999999976 PP
+
+>> HOVITM_049465-T1  HOVITM_049465
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.5   2.5   2.6e-05      0.32      70     113 ..     185     229 ..     171     231 .] 0.76
+
+  Alignments for each domain:
+  == domain 1  score: 12.5 bits;  conditional E-value: 2.6e-05
+  vestigal_FBpp0086898  70 naaaavaaaahnsaaaavavaanqasssggigg.gglgglgglgg 113
+                             aa va+    + a    +   + +  gg+gg gg+gg+gg+gg
+      HOVITM_049465-T1 185 TDAAGVASLLTTAEAVVTEIPKEEPAVPGGMGGmGGMGGMGGMGG 229
+                           4567777777777777778888999999**998789999999998 PP
+
+>> HOVITM_022393-T1  HOVITM_022393
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.8  10.1   8.1e-05         1     161     178 ..      26      43 ..      11      75 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 10.8 bits;  conditional E-value: 8.1e-05
+  vestigal_FBpp0086898 161 lahahthphshthththq 178
+                           l+h hth h+hththth 
+      HOVITM_022393-T1  26 LSHTHTHTHTHTHTHTHT 43 
+                           556666665555555553 PP
+
+>> HOVITM_036409-T1  HOVITM_036409
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.4  12.0   0.00011       1.3      75     122 ..      62     110 ..      37     112 .. 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 10.4 bits;  conditional E-value: 0.00011
+  vestigal_FBpp0086898  75 vaaaahnsaaaavavaanqasssggigggglggl.gglgggpasgllgs 122
+                           va    ++a a   v ++ a ++g+++ggglggl ggl +g   gllg+
+      HOVITM_036409-T1  62 VADVVGDAAGAVADVVSSTAQATGSLAGGGLGGLvGGLVAGLLGGLLGA 110
+                           444455555666668899999**********997689999999999985 PP
+
+>> HOVITM_069398-T1  HOVITM_069398
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.0   2.8   0.00015       1.8      70     113 ..     590     634 ..     577     636 .] 0.77
+
+  Alignments for each domain:
+  == domain 1  score: 10.0 bits;  conditional E-value: 0.00015
+  vestigal_FBpp0086898  70 naaaavaaaahnsaaaavavaanqasssggigg.gglgglgglgg 113
+                             aa va+    + a    +   + +  gg+gg gg+gg+gg+gg
+      HOVITM_069398-T1 590 TDAAGVASLLTTAEAVVTEIPKEEPAVPGGMGGmGGMGGMGGMGG 634
+                           4467777777777777778888999999**998789999999998 PP
+
+>> HOVITM_075218-T1  HOVITM_075218
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    9.2   2.0   0.00026       3.1      29      76 ..       2      48 ..       1      69 [. 0.81
+
+  Alignments for each domain:
+  == domain 1  score: 9.2 bits;  conditional E-value: 0.00026
+  vestigal_FBpp0086898 29 qyerfnqdlysssgvnlaasssasgsshspcspilppsvsanaaaava 76
+                           yer + d++s s ++l+ s s s s     sp+ pps+s + + ++ 
+      HOVITM_075218-T1  2 SYERSDSDIFSLS-LSLSLSLSLSLSLSLSLSPLSPPSLSLSLSLSLL 48
+                          69********876.78888889998989999********998776655 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (453 nodes)
+Target sequences:                     110235  (22157999 residues searched)
+Passed MSV filter:                      4932  (0.0447408); expected 2204.7 (0.02)
+Passed bias filter:                     2437  (0.0221073); expected 2204.7 (0.02)
+Passed Vit filter:                       266  (0.00241303); expected 110.2 (0.001)
+Passed Fwd filter:                        37  (0.000335647); expected 1.1 (1e-05)
+Initial search space (Z):             110235  [actual number of targets]
+Domain search space  (domZ):               9  [number of targets reported over threshold]
+# CPU time: 0.75u 0.01s 00:00:00.76 Elapsed: 00:00:00.35
+# Mc/sec: 28421.81
+//
+[ok]

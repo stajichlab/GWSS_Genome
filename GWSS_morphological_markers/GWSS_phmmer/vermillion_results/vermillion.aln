@@ -1,0 +1,37 @@
+MUSCLE (3.8) multiple sequence alignment
+
+
+vermillion_CLEC006165       ------------------------MLYADYLQLNKILTAQRMLSTEHNATVHDEHLFIIT
+vermillion_FBpp0073242      MSCPYAGNGNDHDDSAVPLTTEVGKIYGEYLMLDKLLDAQCMLSEEDKRPVHDEHLFIIT
+HOVITM_040850-T1            ------------------------------------------------------------
+                                                                                        
+
+vermillion_CLEC006165       HQAYELWFKQIIHELDSIRVIFNKPEGLEESETLEILKRLSRIVLILKLLVDQVMILETM
+vermillion_FBpp0073242      HQAYELWFKQIIFEFDSIRDMLD-AEVIDETKTLEIVKRLNRVVLILKLLVDQVPILETM
+HOVITM_040850-T1            ------------------------------------------------------------
+                                                                                        
+
+vermillion_CLEC006165       TPLDFMEFREYLCPASGFQSVQFRLIENKLGMKQENRVRFNQSYHSVFGRDEVALADIAQ
+vermillion_FBpp0073242      TPLDFMDFRKYLAPASGFQSLQFRLIENKLGVLTEQRVRYNQKYSDVFS-DEEARNSIRN
+HOVITM_040850-T1            ------------------------------------------------------MKAIER
+                                                                                     * .
+
+vermillion_CLEC006165       SEKEPSLAQLVERWLERTPGLETDGFNFWGKYKQNVEVLLKSYYTSATASQTESEKSFKL
+vermillion_FBpp0073242      SEKDPSLLELVQRWLERTPGLEESGFNFWAKFQESVDRFLEAQVQSAMEEPVEKAKNYRL
+HOVITM_040850-T1            SESEMSLEQLIQQWLERTPGLEANGFDFWSKYKRAVDEWLEGQRLTAMESKCEAEQMFLL
+                            **.: ** :*::.********* .**:**.*::  *:  *:.   :*  .  *  : : *
+
+vermillion_CLEC006165       ADYEKKKATFDSVLNPNIHAALINRGERRFTHKALQGAIMITFYRDEPRFSQPHQLLTLL
+vermillion_FBpp0073242      MDIEKRREVYRSIFDPAVHDALVRRGDRRFSHRALQGAIMITFYRDEPRFSQPHQLLTLL
+HOVITM_040850-T1            SDIEKRAELFHSVLDPGAHAALVQRGERRFSHKALQGAIMITFYRDEARFSQPHQLLSLL
+                             * **.   : *:::*  * **:.**:***:*.**************.*********:**
+
+vermillion_CLEC006165       MDIDSLVTKWRYNHVLMVQRMIGSQNLGTGGSSGYQYLRSTLSDRYKVFLDLFNLSTFLL
+vermillion_FBpp0073242      MDIDSLITKWRYNHVIMVQRMIGSQQLGTGGSSGYQYLRSTLSDRYKVFLDLFNLSTFLI
+HOVITM_040850-T1            MDIDSLITKWRYNHVLMVQRMIGSQHVGTGGSSGYHYLRSTLSDRYKVFLDLFNLSAFLL
+                            ******:********:*********::********:********************:**:
+
+vermillion_CLEC006165       PRQYIPPLTSSMRNKLNVYCGI-----STEENNPKK-
+vermillion_FBpp0073242      PREAIPPLDETIRKKLI--------------NKSV--
+HOVITM_040850-T1            PRNHIPPLTGTIKSQLSSLGGLRERHCDCDSDKPVHD
+                            **: ****  ::..:*               ::.   

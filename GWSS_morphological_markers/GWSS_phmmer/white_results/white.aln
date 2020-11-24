@@ -1,0 +1,106 @@
+MUSCLE (3.8) multiple sequence alignment
+
+
+HOVITM_036960-T1                      --MFTIEKSSISQGPLRLRRVTPPPPVQFSTSQSREKLSGNQSSGNTCT-----------
+white_CLEC000648                      MKDFTPWVFVLPSGG-----VDDPTLTQQSSALSLD------------------------
+white_FBpp0070468                     --MGQEDQELLIRGG-----SKHPSAEHLNNGDSGAASQSCINQGFGQAKNY--------
+HOVITM_106550-T1                      -MVISPCVNRFSIDS-----RNKPSYLRQISHSCLHYTTASCTCSLATVLGFFNQNHRNG
+white_lcl|MK480204.1_prot_QEO191      -----------MTGG-----HDEREPLLITANGNGSKVTYKAVSDLGKDDDF--------
+HOVITM_106548-T1                      ------------------------------------------------------------
+                                                                                                  
+
+HOVITM_036960-T1                      --------------------------------------------PGLTLTWRDLSVYAKI
+white_CLEC000648                      --------------------------------------------DHIIYTWLGVTVTCNV
+white_FBpp0070468                     --------------GTLRPPSPPEDSGSGSGQLA----------ENLTYAWHNMDIFGAV
+HOVITM_106550-T1                      SQKELSNGLYLELSDTEKKPQVNGYSSGSGGSGSPYSTVSILPKENITYTWSNVNVFTRL
+white_lcl|MK480204.1_prot_QEO191      --------------TLTFTPDGKDSSGRGSPGSPDKGPLSSRGRDSITYTWSDICVHVAE
+HOVITM_106548-T1                      ------------------------------------------------------------
+                                                                                                  
+
+HOVITM_036960-T1                      KKESLF---------------KSSSTEYRKIINNVSGAVPPGTLVALMGASGAGKSTLMA
+white_CLEC000648                      SNSHKLSCKL-----------KGKPVVKKTLLRDVYGEARPGELLAIMGSSGAGKTTLLN
+white_FBpp0070468                     NQPGSGWRQLVNRTRGLFCNERHIPAPRKHLLKNVCGVAYPGELLAVMGSSGAGKTTLLN
+HOVITM_106550-T1                      EHRQNRVVNLVHNVVH-----RDRPQQRKHILKNVTGVAYPGELMALMGSSGAGKTTLLN
+white_lcl|MK480204.1_prot_QEO191      ETSSSRRRSLITGQQA-----RRHPTGRKEILKKVTGAAYPGELLAIMGSSGAGKTTLLN
+HOVITM_106548-T1                      ------------------------------------------------------------
+                                                                                                  
+
+HOVITM_036960-T1                      ALAYQTTAAMVV--DGDIRVNGRPLGPY-MRNISGFMDQQDLFIDSFTVTEYLRFMARLK
+white_CLEC000648                      CLTFRSDRKLDV--SGFMMINGLPVTSRSLTSICGYVQQVDLFIGTLTVKESLIFHAMLR
+white_FBpp0070468                     ALAFRSPQGIQVSPSGMRLLNGQPVDAKEMQARCAYVQQDDLFIGSLTAREHLIFQAMVR
+HOVITM_106550-T1                      SLTFRAPKTLAV--TGHRAINGVPVDANALAALSAYVQQDDLFIGTLTVREHLIFQALVR
+white_lcl|MK480204.1_prot_QEO191      TLMFRSGAGVEV--SGYRALNGVPVDRNTLAALSAYVQQDDLFIGTLTVREHLIFQALVR
+HOVITM_106548-T1                      ------------------------------------------------------------
+                                                                                                  
+
+HOVITM_036960-T1                      LDRRTSVERREFIIIQLLKILGLTHCSDARIGTPGSDKTVLSGGERKRLSFATACLTDPL
+white_CLEC000648                      MEKGMPFEKRVARTEEVMRELNLKKCENTVVGIPGKLKG-ISGGEMKRLAFAAEMLTDPP
+white_FBpp0070468                     MPRHLTYRQRVARVDQVIQELSLSKCQHTIIGVPGRVKG-LSGGERKRLAFASEALTDPP
+HOVITM_106550-T1                      MDRHIPYVQRMIRVEEVINDLMLTRCQDTVIGVPGKIKG-ISGGEMKRLSFASEVLTNPP
+white_lcl|MK480204.1_prot_QEO191      MDRHIPYETRMCRVEEVISELTLTKCQNTIIGVPGKLKG-ISGGEMKRLSFASEVLTNPP
+HOVITM_106548-T1                      ------------------------------------------------------------
+                                                                                                  
+
+HOVITM_036960-T1                      LLFCDEPTTGLDSYSAATIVTALQGMAAAGKTVVCTIHQPGSELFTMFQQVILVADGRIA
+white_CLEC000648                      ILFCDEPTSGLDSFMAQNVVSVMKEMARKGKTVISTIHQPSSQVYGMFDKVLFMAEGKVA
+white_FBpp0070468                     LLICDEPTSGLDSFTAHSVVQVLKKLSQKGKTVILTIHQPSSELFELFDKILLMAEGRVA
+HOVITM_106550-T1                      LMFCDEPTSGLDSFMAQNVVTVLKSLAEKGKTIVCTIHQPSSEVFSMFDKILLMAEGRVA
+white_lcl|MK480204.1_prot_QEO191      LMFCDEPTSGLDSFMALNVVTVLKSLAMKGKTVVCTIHQPSSEVYSMFDKILLMAEGRVA
+HOVITM_106548-T1                      ------------------------------------------------------------
+                                                                                                  
+
+HOVITM_036960-T1                      YIGTSSGALDFFQSLGYSCPEAYNPADYMIHTLAPTPGSEISSRRAVRHICDQFAVTDHA
+white_CLEC000648                      YLGSQALAGTF----GAMCPSHHNPADYYVNLLAVAPGKEEQCRRKISTICEAFSNSQMY
+white_FBpp0070468                     FLGTPSEAVDFFSYVGAQCPTNYNPADFYVQVLAVVPGREIESRDRIAKICDNFAISKVA
+HOVITM_106550-T1                      FLGTPSEAIDF-------------------------------------------------
+white_lcl|MK480204.1_prot_QEO191      FLGTPNQANQFFAQMGAACPSTYNPADFFIQLLAVVPTREETCRNTIDMVCDSFQHSEIG
+HOVITM_106548-T1                      --------------MGAVCPSHYNPADFFIQLLAVVPNAEESCRNMIEMVCDSFATSEIG
+                                                                                                  
+
+HOVITM_036960-T1                      REVDLQISFQHQ------MGAAFDEILDTNLKSYKKPLGIWKLWWLTSRCL-----LEVL
+white_CLEC000648                      NEAYQVMK---------------------KISKYRAK------WYSQFVAVFWRSWISVL
+white_FBpp0070468                     RDMEQLLAT-KN------LEKPLEQPE--NGYTYKAT------WFMQFRAVLWRSWLSVL
+HOVITM_106550-T1                      ---------------------------------FKTS-----------------------
+white_lcl|MK480204.1_prot_QEO191      VNLAAQAHISYQEKGLLGWGEPWGTKSLHVKSPYKAS------WWAQFRAVLWRSWLSVK
+HOVITM_106548-T1                      SKISMLAEVGGGTKVKSAWN--WSDPFNNSVSMYKAS------WCAQFRAVFWRSWLSVN
+                                                                       :.                         
+
+HOVITM_036960-T1                      RDPKLQQIRIMQKIVIAVMVGLCFVGSLHLTQSGVQATQGALFMLVTENTFGPMYAALNQ
+white_CLEC000648                      KDPTALKAKLIQTIIVALIVGLVYFQQ-NMDQDGVMNINGAIFVSLANMTFQNMFAVIHV
+white_FBpp0070468                     KEPLLVKVRLIQTTMVAILIGLIFLGQ-QLTQVGVMNINGAIFLFLTNMTFQNVFATINV
+HOVITM_106550-T1                      ------------------------------------------------------------
+white_lcl|MK480204.1_prot_QEO191      KEPVLIKVRVLQTLMVALMIGIIYFGQ-KLDQDGVMNINGAIYVCITNMTFQNVFAVISV
+HOVITM_106548-T1                      KEPVLIKVRILQTLMVSLMVGIIYFGQ-DYDQDGVMNINGALFICISNMTFQNVFAVITV
+                                                                                                  
+
+HOVITM_036960-T1                      FPAELPLFLRHYRSGLYSPLVYYLAKTIAIIPGLVVEPVIFTGILYWLVGLQDTVYAFLM
+white_CLEC000648                      FCGELPIFMREHTNGMYRTDVYFIAKVLAELPMFLTLSTMYTIIVYYMIGFNSQLERMLG
+white_FBpp0070468                     FTSELPVFMREARSRLYRCDTYFLGKTIAELPLFLTVPLVFTAIAYPMIGLRAGVLHFFN
+HOVITM_106550-T1                      ---------------------------------VLLLLSMYS------------------
+white_lcl|MK480204.1_prot_QEO191      FCSELPVFMREHQNGMYRTDVYFLCKTLAEVPIFLFIPIMFTVVMYYMVGLNPDPVRFMA
+HOVITM_106548-T1                      FCSEMPVFMREHYNGMYRTDVYFLCKTLAEVPIFLVIPVLFTCIMYYMVGLNPDPSRFFQ
+                                                                       .:    :::                  
+
+HOVITM_036960-T1                      TSFIVTLCINVSTACGCFFSATFQSVPMAMAYLVPFDYSIMITSGVFIKLNTLSPLVNWV
+white_CLEC000648                      AVVV--------------------------------------------------------
+white_FBpp0070468                     CLALVTLVANVSTSFGYLISCASSSTSMALSVGPPVIIPFLLFGGFFLNSGSVPVYLKWL
+HOVITM_106550-T1                      ------------------------------------------------------------
+white_lcl|MK480204.1_prot_QEO191      AGAIFTLISNVATSFGYFISCISSSISVALSIGPPIIIPFLLFGGFFLNSGSVPWYFEWL
+HOVITM_106548-T1                      SIVIITLVSNVATSFGYFISSVSSSIAVALSIGPPIIIPFLLFGGFFLNVGSVPPYFKWL
+                                                                                                  
+
+HOVITM_036960-T1                      QYISWMMYSNEAMTIIQWQNIQ--NITCDEDRPQLPCLHSGQEVLDRYSFSADNLWRDIY
+white_CLEC000648                      ------MYGNEAMMINQWKGVK--NIAC--TKVGTTCPKNGMVILKTLNFDEKNYYFDLL
+white_FBpp0070468                     SYLSWFRYANEGLLINQWADVEPGEISC--TSSNTTCPSSGKVILETLNFSAADLPLDYV
+HOVITM_106550-T1                      ------------------------------------------------------------
+white_lcl|MK480204.1_prot_QEO191      SNLSWFRYGNEALLINQWEDVD--YISC--SRTNTTCPRDGHVVLETYNFDEGNYLKDYL
+HOVITM_106548-T1                      SHLSWFKYGNEALLINQWDNIK--DIAC--TRSNTTCPSDGHVVLEQFNFSERNYIWDYI
+                                                                                                  
+
+HOVITM_036960-T1                      ALCILFSAFHILAYFGLLRRIKQSL--
+white_CLEC000648                      MLVVLMIALQLGAFFMLFLRSIFKLV-
+white_FBpp0070468                     GLAILIVSFRVLAYLALRLRARRKE--
+HOVITM_106550-T1                      ---------------------------
+white_lcl|MK480204.1_prot_QEO191      CLFGLIMGFRTLAYFALLGRTYTKRGT
+HOVITM_106548-T1                      WLVVLIIGFRVVAFLALLYRTSRRR--
+                                                                 

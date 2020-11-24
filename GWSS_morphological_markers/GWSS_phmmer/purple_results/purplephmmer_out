@@ -1,0 +1,247 @@
+# phmmer :: search a protein sequence against a protein database
+# HMMER 3.3.1 (Jul 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query sequence file:             purple.fasta
+# target sequence database:        Homalodisca_vitripennis_A6A7A9_masurca_v1.proteins.fixed.fa
+# output directed to file:         purplephmmer_out
+# per-seq hits tabular output:     purplephmmer_out_table
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       purple_CLEC001054  [L=159]
+Description: | Cimex lectularius Harlan | purple | 6-pyruvoyltetrahydropterin synthase [Source:VB Community Annotation] | protein | length=159
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence         Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------         -----------
+    1.1e-56  193.7   0.7    1.2e-56  193.5   0.7    1.0  1  HOVITM_118566-T1  HOVITM_118566
+     0.0044   19.6   1.9         12    8.5   0.0    4.9  5  HOVITM_090371-T1  HOVITM_090371
+  ------ inclusion threshold ------
+       0.12   14.9   0.0       0.22   14.1   0.0    1.4  1  HOVITM_092621-T1  HOVITM_092621
+
+
+Domain annotation for each sequence (and alignments):
+>> HOVITM_118566-T1  HOVITM_118566
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  193.5   0.7   3.4e-61   1.2e-56      38     159 .]      28     149 .]      18     149 .] 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 193.5 bits;  conditional E-value: 3.4e-61
+  purple_CLEC001054  38 fsgcpqlsdqvnkdvygkcnnpnghghnyrvevtvcgpvskdtgmvmnlsdlkahmnaaimetldhknldldvpyfkdvvsttenvavyiwn 129
+                        f   pql+d+ n + ygkcnn +ghghny vevt+ gpv+ dtgmvmn++dlk hmn aime +dhknld dvpyfk+vvsttenva++iwn
+   HOVITM_118566-T1  28 FFFSPQLNDEENLETYGKCNNYHGHGHNYTVEVTLKGPVTADTGMVMNINDLKKHMNKAIMEPMDHKNLDKDVPYFKNVVSTTENVAIFIWN 119
+                        6668**************************************************************************************** PP
+
+  purple_CLEC001054 130 klmrelenpyllyevkiyetdnnivsyrge 159
+                         l  ele+p +lyevki+etd n++ yrge
+   HOVITM_118566-T1 120 NLKAELEDPSILYEVKIFETDKNVILYRGE 149
+                        *****************************8 PP
+
+>> HOVITM_090371-T1  HOVITM_090371
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    8.5   0.0   0.00032        12      72     121 ..     241     290 ..     229     296 .. 0.87
+   2 ?   -0.3   0.1      0.16   5.7e+03     100     126 ..     357     383 ..     339     413 .. 0.60
+   3 ?    0.1   0.0      0.12   4.4e+03      73     122 ..     419     471 ..     411     484 .. 0.73
+   4 ?    2.2   0.0     0.026   9.7e+02      78     129 ..     469     518 ..     456     540 .. 0.73
+   5 ?    2.5   0.0     0.022     8e+02      71     122 ..     543     597 ..     536     606 .. 0.75
+
+  Alignments for each domain:
+  == domain 1  score: 8.5 bits;  conditional E-value: 0.00032
+  purple_CLEC001054  72 vcgpvskdtgmvmnlsdlkahmnaaimetldhknldldvpyfkdvvstte 121
+                          g v    ++ + l+dl  h   +    ldhk l+ld p +  v s t+
+   HOVITM_090371-T1 241 KSGVVGSQKAIKLGLADLGIHSYPSKSGVLDHKLLNLDWPSLVFVSSVTD 290
+                        5678888899999***************************9888877776 PP
+
+  == domain 2  score: -0.3 bits;  conditional E-value: 0.16
+  purple_CLEC001054 100 tldhkn.ldldvpyfkdvvsttenvavy 126
+                         ldh+  l+ld p +  v s t+   +y
+   HOVITM_090371-T1 357 VLDHRKlLNLDYPSLVFVSSVTDT-QLY 383
+                        577754257777776666555543.333 PP
+
+  == domain 3  score: 0.1 bits;  conditional E-value: 0.12
+  purple_CLEC001054  73 cgpvskdtgmvmnlsdlkahmnaaime..tldhkn.ldldvpyfkdvvstten 122
+                         g v    ++ + l++l  h    + +   ldh+  l+l+ p +  v s t+ 
+   HOVITM_090371-T1 419 SGVVGSQKAIKLGLAELGVHTQLYLSKsgVLDHRKlLNLNYPSLVFVSSVTDT 471
+                        6777788888899999999988877652269*976268999988777666653 PP
+
+  == domain 4  score: 2.2 bits;  conditional E-value: 0.026
+  purple_CLEC001054  78 kdtgmvmnlsdlkahmnaaimetldhkn.ldldvpyfkdvvsttenvavyiwn 129
+                         dt + ++ sd + +++ +    ldh+  l+ld p +  v s t+   +y+ +
+   HOVITM_090371-T1 469 TDTQLYLSKSDTQLYLSKS--GVLDHRRlLNLDSPSLVFVSSVTDT-QLYLAS 518
+                        4888889999998888765..679*987369****99887777764.556554 PP
+
+  == domain 5  score: 2.5 bits;  conditional E-value: 0.022
+  purple_CLEC001054  71 tvcgpvskdtgmvmnlsdlkahmnaaime..tldhkn.ldldvpyfkdvvstten 122
+                        +  g v    ++ + l++l  h    + +   ldh+  l+ld p +  v s t+ 
+   HOVITM_090371-T1 543 SKSGVVGSQKAIKLGLAELGVHTQLYLSKsgVLDHRKlLNLDYPSLVFVSSVTDT 597
+                        567888888899999999999998877652269**76369****98887777754 PP
+
+>> HOVITM_092621-T1  HOVITM_092621
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   14.1   0.0     6e-06      0.22      90     130 ..      71     111 ..      40     121 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 14.1 bits;  conditional E-value: 6e-06
+  purple_CLEC001054  90 kahmnaaimetldhknldldvpyfkdvvsttenvavyiwnk 130
+                         + + aa+ + l+h+  d  + yf d+v  t nv  +i n+
+   HOVITM_092621-T1  71 ASTVFAAVWQVLEHEKEDEYLDYFYDIVGNTSNVTTHIANE 111
+                        556779*******************************9997 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (159 nodes)
+Target sequences:                     110235  (22157999 residues searched)
+Passed MSV filter:                      2347  (0.0212909); expected 2204.7 (0.02)
+Passed bias filter:                     2008  (0.0182156); expected 2204.7 (0.02)
+Passed Vit filter:                       125  (0.00113394); expected 110.2 (0.001)
+Passed Fwd filter:                         3  (2.72146e-05); expected 1.1 (1e-05)
+Initial search space (Z):             110235  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.28u 0.01s 00:00:00.29 Elapsed: 00:00:00.12
+# Mc/sec: 27840.59
+//
+Query:       purple_lcl|MK480218.1_prot_QEO19130.1_1  [L=123]
+Description: [protein=purple] [protein_id=QEO19130.1] [location=<1..>369] [gbkey=CDS]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence         Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------         -----------
+    7.3e-52  177.1   0.8      9e-52  176.8   0.8    1.1  1  HOVITM_118566-T1  HOVITM_118566
+  ------ inclusion threshold ------
+      0.054   16.2   0.0      0.095   15.4   0.0    1.3  1  HOVITM_092621-T1  HOVITM_092621
+       0.31   13.7   0.1       0.46   13.2   0.1    1.2  1  HOVITM_050875-T1  HOVITM_050875
+       0.58   12.8   1.1         26    7.5   0.4    3.1  3  HOVITM_047832-T1  HOVITM_047832
+
+
+Domain annotation for each sequence (and alignments):
+>> HOVITM_118566-T1  HOVITM_118566
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  176.8   0.8   3.3e-56     9e-52      19     123 .]      30     134 ..      18     134 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 176.8 bits;  conditional E-value: 3.3e-56
+  purple_lcl|MK480218.1_prot_QEO19130.1_1  19 hspllsdednlavygkcnnfhghghnytlevtlrgpvspdtgmvmnindlkkiiqeavmdtldhknidkd 88 
+                                               sp l+de+nl  ygkcnn+hghghnyt+evtl+gpv+ dtgmvmnindlkk + +a+m+ +dhkn+dkd
+                         HOVITM_118566-T1  30 FSPQLNDEENLETYGKCNNYHGHGHNYTVEVTLKGPVTADTGMVMNINDLKKHMNKAIMEPMDHKNLDKD 99 
+                                              69******************************************************************** PP
+
+  purple_lcl|MK480218.1_prot_QEO19130.1_1  89 vpyfkdvvsttenvaifiwnkmislmenpsllyei 123
+                                              vpyfk+vvsttenvaifiwn + + +e+ps+lye+
+                         HOVITM_118566-T1 100 VPYFKNVVSTTENVAIFIWNNLKAELEDPSILYEV 134
+                                              *********************************97 PP
+
+>> HOVITM_092621-T1  HOVITM_092621
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   15.4   0.0   3.5e-06     0.095      41     109 ..      43     111 ..      24     120 .. 0.82
+
+  Alignments for each domain:
+  == domain 1  score: 15.4 bits;  conditional E-value: 3.5e-06
+  purple_lcl|MK480218.1_prot_QEO19130.1_1  41 hghnytlevtlrgpvspdtgmvmnindlkkiiqeavmdtldhknidkdvpyfkdvvsttenvaifiwnk 109
+                                              +g +  l v +   + p  g v    +    +  av   l+h+  d+ + yf d+v  t nv   i n+
+                         HOVITM_092621-T1  43 YGMSVFLCVGISDHIRPIDGAVRLPVEAASTVFAAVWQVLEHEKEDEYLDYFYDIVGNTSNVTTHIANE 111
+                                              4556667777778888888888777788888999*****************************999887 PP
+
+>> HOVITM_050875-T1  HOVITM_050875
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.2   0.1   1.7e-05      0.46      33      70 ..      76     111 ..      54     118 .. 0.83
+
+  Alignments for each domain:
+  == domain 1  score: 13.2 bits;  conditional E-value: 1.7e-05
+  purple_lcl|MK480218.1_prot_QEO19130.1_1  33 gkcnnfhghghnytlevtlrgpvspdtgmvmnindlkk 70 
+                                                c+n+ g  h  ++ v++ gp  p+tgm  n nd+  
+                         HOVITM_050875-T1  76 PSCSNY-GTTHVLSVHVSMTGP-GPETGMSWNTNDIPT 111
+                                              468885.899************.7***********975 PP
+
+>> HOVITM_047832-T1  HOVITM_047832
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    7.5   0.4   0.00093        26      90     121 ..      11      42 ..       5      44 .. 0.72
+   2 ?   -0.3   0.0      0.25     7e+03     109     121 ..      53      65 ..      48      67 .. 0.84
+   3 ?    0.4   0.0      0.15     4e+03     109     121 ..      76      88 ..      71      89 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 7.5 bits;  conditional E-value: 0.00093
+  purple_lcl|MK480218.1_prot_QEO19130.1_1  90 pyfkdvvsttenvaifiwnkmislmenpslly 121
+                                               y++ +v+  en  +     m++l+enp l y
+                         HOVITM_047832-T1  11 HYWESMVALLENPWLTTGESMVALLENPWLHY 42 
+                                              47777777778887777888888888887655 PP
+
+  == domain 2  score: -0.3 bits;  conditional E-value: 0.25
+  purple_lcl|MK480218.1_prot_QEO19130.1_1 109 kmislmenpslly 121
+                                               m++l+enp l y
+                         HOVITM_047832-T1  53 SMVALQENPWLHY 65 
+                                              7999*****8876 PP
+
+  == domain 3  score: 0.4 bits;  conditional E-value: 0.15
+  purple_lcl|MK480218.1_prot_QEO19130.1_1 109 kmislmenpslly 121
+                                               m++l+enp l y
+                         HOVITM_047832-T1  76 SMVALLENPWLHY 88 
+                                              799******9876 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (123 nodes)
+Target sequences:                     110235  (22157999 residues searched)
+Passed MSV filter:                      2110  (0.0191409); expected 2204.7 (0.02)
+Passed bias filter:                     1866  (0.0169275); expected 2204.7 (0.02)
+Passed Vit filter:                       101  (0.000916224); expected 110.2 (0.001)
+Passed Fwd filter:                         4  (3.62861e-05); expected 1.1 (1e-05)
+Initial search space (Z):             110235  [actual number of targets]
+Domain search space  (domZ):               4  [number of targets reported over threshold]
+# CPU time: 0.22u 0.01s 00:00:00.23 Elapsed: 00:00:00.10
+# Mc/sec: 25138.19
+//
+Query:       purple_FBpp0088417  [L=168]
+Description: type=protein; loc=2L:complement(join(20074958..20075025,20074771..20074850,20074191..20074336,20073916..20074128)); ID=FBpp0088417; name=pr-PC; parent=FBgn0003141,FBtr0089395; dbxref=FlyBase:FBpp0088417,FlyBase_Annotation_IDs:CG16784-PC,GB_protein:AAN11065.1,REFSEQ:NP_724244,GB_protein:AAN11065,UniProt/Swiss-Prot:P48611,FlyMine:FBpp0088417,modMine:FBpp0088417; MD5=a920e1644e650944596d35136db63024; length=168; release=r6.35; species=Dmel; 
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence         Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------         -----------
+    2.3e-51  176.5   0.3    2.6e-51  176.3   0.3    1.0  1  HOVITM_118566-T1  HOVITM_118566
+
+
+Domain annotation for each sequence (and alignments):
+>> HOVITM_118566-T1  HOVITM_118566
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  176.3   0.3   2.3e-56   2.6e-51      21     140 ..      29     148 ..      12     149 .] 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 176.3 bits;  conditional E-value: 2.3e-56
+  purple_FBpp0088417  21 lhspqlsdaenlevfgkcnnfhghghnytveitvrgpidrrtgmvlnitelkeaietvimkrldhknldkdveyfantpsttenlavyiwd 111
+                         + spql+d enle +gkcnn+hghghnytve+t++gp+   tgmv+ni +lk+ +   im+ +dhknldkdv yf n  stten+a++iw+
+    HOVITM_118566-T1  29 FFSPQLNDEENLETYGKCNNYHGHGHNYTVEVTLKGPVTADTGMVMNINDLKKHMNKAIMEPMDHKNLDKDVPYFKNVVSTTENVAIFIWN 119
+                         579**************************************************************************************** PP
+
+  purple_FBpp0088417 112 nirlqlkkpellyevkihetpkniisyrg 140
+                         n++ +l+ p +lyevki et kn+i yrg
+    HOVITM_118566-T1 120 NLKAELEDPSILYEVKIFETDKNVILYRG 148
+                         ****************************9 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (168 nodes)
+Target sequences:                     110235  (22157999 residues searched)
+Passed MSV filter:                      2414  (0.0218987); expected 2204.7 (0.02)
+Passed bias filter:                     2011  (0.0182428); expected 2204.7 (0.02)
+Passed Vit filter:                       113  (0.00102508); expected 110.2 (0.001)
+Passed Fwd filter:                         1  (9.07153e-06); expected 1.1 (1e-05)
+Initial search space (Z):             110235  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.25u 0.01s 00:00:00.26 Elapsed: 00:00:00.10
+# Mc/sec: 34511.24
+//
+[ok]

@@ -1,0 +1,65 @@
+MUSCLE (3.8) multiple sequence alignment
+
+
+HOVITM_094531-T1                      -------MRMVLLPMLTEQTRNLSSSCSGKKWLIDSRGWPRHQCHATKNHGCLRCRCRTT
+HOVITM_094535-T1                      ------------------------------------------------------------
+DhpD_FBpp0078625                      ------MATVFLGTVVHTKSFSEFESFEGGFLAVDDAG---KIIGVGQDYHAWASSNPAH
+DhpD_CLEC005050                       ------PPIIIQGPIVHSVSKDRITALENKLIAVKD-G---KIVAL-EDSECMDEIRRMI
+DhpD_lcl|MK480214.1_prot_QEO1912      MNFKQHENFVIQGPIIHSLSSNEIGYYENATIVVKK-G---KIVSF----DSEGKIKVSA
+                                                                                                  
+
+HOVITM_094531-T1                      QNLFENIHTESEMMEIEAKYSPNEVVVLEKGQFLIPGLIDTHTHAPQFPNKGLGYDKTLL
+HOVITM_094535-T1                      ------------------------------------------------------------
+DhpD_FBpp0078625                      AKGLTEVH-------------------LSDYQFLMPGFVDCHIHAPQFAQLGLGLDMPLL
+DhpD_CLEC005050                       GDNFIFFK-------------------LEPGMFLCPGFIDGHIHAPQFPNVGLGMDKSLL
+DhpD_lcl|MK480214.1_prot_QEO1912      NDGHV-IK-------------------LINGQFLCPGLIDLHIHAPQYPNIGLGMDMPLL
+                                                                                                  
+
+HOVITM_094531-T1                      EWLNVYTFPLESKYEDENIALKVYTEVVRPP----TPMTKSFNNMETQTT----------
+HOVITM_094535-T1                      ------------------------------------------------------------
+DhpD_FBpp0078625                      DWLNTYTFPLEAKFSNHQYAQQVYQGVVEATLRCGTTLASYFATNHLESTLTLAREAVRQ
+DhpD_CLEC005050                       DWLSTYTIPLEKKYKDVNFSETVYNYVVDTTLKCGTTTACYFSTIFKNNSKLLAEIVRRK
+DhpD_lcl|MK480214.1_prot_QEO1912      DWLKAYTFPLEVKYGDLEFASKVYRYVVKSTLSCGTTMAVYYGSMHCGSTIKLAEIISEL
+                                                                                                  
+
+HOVITM_094531-T1                      GTYPMLSK----------------------------------------------NIHFDS
+HOVITM_094535-T1                      ------------------------------------------------------------
+DhpD_FBpp0078625                      GQRALIGKVCSNCNSP-EFYVETAEESVSATLAFVEGVRKLGSPMVMPTITPRFALSCSK
+DhpD_CLEC005050                       GQRALIGKVNMNQNSVLD-YFEETDESLKETEEFVKDVFELNSSLVEPVITPRFAISCDK
+DhpD_lcl|MK480214.1_prot_QEO1912      GQRAIVGKAAMNRNIPIDNYTEETTQCLEHTQKVADCVKNLKNPLVETAVTPRFAITCDM
+                                                                                                  
+
+HOVITM_094531-T1                      TLLLDIACIKKKQDL-----------MEQSIIKLRKKMNSPSTTVLEPDVKKR----QDK
+HOVITM_094535-T1                      ---------------------------------------------------------MFQ
+DhpD_FBpp0078625                      ELLKSLGDIAKRFDLHIQ------SHISENLEEIEMVKGIFKTS--YAGAYDEAGLLTNK
+DhpD_CLEC005050                       DLLKKLGSLAEKYDLYVQVISLFTSHISENLEEIKLTMELFPDCANYADVYDKAGLLTNK
+DhpD_lcl|MK480214.1_prot_QEO1912      PLLQSLAKMAVDQDLYIQ------THISENKTEVEVVKELYPECIDYTDVYDKAGILTNK
+                                                                                                 :
+
+HOVITM_094531-T1                      TRLDYKV--AHTQMKLHKSLNSSAKSSPKLNKNLTQKQVQSPRNFFSVSLQVQKLKDSKA
+HOVITM_094535-T1                      TILAHCVHLQDSEMEMIKDARCSIAHCPSSNINL-RSGVCNVRRLLDKGINVCLGTDVAG
+DhpD_FBpp0078625                      TVLAHGVHLEDDEVALLKVRGCSVAHCPTSNTML-SSGLCDVQRLVSGGVSVGLGTDVSG
+DhpD_CLEC005050                       TILAHGVHLLDDELLLLSRRGTAIVHCPNSNTYL-KSGLCDVKRLLDNKIKVALGTDVSG
+DhpD_lcl|MK480214.1_prot_QEO1912      TILAHGIYLSDRELDVLKERGTCIAHCPNSNTYL-QSGLCDVRKLWNHGVKVGLGTDVSG
+                                      * * : :     :: : .    .   .*. *  *  . : . ..: .  :.*   .*  .
+
+HOVITM_094531-T1                      TVDSANKPAMVSEEACQTSLLHLNDSPMT----------QIHPPTTDQI--LQKSGGSRQ
+HOVITM_094535-T1                      GNSSSILDEMRAALNTSITLSFQHED--------------YIPLSYHEVFYMATMGGAIG
+DhpD_FBpp0078625                      GNSVSIQDVLLRALDVSKHLDFFKKQNIRGTGVSKTQDFNYHQLKYKQALYLATLGGAKA
+DhpD_CLEC005050                       GISLSIMDAMRTTLATSNHLSILGKQ--------------VKPLTYHEAFYLATLGGAEA
+DhpD_lcl|MK480214.1_prot_QEO1912      GCNASIVDAMRCALATSTHLSFQIEG--------------YKPLNFQEVFYLATLGGATA
+                                        . :    :      .  *    .                   .  :   : . **:  
+
+HOVITM_094531-T1                      TSSQKL-NDLPVTQGLSTETDQTLQKSGGVHKSI--------------------------
+HOVITM_094535-T1                      ILEASLAGTGDVMSIPCLLVIHTGCRSPCCMCSQRTRFWHKH------------------
+DhpD_FBpp0078625                      LSLDHLTGNFALGKDFDALLVDVSV----VDKPLRRLSVDELVEKFIYTGSDRNIVEVFV
+DhpD_CLEC005050                       LNKEKTIGNFQVGKDFDALVVDMEVKVGSMSCSLATHNLLEL------------------
+DhpD_lcl|MK480214.1_prot_QEO1912      LGMENKIGSFAVGKDFDALVVDM-MPLGGTAGVMLEHTLKEHVQKFIYCGETKNVKQVFV
+                                             .   : .                                              
+
+HOVITM_094531-T1                      ----------
+HOVITM_094535-T1                      ----------
+DhpD_FBpp0078625                      AGKRIKQGYQ
+DhpD_CLEC005050                       ----------
+DhpD_lcl|MK480214.1_prot_QEO1912      EGKLVHSK--
+                                                

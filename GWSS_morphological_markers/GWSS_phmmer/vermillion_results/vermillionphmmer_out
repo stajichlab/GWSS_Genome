@@ -1,0 +1,146 @@
+# phmmer :: search a protein sequence against a protein database
+# HMMER 3.3.1 (Jul 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query sequence file:             vermillion.fasta
+# target sequence database:        Homalodisca_vitripennis_A6A7A9_masurca_v1.proteins.fixed.fa
+# output directed to file:         vermillionphmmer_out
+# per-seq hits tabular output:     vermillionphmmer_out_table
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       vermillion_CLEC006165  [L=367]
+Description: | Cimex lectularius Harlan | Vermillion [Source:VB Community Annotation] | protein | length=367
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence         Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------         -----------
+    7.3e-93  314.2   0.0    8.7e-93  313.9   0.0    1.0  1  HOVITM_040850-T1  HOVITM_040850
+    1.1e-10   44.0   0.2    1.3e-10   43.6   0.2    1.1  1  HOVITM_004546-T1  HOVITM_004546
+  ------ inclusion threshold ------
+      0.081   14.8   0.0      0.081   14.8   0.0    1.0  1  HOVITM_045698-T1  HOVITM_045698
+
+
+Domain annotation for each sequence (and alignments):
+>> HOVITM_040850-T1  HOVITM_040850
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  313.9   0.0   2.4e-97   8.7e-93     154     358 ..       4     208 ..       1     213 [. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 313.9 bits;  conditional E-value: 2.4e-97
+  vermillion_CLEC006165 154 iaqsekepslaqlverwlertpgletdgfnfwgkykqnvevllksyytsatasqteseksfkladyekkkatfdsvlnpnihaalinr 241
+                            i +se e sl ql+++wlertpgle +gf+fw+kyk+ v+  l+    +a  s+ e+e+ f l+d ek+   f svl+p  haal+ r
+       HOVITM_040850-T1   4 IERSESEMSLEQLIQQWLERTPGLEANGFDFWSKYKRAVDEWLEGQRLTAMESKCEAEQMFLLSDIEKRAELFHSVLDPGAHAALVQR 91 
+                            7799************************************************************************************ PP
+
+  vermillion_CLEC006165 242 gerrfthkalqgaimitfyrdeprfsqphqlltllmdidslvtkwrynhvlmvqrmigsqnlgtggssgyqylrstlsdrykvfldlf 329
+                            gerrf+hkalqgaimitfyrde rfsqphqll+llmdidsl+tkwrynhvlmvqrmigsq++gtggssgy ylrstlsdrykvfldlf
+       HOVITM_040850-T1  92 GERRFSHKALQGAIMITFYRDEARFSQPHQLLSLLMDIDSLITKWRYNHVLMVQRMIGSQHVGTGGSSGYHYLRSTLSDRYKVFLDLF 179
+                            **************************************************************************************** PP
+
+  vermillion_CLEC006165 330 nlstfllprqyippltssmrnklnvycgi 358
+                            nls fllpr +ipplt +++++l+   g+
+       HOVITM_040850-T1 180 NLSAFLLPRNHIPPLTGTIKSQLSSLGGL 208
+                            **********************9987776 PP
+
+>> HOVITM_004546-T1  HOVITM_004546
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   43.6   0.2   3.7e-15   1.3e-10       1      42 [.      36      76 ..      36      95 .. 0.87
+
+  Alignments for each domain:
+  == domain 1  score: 43.6 bits;  conditional E-value: 3.7e-15
+  vermillion_CLEC006165  1 mlyadylqlnkiltaqrmlstehnatvhdehlfiithqayel 42
+                           mly +ylql+k+l aqr+ls++h  tvhdehlfiithq    
+       HOVITM_004546-T1 36 MLYGEYLQLDKMLGAQRLLSSQHK-TVHDEHLFIITHQGKLT 76
+                           89********************96.9************8544 PP
+
+>> HOVITM_045698-T1  HOVITM_045698
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   14.8   0.0   2.2e-06     0.081     105     159 ..       3      53 ..       1      71 [] 0.80
+
+  Alignments for each domain:
+  == domain 1  score: 14.8 bits;  conditional E-value: 2.2e-06
+  vermillion_CLEC006165 105 reylcpasgfqsvqfrlienklgmkqenrvrfnqsyhsvfgrdevaladiaqsek 159
+                            +e+lcp +g+  v + l+  +l  k  nr+r  + yh    +d   l     s +
+       HOVITM_045698-T1   3 EEWLCPPAGLPLVSI-LVHVRLTSKDRNRIRNCRKYHQYTDNDYAGLP---PSVR 53 
+                            599*******99986.8999******************9988876654...3444 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (367 nodes)
+Target sequences:                     110235  (22157999 residues searched)
+Passed MSV filter:                      1897  (0.0172087); expected 2204.7 (0.02)
+Passed bias filter:                     1550  (0.0140609); expected 2204.7 (0.02)
+Passed Vit filter:                       103  (0.000934367); expected 110.2 (0.001)
+Passed Fwd filter:                         4  (3.62861e-05); expected 1.1 (1e-05)
+Initial search space (Z):             110235  [actual number of targets]
+Domain search space  (domZ):               3  [number of targets reported over threshold]
+# CPU time: 0.37u 0.01s 00:00:00.38 Elapsed: 00:00:00.16
+# Mc/sec: 50420.26
+//
+Query:       vermillion_FBpp0073242  [L=379]
+Description: type=protein; loc=X:join(10924028..10924053,10924127..10924287,10924348..10924481,10924536..10925142,10925234..10925327,10925405..10925522); ID=FBpp0073242; name=v-PA; parent=FBgn0003965,FBtr0073386; dbxref=FlyBase:FBpp0073242,FlyBase_Annotation_IDs:CG2155-PA,GB_protein:AAF47978.1,REFSEQ:NP_511113,GB_protein:AAF47978,UniProt/Swiss-Prot:P20351,FlyMine:FBpp0073242,modMine:FBpp0073242; MD5=a63db31eb8813f12496b322f2684d294; length=379; release=r6.35; species=Dmel; 
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence         Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------         -----------
+    6.6e-92  311.2   0.1    7.7e-92  311.0   0.1    1.0  1  HOVITM_040850-T1  HOVITM_040850
+    4.1e-11   45.5   0.0    4.6e-11   45.3   0.0    1.1  1  HOVITM_004546-T1  HOVITM_004546
+
+
+Domain annotation for each sequence (and alignments):
+>> HOVITM_040850-T1  HOVITM_040850
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  311.0   0.1   1.4e-96   7.7e-92     175     374 ..       3     202 ..       1     206 [. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 311.0 bits;  conditional E-value: 1.4e-96
+  vermillion_FBpp0073242 175 sirnsekdpsllelvqrwlertpgleesgfnfwakfqesvdrfleaqvqsameepvekaknyrlmdiekrrevyrsifdpavhdalv 261
+                             +i+ se + sl +l+q+wlertpgle +gf+fw+k++ +vd++le q  +ame   e  + + l diekr e+++s++dp  h alv
+        HOVITM_040850-T1   3 AIERSESEMSLEQLIQQWLERTPGLEANGFDFWSKYKRAVDEWLEGQRLTAMESKCEAEQMFLLSDIEKRAELFHSVLDPGAHAALV 89 
+                             6889*********************************************************************************** PP
+
+  vermillion_FBpp0073242 262 rrgdrrfshralqgaimitfyrdeprfsqphqlltllmdidslitkwrynhvimvqrmigsqqlgtggssgyqylrstlsdrykvfl 348
+                             +rg+rrfsh+alqgaimitfyrde rfsqphqll+llmdidslitkwrynhv+mvqrmigsq +gtggssgy ylrstlsdrykvfl
+        HOVITM_040850-T1  90 QRGERRFSHKALQGAIMITFYRDEARFSQPHQLLSLLMDIDSLITKWRYNHVLMVQRMIGSQHVGTGGSSGYHYLRSTLSDRYKVFL 176
+                             *************************************************************************************** PP
+
+  vermillion_FBpp0073242 349 dlfnlstflipreaippldetirkkl 374
+                             dlfnls fl+pr  ippl  ti+ +l
+        HOVITM_040850-T1 177 DLFNLSAFLLPRNHIPPLTGTIKSQL 202
+                             **********************9987 PP
+
+>> HOVITM_004546-T1  HOVITM_004546
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   45.3   0.0   8.3e-16   4.6e-11      15      69 ..      26      79 ..      22     123 .. 0.84
+
+  Alignments for each domain:
+  == domain 1  score: 45.3 bits;  conditional E-value: 8.3e-16
+  vermillion_FBpp0073242 15 savplttevgkiygeylmldklldaqcmlseedkrpvhdehlfiithqayelwfk 69
+                            s  pl    g +ygeyl+ldk+l aq +ls + k  vhdehlfiithq     + 
+        HOVITM_004546-T1 26 SRTPLGENDGMLYGEYLQLDKMLGAQRLLSSQHK-TVHDEHLFIITHQGKLTLYS 79
+                            678999999*********************9876.7************8655444 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (379 nodes)
+Target sequences:                     110235  (22157999 residues searched)
+Passed MSV filter:                      2090  (0.0189595); expected 2204.7 (0.02)
+Passed bias filter:                     1687  (0.0153037); expected 2204.7 (0.02)
+Passed Vit filter:                       111  (0.00100694); expected 110.2 (0.001)
+Passed Fwd filter:                         3  (2.72146e-05); expected 1.1 (1e-05)
+Initial search space (Z):             110235  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 0.37u 0.01s 00:00:00.38 Elapsed: 00:00:00.16
+# Mc/sec: 50988.58
+//
+[ok]
