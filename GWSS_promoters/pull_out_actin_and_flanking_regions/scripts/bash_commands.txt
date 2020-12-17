@@ -1,0 +1,18 @@
+#find and save scaffolds with actin genes from current GWSS genome (fixed to be one seq = 1 line)
+
+#need seq from 
+#Actin 1	HOVITM_043299	scaffold_7016	64999..69910
+grep -w -A 1 "scaffold_7016" Homalodisca_vitripennis.A6A7A9_masurca_v1.sorted_fixed.fasta > data/scaffold_7016.fasta
+
+
+		
+#Actin 2	HOVITM_100357	scaffold_2130	19505..21374	 
+grep -w -A 1 "scaffold_2130" Homalodisca_vitripennis.A6A7A9_masurca_v1.sorted_fixed.fasta > data/scaffold_2130.fasta
+
+
+#Actin 4 & Actin 
+grep -w -A 1 "scaffold_1502" Homalodisca_vitripennis.A6A7A9_masurca_v1.sorted_fixed.fasta > data/sscaffold_1502
+
+
+
+python scripts/get_region.py > actin_regions.fasta

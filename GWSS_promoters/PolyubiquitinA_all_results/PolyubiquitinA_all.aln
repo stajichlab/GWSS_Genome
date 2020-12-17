@@ -1,0 +1,146 @@
+MUSCLE (3.8) multiple sequence alignment
+
+
+PolyubiquitinA_FBpp0073035      MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYN
+PolyubiquitinA_Bta02851         ------------------------------------------------------------
+PolyubiquitinA_Bta02020         MQIFVKTLTGKTITLEVEASDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYN
+PolyubiquitinA_Ssa02069         ------------------------------------------------------------
+HOVITM_103732-T1                ------------------------------------------------------------
+HOVITM_024119-T1                ------------------------------------------------------------
+                                                                                            
+
+PolyubiquitinA_FBpp0073035      IQKESTLHLVLRLRGGMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLI
+PolyubiquitinA_Bta02851         ------------------------------------------------------------
+PolyubiquitinA_Bta02020         IQKESTLHLVLRLRGGMQIFVKTLTGKTITLEVEASDTIENVKAKIQDKEGIPPDQQRLI
+PolyubiquitinA_Ssa02069         ------------------------------------------------------------
+HOVITM_103732-T1                ------------------------------------------------------------
+HOVITM_024119-T1                ------------------------------------------------------------
+                                                                                            
+
+PolyubiquitinA_FBpp0073035      FAGKQLEDGRTLSDYNIQKESTLHLVLRLRGGMQIFVKTLTGKTITLEVEPSDTIENVKA
+PolyubiquitinA_Bta02851         ------------------------------------------------------------
+PolyubiquitinA_Bta02020         FAGKQLEDGRTLSDYNIQKESTLHLVLRLRGGMQIFVKTLTGKTITLEVEASDTIENVKA
+PolyubiquitinA_Ssa02069         ------------------------------------------------------------
+HOVITM_103732-T1                ------------------------------------------------------------
+HOVITM_024119-T1                ------------------------------------------------------------
+                                                                                            
+
+PolyubiquitinA_FBpp0073035      KIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGGMQIFVKTLTGKT
+PolyubiquitinA_Bta02851         ------------------------------------------------------------
+PolyubiquitinA_Bta02020         KIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGGMQIFVKTLTGKT
+PolyubiquitinA_Ssa02069         ------------------------------------------------------------
+HOVITM_103732-T1                ------------------------------------------------------------
+HOVITM_024119-T1                ------------------------------------------------------------
+                                                                                            
+
+PolyubiquitinA_FBpp0073035      ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLR
+PolyubiquitinA_Bta02851         ------------------------------------------------------------
+PolyubiquitinA_Bta02020         ITLEVEASDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLR
+PolyubiquitinA_Ssa02069         ------------------------------------------------------------
+HOVITM_103732-T1                --------------------------------------------------MSYKNGVNTD
+HOVITM_024119-T1                ------------------------------------------------------------
+                                                                                            
+
+PolyubiquitinA_FBpp0073035      LRGGMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTL
+PolyubiquitinA_Bta02851         ------------------------------------------------------------
+PolyubiquitinA_Bta02020         LRGGMQIFVKTLTGKTITLEVEASDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTL
+PolyubiquitinA_Ssa02069         ----MQIFVKTLTGKTITLEVEASDTIEN-------------------------------
+HOVITM_103732-T1                AQEQLTIFIETLTGTTFEVKVSPQDRVKTIKSKIQKVEGIPVSHQHLLYNSKELQDSSCV
+HOVITM_024119-T1                -----------------MIQVVP-------------------------------------
+                                                                                            
+
+PolyubiquitinA_FBpp0073035      SD----------------------------------------------------------
+PolyubiquitinA_Bta02851         ------------------------------------------------------------
+PolyubiquitinA_Bta02020         SDYNIQKESTLHLVLRLRGGMQIFVKTLTGKTITLEVEASDTIENVKAKIQDKEGIPPDQ
+PolyubiquitinA_Ssa02069         ------------------------------------------------------------
+HOVITM_103732-T1                TE----------------------------------------------------------
+HOVITM_024119-T1                ------------------------------------------------------------
+                                                                                            
+
+PolyubiquitinA_FBpp0073035      ------------------------------------------------------------
+PolyubiquitinA_Bta02851         ------------------------------------------------------------
+PolyubiquitinA_Bta02020         QRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGGMQIFVKTLTGKTITLEVEASDTIE
+PolyubiquitinA_Ssa02069         ------------------------------------------------------------
+HOVITM_103732-T1                ------------------------------------------------------------
+HOVITM_024119-T1                ------------------------------------------------------------
+                                                                                            
+
+PolyubiquitinA_FBpp0073035      ----------------------------------YNIQKESTLHLVLRLRGGMQIFVKTL
+PolyubiquitinA_Bta02851         ------------------------------------------------------------
+PolyubiquitinA_Bta02020         NVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGGMQIFVKTL
+PolyubiquitinA_Ssa02069         ------------------------------------------------------------
+HOVITM_103732-T1                --------------------------------PSVALHDQATVKLVLSLRGGPISLVHQA
+HOVITM_024119-T1                ----------------------------------------------------PPTMLPTF
+                                                                                            
+
+PolyubiquitinA_FBpp0073035      TGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLH
+PolyubiquitinA_Bta02851         ------------------------------------------------------------
+PolyubiquitinA_Bta02020         TGKTITLEVEASDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLH
+PolyubiquitinA_Ssa02069         -----------------VKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYN--------
+HOVITM_103732-T1                VPFNRNILKNL------LKFNREELEEDLPPGCKMAILVLRVGDQLNLLHIVDDVDDSHD
+HOVITM_024119-T1                VPLVTQMHQPL------LMHQAEERVSE-PPAKKM-----RTEESLIPEHVF--------
+                                                                                            
+
+PolyubiquitinA_FBpp0073035      LVLRLRGGMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLED
+PolyubiquitinA_Bta02851         ------------------------------------------------------------
+PolyubiquitinA_Bta02020         LVLRLRGGMQIFVKTLTGKTITLEVEASDTIENVKAKIQDKEGIPPDQQRLIFAGKQLED
+PolyubiquitinA_Ssa02069         ------------------------------------------------------------
+HOVITM_103732-T1                SLSNSRENLSI----------------------------------------------DSL
+HOVITM_024119-T1                -LGKTKSPVTF-------------------------------------------------
+                                                                                            
+
+PolyubiquitinA_FBpp0073035      GRTLSDYNIQKESTLHLVLRLRGGMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGI
+PolyubiquitinA_Bta02851         ------------------------MQIFVKTLTGKTITLEVEASDTIENVKAKIQDKEGI
+PolyubiquitinA_Bta02020         GRTLSDYNIQKESTLHLVLRLRGGMQIFVKTLTGKTITLEVEASDTIENVKAKIQDKEGI
+PolyubiquitinA_Ssa02069         --------IQKESTLHLVLRLRGGMQIFVKTLTGKTITLEVEASDTIENVKAKIQDKEGI
+HOVITM_103732-T1                EDEISKSVEENSITMGKVCDLKEKMEKLSLQRKGPKVDIKNEDVGATSLSRDVLHPSKLV
+HOVITM_024119-T1                -----------------AVAVPHMPERIEWKLKGQVLTVTLPLSDSVSVIKAKIYEATQV
+                                                         : :    .*  : :     .: .  .  :     :
+
+PolyubiquitinA_FBpp0073035      PPDQQ---RLIFAGKQLEDGRTLSDYNIQK--------ESTLHLVLRLRGGMQIFVKT--
+PolyubiquitinA_Bta02851         PPDQQ---RLIFAGKQLEDGRTLSDYNIQK--------ESTLHLVLRLRGGMQIFVKT--
+PolyubiquitinA_Bta02020         PPDQQ---RLIFAGKQLEDGRTLSDYNIQK--------ESTLHLVLRLRGGMQIFVKT--
+PolyubiquitinA_Ssa02069         PPDQQ---RLIFAGKQLEDGRTLSDYNIQK--------ESTLHLVLRLRGGMQIFVKT--
+HOVITM_103732-T1                GPIKLPSIDHQIRGEMFKSRSEFSKIPVLPDIIPRPFQSTSRDLECVTLGKESTSTEICD
+HOVITM_024119-T1                PPGKQ---KLHWEGMFFKDTNSLAFYNISP--------ATTIQLQIKERGGRKKNIKI--
+                                 * :         *  ::.   ::   :           ::  *     *  .   :   
+
+PolyubiquitinA_FBpp0073035      ---------LTGKTITLEVEPSDTIENVKAKIQDK--EGIPPDQQRLIF---AGKQLE--
+PolyubiquitinA_Bta02851         ---------LTGKTITLEVEASDTIENVKAKIQDK--EGIPPDQQRLIF---AGKQLE--
+PolyubiquitinA_Bta02020         ---------LTGKTITLEVEASDTIENVKAKIQDK--EGIPPDQQRLIF---AGKQLE--
+PolyubiquitinA_Ssa02069         ---------LTGKTITLEVEASDTIENVKAKIQDK--EGIPPDQQRLIF---AGKQLE--
+HOVITM_103732-T1                TIRPKTCPGSLAESQFYNVYSDDECENSLQIAQPHFRSCVSACASKLHHEWGGGKTLLPS
+HOVITM_024119-T1                -------------------------------------SFVDHSHIKFSH---GGKTVL--
+                                                                     . :     .: .   .** :   
+
+PolyubiquitinA_FBpp0073035      -----------------------DGRTLSDYNI-----------QKESTLHLVLRLRGGM
+PolyubiquitinA_Bta02851         -----------------------DGRTLSDYNI-----------QKESTLHLVLRLRGGM
+PolyubiquitinA_Bta02020         -----------------------DGRTLSDYNI-----------QKESTLHLVLRLRGGM
+PolyubiquitinA_Ssa02069         -----------------------DGRTLSDYNI-----------QKESTLHLVLRLRGGM
+HOVITM_103732-T1                LNILPPISGVSDILNNHRPVSNTDPRDMPSTQVPSIEKLSVVHRNLSSTLKLKQNLRKDT
+HOVITM_024119-T1                -----------------------EQRDSAYCLV---------------------------
+                                                       : *  .   :                           
+
+PolyubiquitinA_FBpp0073035      QIFVKTLTGKTITLEVEP--------------------------------------SDTI
+PolyubiquitinA_Bta02851         QIFVKTLTGKTITLEVEA--------------------------------------SDTI
+PolyubiquitinA_Bta02020         QIFVKTLTGKTITLEVEA--------------------------------------SDTI
+PolyubiquitinA_Ssa02069         QIFVKTLTGKTITLEVEA--------------------------------------SDTI
+HOVITM_103732-T1                QSFLNRTESNFFPKNVNCQEKSLQEGFSNSHYLPSTSHEFFPTPSSDFSSLITKMDSSSC
+HOVITM_024119-T1                --FLRDSEI-----------------------------------------------TSKS
+                                  *:.                                                   :.. 
+
+PolyubiquitinA_FBpp0073035      ENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHL---VLRLRGGIQA-
+PolyubiquitinA_Bta02851         ENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHL---VLRLRGGC---
+PolyubiquitinA_Bta02020         ENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHL---VLRLRGGL---
+PolyubiquitinA_Ssa02069         ENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHL---VLRLRGGL---
+HOVITM_103732-T1                DLATSKINNHVEEPLLSNKKIFDKKS-----RLRCAECKKRLSLTN---TFECRCGFAFC
+HOVITM_024119-T1                DLFSSRVD---------SKPIAVRHA-----TGKCKSLRGNITLEDRGKIIKEPDGIANI
+                                :  .:.::         .. *   :           . .   :*      :    *    
+
+PolyubiquitinA_FBpp0073035      ----
+PolyubiquitinA_Bta02851         ----
+PolyubiquitinA_Bta02020         ----
+PolyubiquitinA_Ssa02069         ----
+HOVITM_103732-T1                SYHR
+HOVITM_024119-T1                TS--
+                                    
