@@ -11,8 +11,21 @@ grep -w -A 1 "scaffold_2130" Homalodisca_vitripennis.A6A7A9_masurca_v1.sorted_fi
 
 
 #Actin 4 & Actin 
-grep -w -A 1 "scaffold_1502" Homalodisca_vitripennis.A6A7A9_masurca_v1.sorted_fixed.fasta > data/sscaffold_1502
+grep -w -A 1 "scaffold_1502" Homalodisca_vitripennis.A6A7A9_masurca_v1.sorted_fixed.fasta > data/scaffold_1502.fasta
+
+
+#polyubiquitins identified from nhmmer searches to our genome using hits ided by Inaiara 
+
+#polyubiquitin 
+grep -w -A 1 "scaffold_7782" Homalodisca_vitripennis.A6A7A9_masurca_v1.sorted_fixed.fasta > data/scaffold_7782.fasta
+
+grep -w -A 1 "scaffold_10516" Homalodisca_vitripennis.A6A7A9_masurca_v1.sorted_fixed.fasta > data/scaffold_10516.fasta
+
+grep -w -A 1 "scaffold_188" Homalodisca_vitripennis.A6A7A9_masurca_v1.sorted_fixed.fasta > data/scaffold_188.fasta
 
 
 
-python scripts/get_region.py > actin_regions.fasta
+python scripts/gwss_get_region.py > actin_regions.fasta
+
+python scripts/gwss_get_region_pu.py > polyubiq_regions.fasta
+

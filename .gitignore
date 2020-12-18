@@ -9,3 +9,4 @@ GWSS_scaffold/scaffold_vs_i5k/ragtag_correct_scaffolds
 GWSS_scaffold/scaffold_vs_i5k/quast_results/results_2020_11_20_16_47_11/contigs_reports/minimap_output
 GWSS_promoters/data
 GWSS_promoters/Fasttree
+GWSS_promoters/pull_out_actin_and_flanking_regions/data
