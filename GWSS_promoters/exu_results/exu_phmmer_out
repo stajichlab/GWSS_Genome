@@ -1,0 +1,128 @@
+# phmmer :: search a protein sequence against a protein database
+# HMMER 3.3.1 (Jul 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query sequence file:             data/exu.fasta
+# target sequence database:        data/Homalodisca_vitripennis_A6A7A9_masurca_v1.proteins.fixed.fa
+# output directed to file:         exu_phmmer_out
+# per-seq hits tabular output:     exu_phmmer_out_table
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       exu  [L=416]
+Description: ACYPI005096-PA 
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence         Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------         -----------
+    4.1e-82  279.3   1.1    5.5e-82  278.9   1.1    1.0  1  HOVITM_102745-T1  HOVITM_102745
+
+
+Domain annotation for each sequence (and alignments):
+>> HOVITM_102745-T1  HOVITM_102745
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  278.9   1.1     5e-87   5.5e-82      21     396 ..      16     377 ..       7     391 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 278.9 bits;  conditional E-value: 5e-87
+               exu  21 sdymvigwdidttgrrlldeichiaghtpnsqfnqyimphndidqvarrrhllctitmgrfralkdiknnktlkskseisalaefiewleqml 113
+                        dy +++wd+dttgrrl+de+ch+ag+tp  +f+qy+mp+ d+d +++rrh + t+t+g++r lkd+k  k lk+kseisal +f+ wle++ 
+  HOVITM_102745-T1  16 GDYKIVAWDLDTTGRRLIDEFCHVAGYTPEDKFSQYVMPYKDLDLISKRRHQVRTVTVGKYRMLKDLKTGKFLKTKSEISALTDFLTWLEKV- 107
+                       69***************************************************************************************986. PP
+
+               exu 114 kdngkkmailvchevskfntclliksllaynlldkfsevvkgfanchsfaqthcqdtmvmfslrvlskvlldkdhidtskatdraklaydivq 206
+                       k ++k   il+  e  k+   ll+++l  y lld+f+ vvkgf++c+++ +  c  t+  fsl+v+skvlldkd  + s a+draklay ivq
+  HOVITM_102745-T1 108 KGDSKSGIILLNFESFKLAPSLLLEALKKYQLLDRFTNVVKGFSDCYAYVKQKCYSTLTSFSLKVVSKVLLDKDG-EVSTASDRAKLAYQIVQ 199
+                       666788899999**************************************************************7.7899************* PP
+
+               exu 207 hlcvtletgkddgkevvtgsevseetkakalstfltsidnevqtlhstqellarqkslntvyhkslsyqtstldrkkaisyrnsiakanidyi 299
+                       hl      g+ d          + +   + +    ++++ e+q +++ + ll rq +l  v+   +        rk a + r  +  a +dy 
+  HOVITM_102745-T1 200 HLTAGEGAGEGD--------AANHQVMLEDIREHSSTVEEELQVIENMKMLLQRQNTLRPVFAPIMK--QGIQQRKIASALRRLLTVALLDYD 282
+                       *97654444433........333444444555566789************************87665..4567899999************** PP
+
+               exu 300 tlqslwtenkenkdgfkdavkdklpelsdeekegivstiimhfenpepvspppkggrkyggrfrrrsg..sykdnrksisendagslspnstd 390
+                       tl++lw e   nkd+f++ + dkl + ++eek+ i   +  hf np      p++ rk   r + +    +   +  s ++  a++ + +s  
+  HOVITM_102745-T1 283 TLKTLWDE---NKDSFEEIINDKLTQATEEEKKEICKMLTDHF-NPSIPDKKPRNPRKSTRRSNAKDKeqATSSDIPSTTDTTASNTTTSSPS 371
+                       ******86...5799***************************9.6766667777888766554443320023334455556666666666666 PP
+
+               exu 391 hanghn 396
+                        +ng n
+  HOVITM_102745-T1 372 KSNGLN 377
+                       777766 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (416 nodes)
+Target sequences:                     110235  (22157999 residues searched)
+Passed MSV filter:                      2126  (0.0192861); expected 2204.7 (0.02)
+Passed bias filter:                     1463  (0.0132716); expected 2204.7 (0.02)
+Passed Vit filter:                       112  (0.00101601); expected 110.2 (0.001)
+Passed Fwd filter:                         2  (1.81431e-05); expected 1.1 (1e-05)
+Initial search space (Z):             110235  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.43u 0.02s 00:00:00.45 Elapsed: 00:00:00.19
+# Mc/sec: 46350.27
+//
+Query:       exu  [L=532]
+Description: FBpp0085555 type=protein; loc=2R:complement(join(20670201..20670350,20669979..20670131,20668600..20669895)); ID=FBpp0085555; name=exu-PA; parent=FBgn0000615,FBtr0086242; dbxref=FlyBase:FBpp0085555,FlyBase_Annotation_IDs:CG8994-PA,GB_protein:AAF57429.1,REFSEQ:NP_725995,GB_protein:AAF57429,UniProt/Swiss-Prot:P28750; MD5=5cdf9a47a88011b6e9d7e40cc9ba6872; length=532; release=r6.37; species=Dmel; 
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence         Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------         -----------
+    4.2e-60  206.8  10.9    9.1e-47  162.9   0.0    2.0  2  HOVITM_102745-T1  HOVITM_102745
+
+
+Domain annotation for each sequence (and alignments):
+>> HOVITM_102745-T1  HOVITM_102745
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  162.9   0.0   8.3e-52   9.1e-47      20     198 ..       5     179 ..       2     188 .. 0.93
+   2 !   45.6   8.0   2.9e-16   3.2e-11     260     521 ..     186     440 ..     180     454 .. 0.72
+
+  Alignments for each domain:
+  == domain 1  score: 162.9 bits;  conditional E-value: 8.3e-52
+               exu  20 spvgdkvelpagnyilvgvdidttgrrlmdeivqlaaytptdhfeqyimpymnlnpaarqrhqvrvisigfyrmlksmqtykiikskseiaal 112
+                         v  k  lpag+y +v+ d+dttgrrl+de+  +a ytp d f qy+mpy +l+  +++rhqvr +++g yrmlk ++t k++k+ksei+al
+  HOVITM_102745-T1   5 DKVVPKAGLPAGDYKIVAWDLDTTGRRLIDEFCHVAGYTPEDKFSQYVMPYKDLDLISKRRHQVRTVTVGKYRMLKDLKTGKFLKTKSEISAL 97 
+                       55678999************************************************************************************* PP
+
+               exu 113 kdflnwleqlktkagpssdgivliyheerkfipymileslkkygllerftasvksfansinlakasigdaniknyslrklskilst 198
+                        dfl wle++k   g s  gi+l+  e  k+ p ++le+lkky ll+rft  vk f++     k     + + ++sl+ +sk+l  
+  HOVITM_102745-T1  98 TDFLTWLEKVK---GDSKSGIILLNFESFKLAPSLLLEALKKYQLLDRFTNVVKGFSDCYAYVKQKCY-STLTSFSLKVVSKVLLD 179
+                       ********987...8999******************************************99999875.6799*********9964 PP
+
+  == domain 2  score: 45.6 bits;  conditional E-value: 2.9e-16
+               exu 260 nasvraklafdvalqlsnsdgkpepkssealenmfnairpfaklvvsdvleldiqienlerqnsfrpvflnyfkttlyhrvravkfrivlaen 352
+                        as rakla+ +   l+  +g  e  ++   + m+  ir  +  v  ++  ++     l+rqn++rpvf   +k  + +r  a  +r +l   
+  HOVITM_102745-T1 186 TASDRAKLAYQIVQHLTAGEGAGEGDAAN-HQVMLEDIREHSSTVEEELQVIENMKMLLQRQNTLRPVFAPIMKQGIQQRKIASALRRLLTVA 277
+                       6899******************9987765.578999******99988888888888889**********************9*********** PP
+
+               exu 353 gfdlntlsaiwaekniegldialqsigrlkskdkaellelldsyfdpkkttvkpvvkgnsnnnnnyrrrnrrggrqsvkdarpsssps.aste 444
+                        +d +tl  +w e      +i    + +   ++k e+ ++l  +f+p     kp      n   + rr n +  +q+     ps++ + as  
+  HOVITM_102745-T1 278 LLDYDTLKTLWDENKDSFEEIINDKLTQATEEEKKEICKMLTDHFNPSIPDKKPR-----NPRKSTRRSNAKDKEQATSSDIPSTTDTtASNT 365
+                       ***********9988888899999***********************98888873.....555566777777777777666666554313444 PP
+
+               exu 445 fgaggdksrsvsslpdsttktpspnkprmhrkrnsrqslgatpnglkvaaeisssgvselnnsappavtispvvaqp 521
+                         ++  ks+ ++  p     +p  n p +        + +  p +       s+s+ +  + sap  v+     + p
+  HOVITM_102745-T1 366 TTSSPSKSNGLN-TP-QLVDSPKHNLPSLASTTAPVSTSAPAPVSTSAPVPASTSAPAPASTSAPVPVSAPAPASAP 440
+                       444444444443.23.3445566666666544443333333444444444444455555555555444332222222 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (532 nodes)
+Target sequences:                     110235  (22157999 residues searched)
+Passed MSV filter:                      2993  (0.0271511); expected 2204.7 (0.02)
+Passed bias filter:                     2065  (0.0187327); expected 2204.7 (0.02)
+Passed Vit filter:                       147  (0.00133351); expected 110.2 (0.001)
+Passed Fwd filter:                         1  (9.07153e-06); expected 1.1 (1e-05)
+Initial search space (Z):             110235  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.58u 0.02s 00:00:00.60 Elapsed: 00:00:00.27
+# Mc/sec: 43179.12
+//
+[ok]

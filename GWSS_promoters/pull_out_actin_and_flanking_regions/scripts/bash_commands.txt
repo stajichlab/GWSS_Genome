@@ -14,7 +14,7 @@ grep -w -A 1 "scaffold_2130" Homalodisca_vitripennis.A6A7A9_masurca_v1.sorted_fi
 grep -w -A 1 "scaffold_1502" Homalodisca_vitripennis.A6A7A9_masurca_v1.sorted_fixed.fasta > data/scaffold_1502.fasta
 
 
-#polyubiquitins identified from nhmmer searches to our genome using hits ided by Inaiara 
+#polyubiquitins identified from nhmmer searches to our genome using hits provided by Inaiara 
 
 #polyubiquitin 
 grep -w -A 1 "scaffold_7782" Homalodisca_vitripennis.A6A7A9_masurca_v1.sorted_fixed.fasta > data/scaffold_7782.fasta
@@ -28,4 +28,25 @@ grep -w -A 1 "scaffold_188" Homalodisca_vitripennis.A6A7A9_masurca_v1.sorted_fix
 python scripts/gwss_get_region.py > actin_regions.fasta
 
 python scripts/gwss_get_region_pu.py > polyubiq_regions.fasta
+
+
+#additional promoter regions for Inaiara 
+
+#vasa
+grep -w -A 1 "scaffold_602" Homalodisca_vitripennis.A6A7A9_masurca_v1.sorted_fixed.fasta > data/scaffold_602.fasta
+
+#exu
+grep -w -A 1 "scaffold_733" Homalodisca_vitripennis.A6A7A9_masurca_v1.sorted_fixed.fasta > data/scaffold_733.fasta
+
+#betatubulin
+grep -w -A 1 "scaffold_2372" Homalodisca_vitripennis.A6A7A9_masurca_v1.sorted_fixed.fasta > data/scaffold_2372.fasta
+grep -w -A 1 "scaffold_41" Homalodisca_vitripennis.A6A7A9_masurca_v1.sorted_fixed.fasta > data/scaffold_41.fasta
+grep -w -A 1 "scaffold_42" Homalodisca_vitripennis.A6A7A9_masurca_v1.sorted_fixed.fasta > data/scaffold_42.fasta
+grep -w -A 1 "scaffold_627" Homalodisca_vitripennis.A6A7A9_masurca_v1.sorted_fixed.fasta > data/scaffold_627.fasta
+grep -w -A 1 "scaffold_411" Homalodisca_vitripennis.A6A7A9_masurca_v1.sorted_fixed.fasta > data/scaffold_411.fasta
+
+
+python scripts/gwss_get_region_exu.py > exu_regions.fasta
+python scripts/gwss_get_region_vasa.py > vasa_regions.fasta
+python scripts/gwss_get_region_tub.py > tubulin_regions.fasta
 

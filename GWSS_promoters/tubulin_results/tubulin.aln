@@ -1,0 +1,230 @@
+MUSCLE (3.8) multiple sequence alignment
+
+
+tubuluin_tub2_FBpp0076678           -----------------------------------------MREIVTLQIGGAG-----N
+HOVITM_075081-T1                    ----------------------------------------MMTCIIVIKV----------
+HOVITM_094615-T1                    -----------------------------------MSLPVSPCPQCTCRTTPCSPRPDDA
+HOVITM_099791-T1                    ------------------------------------------------------------
+tubulin_beta97ef_FBpp0289838        -----------------------------------------MREIVHLQAGQCG-----N
+tubulin_beta97ef_CLEC007800         -----------------------------------------MREIVHLQAGQCG-----N
+HOVITM_075967-T1                    MNHTQSDFYGQFYWGPTSGVTRQSGASSPAACCNAHFLSAPLTPSLHLSIPTRGWW---N
+tubulin_beta60d_ACYPI001007-PA      -----------------------------------------MREIVHLQAGQCG-----N
+HOVITM_049113-T1                    ------------------------------------------------------------
+tubulin_beta60d_FBpp0072177         -----------------------------------------MREIVNLQAGQCG-----N
+tubulin_beta60d2_FBpp0310087        -----------------------------------------MREIVNLQAGQCG-----N
+tubulin_beta85d_FBpp0081524         -----------------------------------------MREIVHIQAGQCG-----N
+tubulin_beta56d_FBpp0085721         -------------------------------------MLIGARPIHRVYDGVHGWPKPRS
+tubulin_beta56d_ACYPI008874-PA      -----------------------------------------MREIVHIQAGQCG-----N
+tubulin_beta56d2_FBpp0085720        -----------------------------------------MREIVHIQAGQCG-----N
+tubulin_beta85d_AAEL002851          -----------------------------------------MREIVHIQAGQCG-----N
+HOVITM_074970-T1                    ------------------------------------------------------------
+                                                                                                
+
+tubuluin_tub2_FBpp0076678           AIGDS------------FWHVIS---------------------HEHGVDYA--SGRFGG
+HOVITM_075081-T1                    -----------------FWEVIS---------------------DEHGIT-P--TGNFAG
+HOVITM_094615-T1                    HGGGS------------RAQSVSRLPSAVVPPPCQPRFPSRASRRPHRISRPVTQNLLET
+HOVITM_099791-T1                    ------------------------------------------------------------
+tubulin_beta97ef_FBpp0289838        QIGSK------------FWEIIS---------------------DEHGID-P--NGYYHG
+tubulin_beta97ef_CLEC007800         QIGSK------------FWEIIS---------------------DEHGID-P--AGVYHG
+HOVITM_075967-T1                    KTGHGQIPFQGPTKAEFFWEVIS---------------------DEHGID-P--TGTYHG
+tubulin_beta60d_ACYPI001007-PA      QIGAK------------FWQVIS---------------------EEHGID-Y--TGFYKG
+HOVITM_049113-T1                    ------------------------------------------------------------
+tubulin_beta60d_FBpp0072177         QIGAK------------FWEIIS---------------------EEHGID-S--NGIYVG
+tubulin_beta60d2_FBpp0310087        QIGAK------------FWEIIS---------------------EEHGID-S--NGIYVG
+tubulin_beta85d_FBpp0081524         QIGGK------------FWEVIS---------------------DEHCID-A--TGTYYG
+tubulin_beta56d_FBpp0085721         RAQTC------------FWEIIS---------------------DEHGID-A--TGAYHG
+tubulin_beta56d_ACYPI008874-PA      QIGAK------------FWEIIS---------------------DEHGID-P--TGAYHG
+tubulin_beta56d2_FBpp0085720        QIGAK------------FWEIIS---------------------DEHGID-A--TGAYHG
+tubulin_beta85d_AAEL002851          QIGAK------------FWEIIS---------------------DEHGID-A--TGAYHG
+HOVITM_074970-T1                    --MYR------------FWEIIS---------------------DEHGID-P--TGAYHG
+                                                                                                
+
+tubuluin_tub2_FBpp0076678           TSPLQL---ERINVFFNATA------SKRFYARTILIDTEASTIQRLNASS--QLYRPEN
+HOVITM_075081-T1                    ESDLQL---ERINVYYTEAR------GGKYVPRAILVDLEQGTLDSVRSGPFGQIFRPDN
+HOVITM_094615-T1                    QSSVHISKEEPFVLFFGKGQ-SKFGTKVPLGPRKDLIDVGQG---AVLPSVCRRLLFPRV
+HOVITM_099791-T1                    -------------------------------------------MDSIRSGAIGKMFRPDN
+tubulin_beta97ef_FBpp0289838        ESALQH---ERIDVYYNEAS------SGKYVPRAVLIDLEPGTMDSVRQSPVGQLFRPDN
+tubulin_beta97ef_CLEC007800         DNPQQL---ERVNVYYNEAS------NGKFVPRAVLVDLEPGTMDSVRSGPFGQLFRPDN
+HOVITM_075967-T1                    DSDLQL---ERINVYYNEAT------GGKYVPRAILVDLEPGTMDSVRSGPFGQIFRPDN
+tubulin_beta60d_ACYPI001007-PA      TSDLQL---ERINVYYNEGSAANRSEGGKYVPRAVLLDLEPGTMESIRSGPYGALFRPDN
+HOVITM_049113-T1                    -------------------------------------------MESVRSGVYGELFRPDN
+tubulin_beta60d_FBpp0072177         DSDLQL---ERVSVYYNEASAVTRSSGGKYVPRAILLDLEPGTMESVRSGPYGQLFRPDN
+tubulin_beta60d2_FBpp0310087        DSDLQL---ERVSVYYNEAS-VTRSSGGKYVPRAILLDLEPGTMESVRSGPYGQLFRPDN
+tubulin_beta85d_FBpp0081524         DSDLQL---ERINVYYNEAT------GAKYVPRAILVDLEPGTMDSVRSGAFGQIFRPDN
+tubulin_beta56d_FBpp0085721         DSDLQL---ERINVYYNEAS------GGKYVPRAVLVDLEPGTMDSVRSGPFGQIFRPDN
+tubulin_beta56d_ACYPI008874-PA      DSDLQL---ERINVYYNEAS------GGKYVPRAILVDLEPGTMDSVRSGPFGQIFRPDN
+tubulin_beta56d2_FBpp0085720        DSDLQL---ERINVYYNEAS------GGKYVPRAVLVDLEPGTMDSVRSGPFGQIFRPDN
+tubulin_beta85d_AAEL002851          DSDLQL---ERINVYYNEAS------GGKYVPRAVLVDLEPGTMDSVRSGPFGQIFRPDN
+HOVITM_074970-T1                    DSDLQL---ERINVYYNEAS------GGKYVPRAILVDLEPGTMDSVRSGPFGQIFRPDN
+                                                                                  :  .    :  *  
+
+tubuluin_tub2_FBpp0076678           FVAGSESAGNNFARGYHTDGAAILDQVLENTRREVESVDSLQGFQLLHSIGGGTGSGLTS
+HOVITM_075081-T1                    FVFGQGGAGNNWAKGHYTEGAELADTTLDLIRQEAEACDCLQGFQLVHSLGGGTGSGMGT
+HOVITM_094615-T1                    LQYSFESV---YLGGHYTEGAELVDSVLDVLRREAENCDCLQGFQLAHSLGGGTGSGMGT
+HOVITM_099791-T1                    FIFGQTGAGNNWAKGHYTEGAELVDQVMDIVRKEAENCDCLQGFQMTHSLGGGTGSGMGT
+tubulin_beta97ef_FBpp0289838        FVYGQSGAGNNWAKGHYTEGAELIDSVLEVLRKESEGCDCLQGFQLAHSLGGGTGSGLGT
+tubulin_beta97ef_CLEC007800         YVFGQSGAGNNWAKGHYTEGAELVDAVMDVVRREAETCDCLQGFQLAHSLGGGTGSGMGT
+HOVITM_075967-T1                    FVFGQSGAGNNWAKGHYTEGAELVDSVLDVVRKEAESCDCIQGFQLTHSLGGGTGSGMGT
+tubulin_beta60d_ACYPI001007-PA      FVFGQSGAGNNWAKGHYTEGAELVDAVLDVVRKESENCDCLQGFQLAHSLGGGTGSGLGT
+HOVITM_049113-T1                    FVFGQSGAGNNWAKGHYTEGAELVDAVLDVVRKEAENCDCLQGFQLTHSLGGGTGSGLGT
+tubulin_beta60d_FBpp0072177         FVYGQSGAGNNWAKGHYTEGAELVDNVLDVVRKECENCDCLQGFQLTHSLGGGTGSGMGT
+tubulin_beta60d2_FBpp0310087        FVYGQSGAGNNWAKGHYTEGAELVDNVLDVVRKECENCDCLQGFQLTHSLGGGTGSGMGT
+tubulin_beta85d_FBpp0081524         FVFGQSGAGNNWAKGHYTEGAELVDSVLDVVRKESEGCDCLQGFQLTHSLGGGTGSGMGT
+tubulin_beta56d_FBpp0085721         FVFGQSGAGNNWAKGHYTEGAELVDSVLDVVRKEAESCDCLQGFQLTHSLGGGTGSGMGT
+tubulin_beta56d_ACYPI008874-PA      FVFGQSGAGNNWAKGHYTEGAELVDSVLDVVRKEAESCDCLQGFQLTHSLGGGTGSGMGT
+tubulin_beta56d2_FBpp0085720        FVFGQSGAGNNWAKGHYTEGAELVDSVLDVVRKEAESCDCLQGFQLTHSLGGGTGSGMGT
+tubulin_beta85d_AAEL002851          FVFGQSGAGNNWAKGHYTEGAELVDSVLDVVRKEAESCDCLQGFQLTHSLGGGTGSGMGT
+HOVITM_074970-T1                    FVFGQSGAGNNWAKGHYTEGAELVDSVLDVVRKEAESCDCLQGFQLTHSLGGGTGSGMGT
+                                       .  ..   :  *::*:** : * .::  *.* *  *.:****: **:*******: :
+
+tubuluin_tub2_FBpp0076678           LIMEALVEQYPDNLLCNYVTIPSPNMS-------------QVVVEPYNALLSTPALVNNS
+HOVITM_075081-T1                    LLISKIREEYPDRIIMTFSIIPSPKVS-------------DTVVEPYNATLSIHYLVENA
+HOVITM_094615-T1                    LLISKIREEYPDRIMNTFSVVPSPKVS-------------DTVVEPYNATLSVHQLVENT
+HOVITM_099791-T1                    LLINRMREEYPDRIMNTFSVVPSPKVS-------------DTVVEPYNATLSVHQLVENT
+tubulin_beta97ef_FBpp0289838        LLISKIREEYPDRIMNSFSVVPSPKVS-------------DTVVEPYNATLSIHQLVENT
+tubulin_beta97ef_CLEC007800         LLISKIREEYPDRIVNSFSVVPSPKTHLGHVKLDYELCNYDTVVEPYNATLSVHQLVENT
+HOVITM_075967-T1                    LLISKIREEYPDRIMNTFSIVPSPKVS-------------DTVVEPYNATLSVHQLVENT
+tubulin_beta60d_ACYPI001007-PA      LLISKIREEYPDRIMNTYSVMPSPKVS-------------DTVVEPYNATLSVHQLVENT
+HOVITM_049113-T1                    LLISKIREEYPDRIMNTYSVMPSPKVS-------------DTVVEPYNATLSVHQLVENT
+tubulin_beta60d_FBpp0072177         LLISKIREEYPDRIMNTYSVVPSPKVS-------------DTVVEPYNATLSIHQLVENT
+tubulin_beta60d2_FBpp0310087        LLISKIREEYPDRIMNTYSVVPSPKVS-------------DTVVEPYNATLSIHQLVENT
+tubulin_beta85d_FBpp0081524         LLISKIREEYPDRIMNTFSVVPSPKVS-------------DTVVEPYNATLSVHQLVENT
+tubulin_beta56d_FBpp0085721         LLISKIREEYPDRIMNTYSVVPSPKVS-------------DTVVEPYNATLSVHQLVENT
+tubulin_beta56d_ACYPI008874-PA      LLISKIREEYPDRIMNTYSVVPSPKVS-------------DTVVEPYNATLSVHQLVENT
+tubulin_beta56d2_FBpp0085720        LLISKIREEYPDRIMNTYSVVPSPKVS-------------DTVVEPYNATLSVHQLVENT
+tubulin_beta85d_AAEL002851          LLISKIREEYPDRIMNTYSVVPSPKVS-------------DTVVEPYNATLSVHQLVENT
+HOVITM_074970-T1                    LLISKIREEYPDRIMNTYSVVPSPKVS-------------DTVVEPYNATLSVHQLVENT
+                                    *::. : *:***.:: .:  :***:               :.******* **   **:*:
+
+tubuluin_tub2_FBpp0076678           HLTFCLDNEALFQICNRNLKLKMSGYEHINHIVALTMSGITTCLRFPGQLNAGLRKIYVN
+HOVITM_075081-T1                    DEVYMIDNEALYDICYRTLKLSAPTYGDLNHLISVAMSGITTCFRFPGQLNADLRKICVN
+HOVITM_094615-T1                    DETFCIDNEALYDICFRTLKLTSPTYGDLNHLVSVTMSGVTTCLRFPGQLNADLRKLAVN
+HOVITM_099791-T1                    DETYCIDNEALYDICFRTLKIPNPTYGDLNHLVSSTMSGVTTCLRFPGQLNSDLRKLAVN
+tubulin_beta97ef_FBpp0289838        DETFCIDNEALYDICFRTLKLSSPTYGDLNHLVSVTMSGVTTCLRFPGQLNADLRKLAVN
+tubulin_beta97ef_CLEC007800         DETFCIDNEALYDICFRTLKLTSPTYGDLNHLVSITMSGVTTCLRYPGQLNADLRKLAVN
+HOVITM_075967-T1                    DETFCIDNEALYDICFRTLKLTTPTYGDLNHLVSATMSGVTTCLRFPGQLNSDLRKLAVN
+tubulin_beta60d_ACYPI001007-PA      DESYLIDNEALYDICFRTLKLTNPTYGDLNHLVSLTMSGVTTCLRFPGQLNADLRKLAVN
+HOVITM_049113-T1                    DESYCIDNEALYDICFRTLKLSNPTYGDLNHLVSLTMSGVTTCLRFPGQLNADLRKLAVN
+tubulin_beta60d_FBpp0072177         DETYCIDNEALYDICFRTLKVSNPSYGDLNHLVSLTMSGVTTCLRFPGQLNADLRKLAVN
+tubulin_beta60d2_FBpp0310087        DETYCIDNEALYDICFRTLKVSNPSYGDLNHLVSLTMSGVTTCLRFPGQLNADLRKLAVN
+tubulin_beta85d_FBpp0081524         DETYCIDNEALYDICFRTLKLTTPTYGDLNHLVSATMSGVTTCLRFPGQLNADLRKLAVN
+tubulin_beta56d_FBpp0085721         DETYCIDNEALYDICFRTLKLTTPTYGDLNHLVSLTMSGVTTCLRFPGQLNADLRKLAVN
+tubulin_beta56d_ACYPI008874-PA      DETYCIDNEALYDICFRTLKLTTPTYGDLNHLVSLTMSGVTTCLRFPGQLNADLRKLAVN
+tubulin_beta56d2_FBpp0085720        DETYCIDNEALYDICFRTLKLTTPTYGDLNHLVSLTMSGVTTCLRFPGQLNADLRKLAVN
+tubulin_beta85d_AAEL002851          DETYCIDNEALYDICFRTLKLTTPTYGDLNHLVSLTMSGVTTCLRFPGQLNADLRKLAVN
+HOVITM_074970-T1                    DETYCIDNEALYDICFRTLKLSTPTYGDLNHLVSLTMSGVTTCLRFPGQLNADLRKLAVN
+                                       : :*****::** *.**:  . *  :**::: :***:***:*:*****:.***: **
+
+tubuluin_tub2_FBpp0076678           MVPFPRLHFLIPGFAPLVTCKQQQFSKGTVSELVQQIFYSNNLLCAIDLRKGKLLTAAGI
+HOVITM_075081-T1                    MVPFPRLHFFMPGFAPLVSRGGQAYRALTVPELTKQLFDAKNMMCAADPHRGKYLTVAII
+HOVITM_094615-T1                    MVPFPRLHFFMPGFAPLTARGSQQYRALSVPELTQQMFDAKNMMAACDPRHGRYLTVAAI
+HOVITM_099791-T1                    MVPFPRLHFFMPGFAPLTSPNAAQYCALTVPELVQQMFDAKNMMAAADPRHGRYLTVAAI
+tubulin_beta97ef_FBpp0289838        MVPFPRLHFFMPGFAPLTAKGSQQYRALTVAELTQQMFDAKNMMTACDPRHGRYLTVACI
+tubulin_beta97ef_CLEC007800         MVPFPRLHFFMPGFAPLTARGSQQYRALTVPELTQQMFDAKNMMTACDPRHGRYLTVAVI
+HOVITM_075967-T1                    MVPFPRLHFFVPGFAPLTSRGSQQYRALTVPELVQQMFDAKNMMAACDPRRGRYLTVATI
+tubulin_beta60d_ACYPI001007-PA      MVPFPRLHFFMPGFAPLTARGSQSYRAMSVPELTQQMFDAKNMMVACDPRHGRYLTVAAI
+HOVITM_049113-T1                    MVPFPRLHFFMPGFAPLTSRGSQQYRALTVPELTQQMFDAKNMMVACDPRHGRYLTVAAI
+tubulin_beta60d_FBpp0072177         MVPFPRLHFFMPGFAPLTSRGSQQYRALTVPELTQQMFDAKNMMAACDPRHGRYLTVAAV
+tubulin_beta60d2_FBpp0310087        MVPFPRLHFFMPGFAPLTSRGSQQYRALTVPELTQQMFDAKNMMAACDPRHGRYLTVAAV
+tubulin_beta85d_FBpp0081524         MVPFPRLHFFMPGFAPLTSRGSQQYRALTVPELTQQMFDAKNMMAACDPRHGRYLTVAAI
+tubulin_beta56d_FBpp0085721         MVPFPRLHFFMPGFAPLTSRGSQQYRALTVPELTQQMFDAKNMMAACDPRHGRYLTVAAI
+tubulin_beta56d_ACYPI008874-PA      MVPFPRLHFFMPGFAPLTSRGSQQYRALTVPELTQQMFDAKNMMAACDPRHGRYLTVAAV
+tubulin_beta56d2_FBpp0085720        MVPFPRLHFFMPGFAPLTSRGSQQYRALTVPELTQQMFDAKNMMAACDPRHGRYLTVAAI
+tubulin_beta85d_AAEL002851          MVPFPRLHFFMPGFAPLTSRGSQQYRALTVPELTQQMFDAKNMMAACDPRHGRYLTVAAV
+HOVITM_074970-T1                    MVPFPRLHFFMPGFAPLTSRGSQQYRALTVPELTQQMFDAKNMMAACDPRHGRYLTVAAI
+                                    *********::******.:     :   :*.**.:*:* ::*:: * * ..*. **.* :
+
+tubuluin_tub2_FBpp0076678           FRGRMSPREVDQLMTGVRNKNINNFVDWIPNNIKTAICDIPPRGLKMSATFIGNTTAIQT
+HOVITM_075081-T1                    FRGRMSMKEVDEQMLNVQNKNSTYFVEWIPNNVKTAVCDIPPRGLRMSGTFIGNTTAIQE
+HOVITM_094615-T1                    FRGMMSMKEVDEQMLNVQNKNSGYFVEWIPNNVKVAVCDIPPRGLKMSATFIGNSTAIQE
+HOVITM_099791-T1                    FRGKISMKEIDEQMLHVQNKNSQFFVEWIPNNCKTAVCDIPPKGLKMSATFIGNTTSIQE
+tubulin_beta97ef_FBpp0289838        FRGPMSMKEVDTQMYNVQSKNSSYFVEWIPNNVKVAVCDIPPRGLKMSATFIGNSTAIQE
+tubulin_beta97ef_CLEC007800         FRGHMSMKEVDEQMLNIQNKNSGYFVEWIPNNVKVAVCDIAPRGLKMASTFIGNSTAIQE
+HOVITM_075967-T1                    FRGRMSMKEVDEQIMNVQNKNSTYFVEWIPDNCKIAVCDIPPRGLKMASTFIGNTTAIQE
+tubulin_beta60d_ACYPI001007-PA      FRGRMSMKEVDEQMLNVQNKNSSYFVDWIPNNVKTAVCDIPPCGLKMSSTFIGNTTAIQE
+HOVITM_049113-T1                    FRGRMSMKEVDEQMLNIQNKNSSYFVEWIPNNVKTAVCDIPPMGLKMSSTFIGNTTAIQE
+tubulin_beta60d_FBpp0072177         FRGRMSMKEVDEQMLAVQNKNSSYFVEWIPNNVKTAVCDIPPKGLKMSSTFIGNTTAIQE
+tubulin_beta60d2_FBpp0310087        FRGRMSMKEVDEQMLAVQNKNSSYFVEWIPNNVKTAVCDIPPKGLKMSSTFIGNTTAIQE
+tubulin_beta85d_FBpp0081524         FRGRMSMKEVDEQMLNIQNKNSSFFVEWIPNNCKTAVCDIPPRGLKMSATFIGNSTAIQE
+tubulin_beta56d_FBpp0085721         FRGRMSMKEVDEQMLNIQNKNSSYFVEWIPNNVKTAVCDIPPRGLKMSATFIGNSTAIQE
+tubulin_beta56d_ACYPI008874-PA      FRGRMSMKEVDEQMLNIQNKNSSYFVEWIPNNVKTAVCDIPPRGLKMSATFIGNSTAIQE
+tubulin_beta56d2_FBpp0085720        FRGRMSMKEVDEQMLNIQNKNSSYFVEWIPNNVKTAVCDIPPRGLKMSATFIGNSTAIQE
+tubulin_beta85d_AAEL002851          FRGRMSMKEVDEQMLNIQNKNSSYFVEWIPNNVKTAVCDIPPRGLKMSATFIGNSTAIQE
+HOVITM_074970-T1                    FRGRMSMKEVDEQMLNIQNKNSSYFVEWIPNNVKTAVCDIPPRGLKMSATFIGNSTAIQE
+                                    *** :* .*:*  :  :..**   **:***:* * *:***.* **.*:.*****:*:** 
+
+tubuluin_tub2_FBpp0076678           LFQRLLDASMSMLRRKAHLHWYTGEGMEEQEFQDAQQELQAIIDDYRSSAEGEDSGGGGG
+HOVITM_075081-T1                    LFKRVQEQYSAMFRRKAFLHWYTGEGMEEMEFTEAESNLMDLVSEYQQYQDAPADDDF--
+HOVITM_094615-T1                    IFKRISEQFTAMFRRKAFLHWYTGEGMDEMEFTEAESNMNDLVSEYQQYQEATADDDV--
+HOVITM_099791-T1                    IFKRLSEQFAAMFRRKAFLHWYTGEGMDELEFTEAESNMHDLVSEYQQYQEATVNDDG--
+tubulin_beta97ef_FBpp0289838        IFKRISEQFTAMFRRKAFLHWYTGEGMDEMEFTEAESNMNDLISEYQQYQEATADDEV--
+tubulin_beta97ef_CLEC007800         IFKRISEQFTAMFRRKAFLHWYTGEGMDEMEFTEAESNMNDLVSEYQQYQEASAEDEG--
+HOVITM_075967-T1                    LFKRISEQFTSMFRRKAFLHWYTGEGMDEMEFTEAESNMNDLVSEYQQYQEATADEEG--
+tubulin_beta60d_ACYPI001007-PA      LFKRISEQFSAMFRRKAFLHWYTGEGMDEMEFTEAESNMNDLISEYQQYQEASVDEEY--
+HOVITM_049113-T1                    LFKRISEQFAAMFRRKAFLHWYTGEGMDEMEFTEAESNMNDLVSEYQQYQEAGPDDEY--
+tubulin_beta60d_FBpp0072177         LFKRISEQFSAMFRRKAFLHWYTGEGMDEMEFTEAESNMNDLVSEYQQYQEATADDEF--
+tubulin_beta60d2_FBpp0310087        LFKRISEQFSAMFRRKAFLHWYTGEGMDEMEFTEAESNMNDLVSEYQQYQEATADDEF--
+tubulin_beta85d_FBpp0081524         LFKRVSEQFTAMFRRKAFLHWYTGEGMDEMEFTEAESNMNDLVSEYQQYQEATADEEG--
+tubulin_beta56d_FBpp0085721         LFKRISEQFTAMFRRKAFLHWYTGEGMDEMEFTEAESNMNDLVSEYQQYQEATADEDA--
+tubulin_beta56d_ACYPI008874-PA      LFKRISEQFTAMFRRKAFLHWYTGEGMDEMEFTEAESNMNDLVSEYQQYQEATADEEA--
+tubulin_beta56d2_FBpp0085720        LFKRISEQFTAMFRRKAFLHWYTGEGMDEMEFTEAESNMNDLVSEYQQYQEATADEDA--
+tubulin_beta85d_AAEL002851          LFKRISEQFTAMFRRKAFLHWYTGEGMDEMEFTEAESNMNDLVSEYQQYQEATADEDA--
+HOVITM_074970-T1                    LFKRISEQFTAMFRRKAFLHWYTGEGMDEMEFTEAESNMNDLVSEYQQYQEATADEDA--
+                                    :*:*: :   :*:****.*********:* ** :*:.::  ::.:*..  :.  .     
+
+tubuluin_tub2_FBpp0076678           GGGGRSGSAESGEEEA--------------------------------------------
+HOVITM_075081-T1                    ---------EERDSVS--------------------------------------------
+HOVITM_094615-T1                    ---------EFDEEEG--------------------------------------------
+HOVITM_099791-T1                    ---------DFEEEEQ--------------------------------------------
+tubulin_beta97ef_FBpp0289838        ---------EFDDEQA--------------------------------------------
+tubulin_beta97ef_CLEC007800         ---------DFVEDEEA-------------------------------------------
+HOVITM_075967-T1                    ---------EYDEEEEGGDEAPTRYCLCGSYFSRTFLQASDNFGSTSTLLRNFLRFSLFF
+tubulin_beta60d_ACYPI001007-PA      ---------IEE-EET--------------------------------------------
+HOVITM_049113-T1                    ---------DENLEDA--------------------------------------------
+tubulin_beta60d_FBpp0072177         ---------DPEVNQE--------------------------------------------
+tubulin_beta60d2_FBpp0310087        ---------DPEVNQE--------------------------------------------
+tubulin_beta85d_FBpp0081524         ---------EFD-EDE--------------------------------------------
+tubulin_beta56d_FBpp0085721         ---------EFE-EEQ--------------------------------------------
+tubulin_beta56d_ACYPI008874-PA      ---------EFD-EEQ--------------------------------------------
+tubulin_beta56d2_FBpp0085720        ---------EFE-EEQ--------------------------------------------
+tubulin_beta85d_AAEL002851          ---------EFD-EEQ--------------------------------------------
+HOVITM_074970-T1                    ---------EFD-EEQ--------------------------------------------
+                                                 .                                              
+
+tubuluin_tub2_FBpp0076678           -------------------------------------TPEAHCQYCTE------------
+HOVITM_075081-T1                    -------------------------------------LEEYDD-----------------
+HOVITM_094615-T1                    -------------------------------------DVQPEETE---------------
+HOVITM_099791-T1                    -------------------------------------EA---------------------
+tubulin_beta97ef_FBpp0289838        -------------------------------------EQEGYESEVLQNGNGE-------
+tubulin_beta97ef_CLEC007800         ------------------------------------MPEEGEQ-----------------
+HOVITM_075967-T1                    WEQDLQAVFSTSGMSPGNNKCKMTQTSQGLAVRKKNREDTEECNPNDSKDTRAVAVKSPA
+tubulin_beta60d_ACYPI001007-PA      -------------------------------------EETDMCD----------------
+HOVITM_049113-T1                    -------------------------------------DETAQAQYD--------------
+tubulin_beta60d_FBpp0072177         -------------------------------------EVEGDCI----------------
+tubulin_beta60d2_FBpp0310087        -------------------------------------EVEGDCI----------------
+tubulin_beta85d_FBpp0081524         -------------------------------------EGGGDE-----------------
+tubulin_beta56d_FBpp0085721         -------------------------------------EAEVDEN----------------
+tubulin_beta56d_ACYPI008874-PA      -------------------------------------EQEVDEN----------------
+tubulin_beta56d2_FBpp0085720        -------------------------------------EAEVDEN----------------
+tubulin_beta85d_AAEL002851          -------------------------------------EAEVDEN----------------
+HOVITM_074970-T1                    -------------------------------------EAEVDEN----------------
+                                                                                                
+
+tubuluin_tub2_FBpp0076678           -------------------------------------------------------
+HOVITM_075081-T1                    -------------------------------------------------------
+HOVITM_094615-T1                    -------------------------------------------------------
+HOVITM_099791-T1                    -------------------------------------------------------
+tubulin_beta97ef_FBpp0289838        -------------------------------------------------------
+tubulin_beta97ef_CLEC007800         -------------------------------------------------------
+HOVITM_075967-T1                    SKWLPVLTFYRQCCHYTVGFNDVPPSCKSLFAASLDLLIVLSNRWKIFPGKIFLK
+tubulin_beta60d_ACYPI001007-PA      -------------------------------------------------------
+HOVITM_049113-T1                    -------------------------------------------------------
+tubulin_beta60d_FBpp0072177         -------------------------------------------------------
+tubulin_beta60d2_FBpp0310087        -------------------------------------------------------
+tubulin_beta85d_FBpp0081524         -------------------------------------------------------
+tubulin_beta56d_FBpp0085721         -------------------------------------------------------
+tubulin_beta56d_ACYPI008874-PA      -------------------------------------------------------
+tubulin_beta56d2_FBpp0085720        -------------------------------------------------------
+tubulin_beta85d_AAEL002851          -------------------------------------------------------
+HOVITM_074970-T1                    -------------------------------------------------------
+                                                                                           

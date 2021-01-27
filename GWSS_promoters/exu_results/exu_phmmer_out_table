@@ -1,0 +1,15 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+HOVITM_102745-T1     -          exu                  -            4.1e-82  279.3   1.1   5.5e-82  278.9   1.1   1.0   1   0   0   1   1   1   1 HOVITM_102745
+HOVITM_102745-T1     -          exu                  -            4.2e-60  206.8  10.9   9.1e-47  162.9   0.0   2.0   1   1   1   2   2   2   2 HOVITM_102745
+#
+# Program:         phmmer
+# Version:         3.3.1 (Jul 2020)
+# Pipeline mode:   SEARCH
+# Query file:      data/exu.fasta
+# Target file:     data/Homalodisca_vitripennis_A6A7A9_masurca_v1.proteins.fixed.fa
+# Option settings: phmmer -o exu_phmmer_out --tblout exu_phmmer_out_table data/exu.fasta data/Homalodisca_vitripennis_A6A7A9_masurca_v1.proteins.fixed.fa 
+# Current dir:     /Users/Cassie/Box Sync/StajichLab/GWSS/GWSS_Genome/GWSS_promoters
+# Date:            Tue Jan 26 20:34:37 2021
+# [ok]
