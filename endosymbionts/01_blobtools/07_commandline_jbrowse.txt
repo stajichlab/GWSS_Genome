@@ -1,0 +1,91 @@
+
+#command line
+
+cut -f2 Homalodisca_vitripennis.A6A7A9_masurca_v1_ragtag.diamond.tab.taxified.out > taxids.diamond.fromblobplot 
+paste -d'\t' Homalodisca_vitripennis.A6A7A9_masurca_v1_ragtag.diamond.tab taxids.diamond.fromblobplot > Homalodisca_vitripennis.A6A7A9_masurca_v1_ragtag.diamond.tab.withtaxid
+
+#filter files to only scaffolds of interest
+for scaffold in $(cat combined_scaffolds_to_remove.txt);
+do grep -w $scaffold /rhome/cassande/shared/projects/SharpShooter/GWSS_ragtag_genome/blobtools_results/taxonomy/Homalodisca_vitripennis.A6A7A9_masurca_v1_ragtag.nt.blastn.tab >> HV.blast.contamscaffolds.out;
+grep -w $scaffold /rhome/cassande/shared/projects/SharpShooter/GWSS_ragtag_genome/blobtools_results/taxonomy/Homalodisca_vitripennis.A6A7A9_masurca_v1_ragtag.diamond.tab.withtaxid >> HV.diamond.contamsscaffolds.out;
+grep -w $scaffold /rhome/cassande/bigdata/GWSS/GWSS_Genome/GWSS_scaffold/scaffold_vs_i5k/busco_results/busco_hem_ragatag_vecscreen/run_hemiptera_odb10/full_table.tsv >> HV.hem.busco.contamscaffolds.out;
+grep -w $scaffold /rhome/cassande/bigdata/GWSS/GWSS_Genome/GWSS_scaffold/scaffold_vs_i5k/busco_results/busco_euk_ragatag_vecscreen/run_eukaryota_odb10/full_table.tsv >> HV.euk.busco.contamscaffolds.out;
+done
+
+#need to get taxonomic lineages from taxids
+cut -f13 HV.diamond.contamsscaffolds.out > diamond.taxids
+cut -f2 HV.blast.contamscaffolds.out > blast.taxids
+
+taxdump=/rhome/cassande/bigdata/software/blobtoolkit/taxdump/fullnamelineage.dmp 
+for taxid in $(cat diamond.taxids);
+do grep -w -m1 $taxid $taxdump >> taxlineages.diamond.txt;
+done
+
+for taxid in $(cat blast.taxids);
+do grep -w -m1 $taxid $taxdump >> taxlineages.blast.txt;
+done
+
+cut -f3,5 taxlineages.diamond.txt > taxlineages.diamond.cleaned.txt
+cut -f3,5 taxlineages.blast.txt > taxlineages.blast.cleaned.txt
+
+paste -d'\t' HV.blast.contamscaffolds.out taxlineages.blast.cleaned.txt > HV.blast.contamscaffolds.withtaxa.out
+
+paste -d'\t' HV.diamond.contamsscaffolds.out taxlineages.diamond.cleaned.txt > HV.diamond.contamscaffolds.withtaxa.out
+
+
+awk '{print $3, "busco", $2, $4, $5, ".", "+", ".", "ID=" $1 "_" $3 ";Name="$2}' OFS="\t" HV.euk.busco.contamscaffolds.out > HV.euk.busco.contam.scaffolds.gff3
+
+awk '{print $3, "busco", $2, $4, $5, ".", $6, ".", "ID=" $1 "_" $3 ";Name=" $10}' OFS="\t" HV.hem.busco.contamscaffolds.out > HV.hem.busco.contam.scaffolds.gff3
+
+awk -F'\t' '{ 
+if ($7 > $8)
+	print $8 "\t" $7;
+else
+	print $7 "\t" $8; 
+	}' HV.diamond.contamscaffolds.withtaxa.out > HV.diamond.contamscaffolds.withtaxa.strand.out
+
+paste -d'\t' HV.diamond.contamscaffolds.withtaxa.out HV.diamond.contamscaffolds.withtaxa.strand.out > HV.diamond.contamscaffolds.withtaxa.updated.out
+
+sed -i 's/;//g' HV.diamond.contamscaffolds.withtaxa.updated.out 
+
+sed -i 's/;//g' HV.blast.contamscaffolds.withtaxa.out
+
+
+awk -F'\t' '{print $1, "diamond", "taxonomy", $16, $17, ".", "+", ".","ID="$1";Name=" $14";Note=" $15}' OFS="\t" HV.diamond.contamscaffolds.withtaxa.updated.out > HV.diamond.contamscaffolds.gff3
+
+
+awk -F'\t' '{print $1, "blast", "taxonomy", $9, $10, ".", "+", ".","ID="$1""_"$3;Name=" $14";Note="$15}' OFS="\t" HV.blast.contamscaffolds.withtaxa.out > HV.blast.contamscaffolds.gff3
+
+
+# jbrowse set up
+
+module load jbrowse/2
+conda activate jbrowse2
+jbrowse create GWSS_contam
+
+module load samtools
+samtools faidx Homalodisca_vitripennis.scaffolds.removed.fasta
+samtools index HV_contam.remap.bam
+
+HV.euk.busco.contam.scaffolds
+HV.diamond.contamscaffolds
+HV.blast.contamscaffolds
+HV.hem.busco.contam.scaffolds
+
+for PREFIX in $(cat jbrowse_files.txt);
+do grep -v "^#" $PREFIX.gff3  | sort -k1,1 -k4,4n >  $PREFIX.sorted.gff
+bgzip -i $PREFIX.sorted.gff;
+tabix $PREFIX.sorted.gff.gz;
+done
+
+jbrowse add-assembly /bigdata/stajichlab/shared/projects/SharpShooter/GWSS_ragtag_genome/blobtools_results/contam_investigate/Homalodisca_vitripennis.scaffolds.removed.fasta --load symlink
+
+jbrowse add-track /bigdata/stajichlab/shared/projects/SharpShooter/GWSS_ragtag_genome/blobtools_results/contam_investigate/HV.euk.busco.contam.scaffolds.sorted.gff.gz --load symlink
+
+jbrowse add-track /bigdata/stajichlab/shared/projects/SharpShooter/GWSS_ragtag_genome/blobtools_results/contam_investigate/HV.diamond.contamscaffolds.sorted.gff.gz --load symlink
+
+jbrowse add-track /bigdata/stajichlab/shared/projects/SharpShooter/GWSS_ragtag_genome/blobtools_results/contam_investigate/HV.blast.contamscaffolds.sorted.gff.gz --load symlink
+
+jbrowse add-track /bigdata/stajichlab/shared/projects/SharpShooter/GWSS_ragtag_genome/blobtools_results/contam_investigate/HV.hem.busco.contam.scaffolds.sorted.gff.gz --load symlink
+
+jbrowse add-track /bigdata/stajichlab/shared/projects/SharpShooter/GWSS_ragtag_genome/blobtools_results/contam_investigate/HV_contam.remap.bam --load symlink
