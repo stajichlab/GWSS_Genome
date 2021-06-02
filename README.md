@@ -6,7 +6,9 @@
 
 ### To cite this work or code
 
-coming soon....
+Ettinger C.L. & Stajich J.E. 2021. stajichlab/GWSS_Genome v1.0. DOI: https://doi.org/10.5281/zenodo.4891938.
+
+Preprint coming soon....
 
 ### Abstract
 
