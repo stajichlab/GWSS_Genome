@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/usr/bin/bash -l
 #SBATCH -p gpu --gres=gpu:p100:1 --mem=64gb --time=36:00:00 --out guppy_gpu.all.%A.log --ntasks 8 -N 1
 mkdir -p logs
 module load guppy/3.4.4-gpu
